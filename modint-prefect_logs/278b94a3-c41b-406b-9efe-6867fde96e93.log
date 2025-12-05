@@ -1,0 +1,756 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-12-01 06:38:43.803914+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Worker 'KubernetesWorker 634daee2-cf3c-49e6-9732-928c0c178c7d' submitting flow run '278b94a3-c41b-406b-9efe-6867fde96e93'
+2025-12-01 06:38:43.987422+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Creating Kubernetes job...
+2025-12-01 06:38:44.364532+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Completed submission of flow run '278b94a3-c41b-406b-9efe-6867fde96e93'
+2025-12-01 06:38:51.602784+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Opening process...
+2025-12-01 06:38:54.236257+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,, > Running git_clone step...
+2025-12-01 06:38:58.724334+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Beginning flow run 'vagabond-axolotl' for flow 'run-modint-flow'
+2025-12-01 06:38:58.731534+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,"run_modint_flow starting for SkySat-SR-4x-BGRN (dir=/nas/Dataset/modint-prefect-inferences/SkySat-SR-4x-BGRN/2025/12/01/278b94a3-c41b-406b-9efe-6867fde96e93, flow_run_uuid=278b94a3-c41b-406b-9efe-6867fde96e93)"
+2025-12-01 06:38:59.234043+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-cc57-7e6e-b478-4a51907cc157,This job ID will be used - modint-prefect-vagabond-axolotl-1
+2025-12-01 06:38:59.238837+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-cc57-7e6e-b478-4a51907cc157,Finished in state Completed()
+2025-12-01 06:38:59.814960+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccaa-7345-823e-9f95d7b53709,Finished in state Completed()
+2025-12-01 06:38:59.820451+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccaa-7f50-ae80-3d7a53478f73,Finished in state Completed()
+2025-12-01 06:38:59.972862+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccae-734d-a845-48fb6408ab37,{'scene_path': '/nas/Projects/C-BIZ01A/Dhruva/5m_resolution.tif'}
+2025-12-01 06:38:59.976485+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-cf59-73a7-ac55-5ffb684f466c,Finished in state Completed()
+2025-12-01 06:39:01.010854+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,Beginning subflow run 'opal-kakapo' for flow 'run-namespaced-job'
+2025-12-01 06:39:14.685770+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+"
+2025-12-01 06:39:14.688431+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  warnings.warn(f""Importing from {__name__} is deprecated, please import via timm.layers"", FutureWarning)
+"
+2025-12-01 06:39:19.313056+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"Downloading artifacts:   0%|          | 0/2 [00:00<?, ?it/s]Downloading artifacts:  50%|█████     | 1/2 [00:00<00:00, 37.56it/s]Downloading artifacts: 100%|██████████| 2/2 [00:03<00:00,  1.87s/it]Downloading artifacts: 100%|██████████| 2/2 [00:03<00:00,  1.87s/it]Downloading artifacts: 100%|██████████| 2/2 [00:03<00:00,  1.87s/it]
+"
+2025-12-01 06:40:00.138127+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"load checkpoint from local path: /tmp/tmp0jbtvpnu/checkpoint/model_final.pth
+"
+2025-12-01 06:40:10.866232+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+"
+2025-12-01 06:40:10.868906+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  warnings.warn(f""Importing from {__name__} is deprecated, please import via timm.layers"", FutureWarning)
+"
+2025-12-01 06:40:11.057119+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"/usr/local/lib/python3.10/dist-packages/mmedit/utils/setup_env.py:17: UserWarning: Multi-processing start method `fork` is different from the previous setting `spawn`.It will be force set to `fork`. You can change this behavior by changing `mp_start_method` in your config.
+"
+2025-12-01 06:40:11.059175+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  warnings.warn(
+"
+2025-12-01 06:40:11.061779+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"[2025-12-01 06:40:11] [INFO] [SE Runner - 0] - start load ddp model
+"
+2025-12-01 06:40:12.184593+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"load checkpoint from local path: /tmp/tmp0jbtvpnu/checkpoint/model_final.pth
+"
+2025-12-01 06:40:12.186874+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"[2025-12-01 06:40:12] [INFO] [SE Runner - 0] - end load ddp model
+"
+2025-12-01 06:40:12.189005+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"[2025-12-01 06:40:12] [INFO] [SE Runner - 0] - start build dataloader
+"
+2025-12-01 06:40:40.347300+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"[2025-12-01 06:40:40] [INFO] [SE Runner - 0] - end build dataloader
+"
+2025-12-01 06:40:40.349616+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"[2025-12-01 06:40:40] [INFO] [SE Runner - 0] - start create memory map
+"
+2025-12-01 06:40:40.351948+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"[2025-12-01 06:40:40] [INFO] [SE Runner - 0] - end create memory map
+"
+2025-12-01 06:40:54.112930+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"histogram analysis:   0%|          | 0/18034 [00:00<?, ?it/s]histogram analysis:   1%|          | 148/18034 [00:00<00:12, 1478.87it/s]histogram analysis:   2%|▏         | 296/18034 [00:00<00:12, 1476.87it/s]histogram analysis:   2%|▏         | 444/18034 [00:00<00:11, 1469.33it/s]histogram analysis:   3%|▎         | 591/18034 [00:00<00:11, 1460.62it/s]histogram analysis:   4%|▍         | 741/18034 [00:00<00:11, 1472.14it/s]histogram analysis:   5%|▍         | 894/18034 [00:00<00:11, 1490.40it/s]histogram analysis:   6%|▌         | 1045/18034 [00:00<00:11, 1496.58it/s]histogram analysis:   7%|▋         | 1198/18034 [00:00<00:11, 1506.04it/s]histogram analysis:   7%|▋         | 1349/18034 [00:00<00:11, 1501.39it/s]histogram analysis:   8%|▊         | 1500/18034 [00:01<00:11, 1502.97it/s]histogram analysis:   9%|▉         | 1651/18034 [00:01<00:10, 1495.56it/s]histogram analysis:  10%|▉         | 1801/18034 [00:01<00:10, 1494.76it/s]histogram analysis:  11%|█         | 1951/18034 [00:01<00:10, 1495.17it/s]histogram analysis:  12%|█▏        | 2101/18034 [00:01<00:10, 1481.56it/s]histogram analysis:  12%|█▏        | 2253/18034 [00:01<00:10, 1491.69it/s]histogram analysis:  13%|█▎        | 2411/18034 [00:01<00:10, 1515.64it/s]histogram analysis:  14%|█▍        | 2567/18034 [00:01<00:10, 1528.65it/s]histogram analysis:  15%|█▌        | 2720/18034 [00:01<00:10, 1525.40it/s]histogram analysis:  16%|█▌        | 2873/18034 [00:01<00:10, 1510.37it/s]histogram analysis:  17%|█▋        | 3025/18034 [00:02<00:10, 1488.89it/s]histogram analysis:  18%|█▊        | 3174/18034 [00:02<00:09, 1488.24it/s]histogram analysis:  18%|█▊        | 3323/18034 [00:02<00:09, 1484.46it/s]histogram analysis:  19%|█▉        | 3473/18034 [00:02<00:09, 1487.43it/s]histogram analysis:  20%|██        | 3623/18034 [00:02<00:09, 1489.87it/s]histogram analysis:  21%|██        | 3775/18034 [00:02<00:09, 1496.22it/s]histogram analysis:  22%|██▏       | 3927/18034 [00:02<00:09, 1501.23it/s]histogram analysis:  23%|██▎       | 4078/18034 [00:02<00:09, 1498.81it/s]histogram analysis:  23%|██▎       | 4229/18034 [00:02<00:09, 1501.55it/s]histogram analysis:  24%|██▍       | 4380/18034 [00:02<00:09, 1500.43it/s]histogram analysis:  25%|██▌       | 4532/18034 [00:03<00:08, 1504.46it/s]histogram analysis:  26%|██▌       | 4688/18034 [00:03<00:08, 1520.77it/s]histogram analysis:  27%|██▋       | 4843/18034 [00:03<00:08, 1528.48it/s]histogram analysis:  28%|██▊       | 4998/18034 [00:03<00:08, 1534.83it/s]histogram analysis:  29%|██▊       | 5152/18034 [00:03<00:08, 1535.49it/s]histogram analysis:  29%|██▉       | 5308/18034 [00:03<00:08, 1540.27it/s]histogram analysis:  30%|███       | 5465/18034 [00:03<00:08, 1546.43it/s]histogram analysis:  31%|███       | 5622/18034 [00:03<00:08, 1550.96it/s]histogram analysis:  32%|███▏      | 5778/18034 [00:03<00:07, 1549.40it/s]histogram analysis:  33%|███▎      | 5934/18034 [00:03<00:07, 1552.00it/s]histogram analysis:  34%|███▍      | 6091/18034 [00:04<00:07, 1554.45it/s]histogram analysis:  35%|███▍      | 6247/18034 [00:04<00:07, 1533.30it/s]histogram analysis:  35%|███▌      | 6401/18034 [00:04<00:07, 1513.87it/s]histogram analysis:  36%|███▋      | 6553/18034 [00:04<00:07, 1503.91it/s]histogram analysis:  37%|███▋      | 6706/18034 [00:04<00:07, 1510.52it/s]histogram analysis:  38%|███▊      | 6858/18034 [00:04<00:07, 1507.11it/s]histogram analysis:  39%|███▉      | 7011/18034 [00:04<00:07, 1511.65it/s]histogram analysis:  40%|███▉      | 7164/18034 [00:04<00:07, 1515.21it/s]histogram analysis:  41%|████      | 7316/18034 [00:04<00:07, 1512.88it/s]histogram analysis:  41%|████▏     | 7469/18034 [00:04<00:06, 1515.39it/s]histogram analysis:  42%|████▏     | 7622/18034 [00:05<00:06, 1519.06it/s]histogram analysis:  43%|████▎     | 7774/18034 [00:05<00:06, 1511.78it/s]histogram analysis:  44%|████▍     | 7926/18034 [00:05<00:06, 1503.51it/s]histogram analysis:  45%|████▍     | 8077/18034 [00:05<00:06, 1490.06it/s]histogram analysis:  46%|████▌     | 8228/18034 [00:05<00:06, 1495.17it/s]histogram analysis:  46%|████▋     | 8379/18034 [00:05<00:06, 1499.10it/s]histogram analysis:  47%|████▋     | 8530/18034 [00:05<00:06, 1499.34it/s]histogram analysis:  48%|████▊     | 8682/18034 [00:05<00:06, 1505.16it/s]histogram analysis:  49%|████▉     | 8835/18034 [00:05<00:06, 1510.09it/s]histogram analysis:  50%|████▉     | 8987/18034 [00:05<00:06, 1488.03it/s]histogram analysis:  51%|█████     | 9136/18034 [00:06<00:05, 1487.21it/s]histogram analysis:  51%|█████▏    | 9285/18034 [00:06<00:05, 1485.31it/s]histogram analysis:  52%|█████▏    | 9434/18034 [00:06<00:05, 1480.58it/s]histogram analysis:  53%|█████▎    | 9583/18034 [00:06<00:05, 1456.71it/s]histogram analysis:  54%|█████▍    | 9729/18034 [00:06<00:05, 1455.86it/s]histogram analysis:  55%|█████▍    | 9877/18034 [00:06<00:05, 1460.88it/s]histogram analysis:  56%|█████▌    | 10024/18034 [00:06<00:05, 1463.47it/s]histogram analysis:  56%|█████▋    | 10175/18034 [00:06<00:05, 1475.50it/s]histogram analysis:  57%|█████▋    | 10323/18034 [00:06<00:05, 1467.70it/s]histogram analysis:  58%|█████▊    | 10474/18034 [00:06<00:05, 1478.50it/s]histogram analysis:  59%|█████▉    | 10622/18034 [00:07<00:05, 1474.70it/s]histogram analysis:  60%|█████▉    | 10771/18034 [00:07<00:04, 1478.22it/s]histogram analysis:  61%|██████    | 10921/18034 [00:07<00:04, 1483.28it/s]histogram analysis:  61%|██████▏   | 11075/18034 [00:07<00:04, 1497.05it/s]histogram analysis:  62%|██████▏   | 11225/18034 [00:07<00:04, 1479.34it/s]histogram analysis:  63%|██████▎   | 11382/18034 [00:07<00:04, 1505.98it/s]histogram analysis:  64%|██████▍   | 11539/18034 [00:07<00:04, 1523.89it/s]histogram analysis:  65%|██████▍   | 11693/18034 [00:07<00:04, 1527.04it/s]histogram analysis:  66%|██████▌   | 11847/18034 [00:07<00:04, 1530.69it/s]histogram analysis:  67%|██████▋   | 12004/18034 [00:07<00:03, 1542.16it/s]histogram analysis:  67%|██████▋   | 12160/18034 [00:08<00:03, 1545.25it/s]histogram analysis:  68%|██████▊   | 12315/18034 [00:08<00:03, 1534.65it/s]histogram analysis:  69%|██████▉   | 12469/18034 [00:08<00:03, 1533.47it/s]histogram analysis:  70%|███████   | 12624/18034 [00:08<00:03, 1536.43it/s]histogram analysis:  71%|███████   | 12778/18034 [00:08<00:03, 1533.64it/s]histogram analysis:  72%|███████▏  | 12932/18034 [00:08<00:03, 1526.20it/s]histogram analysis:  73%|███████▎  | 13087/18034 [00:08<00:03, 1530.75it/s]histogram analysis:  73%|███████▎  | 13241/18034 [00:08<00:03, 1526.52it/s]histogram analysis:  74%|███████▍  | 13394/18034 [00:08<00:03, 1518.92it/s]histogram analysis:  75%|███████▌  | 13550/18034 [00:08<00:02, 1530.30it/s]histogram analysis:  76%|███████▌  | 13704/18034 [00:09<00:02, 1532.55it/s]histogram analysis:  77%|███████▋  | 13858/18034 [00:09<00:02, 1533.88it/s]histogram analysis:  78%|███████▊  | 14012/18034 [00:09<00:02, 1526.86it/s]histogram analysis:  79%|███████▊  | 14165/18034 [00:09<00:02, 1520.69it/s]histogram analysis:  79%|███████▉  | 14318/18034 [00:09<00:02, 1505.77it/s]histogram analysis:  80%|████████  | 14469/18034 [00:09<00:02, 1501.50it/s]histogram analysis:  81%|████████  | 14622/18034 [00:09<00:02, 1508.83it/s]histogram analysis:  82%|████████▏ | 14776/18034 [00:09<00:02, 1515.52it/s]histogram analysis:  83%|████████▎ | 14929/18034 [00:09<00:02, 1518.07it/s]histogram analysis:  84%|████████▎ | 15084/18034 [00:10<00:01, 1525.22it/s]histogram analysis:  85%|████████▍ | 15239/18034 [00:10<00:01, 1530.09it/s]histogram analysis:  85%|████████▌ | 15394/18034 [00:10<00:01, 1534.93it/s]histogram analysis:  86%|████████▌ | 15549/18034 [00:10<00:01, 1538.44it/s]histogram analysis:  87%|████████▋ | 15705/18034 [00:10<00:01, 1544.88it/s]histogram analysis:  88%|████████▊ | 15860/18034 [00:10<00:01, 1539.83it/s]histogram analysis:  89%|████████▉ | 16017/18034 [00:10<00:01, 1547.31it/s]histogram analysis:  90%|████████▉ | 16172/18034 [00:10<00:01, 1527.41it/s]histogram analysis:  91%|█████████ | 16325/18034 [00:10<00:01, 1524.98it/s]histogram analysis:  91%|█████████▏| 16480/18034 [00:10<00:01, 1531.13it/s]histogram analysis:  92%|█████████▏| 16635/18034 [00:11<00:00, 1534.85it/s]histogram analysis:  93%|█████████▎| 16789/18034 [00:11<00:00, 1528.22it/s]histogram analysis:  94%|█████████▍| 16942/18034 [00:11<00:00, 1520.05it/s]histogram analysis:  95%|█████████▍| 17098/18034 [00:11<00:00, 1530.67it/s]histogram analysis:  96%|█████████▌| 17252/18034 [00:11<00:00, 1529.18it/s]histogram analysis:  97%|█████████▋| 17405/18034 [00:11<00:00, 1529.02it/s]histogram analysis:  97%|█████████▋| 17560/18034 [00:11<00:00, 1533.61it/s]histogram analysis:  98%|█████████▊| 17714/18034 [00:11<00:00, 1524.60it/s]histogram analysis:  99%|█████████▉| 17867/18034 [00:11<00:00, 1510.31it/s]histogram analysis: 100%|█████████▉| 18023/18034 [00:11<00:00, 1523.48it/s]histogram analysis: 100%|██████████| 18034/18034 [00:11<00:00, 1511.25it/s]
+"
+2025-12-01 06:40:55.389355+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"2025-12-01 06:40:55.389 | ERROR    | se:inference:434 - An exception occurred:
+"
+2025-12-01 06:40:55.392125+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"Traceback (most recent call last):
+"
+2025-12-01 06:40:55.394167+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/se.py"", line 397, in inference
+"
+2025-12-01 06:40:55.396102+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    mp.spawn(
+"
+2025-12-01 06:40:55.398250+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/multiprocessing/spawn.py"", line 246, in spawn
+"
+2025-12-01 06:40:55.404340+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return start_processes(fn, args, nprocs, join, daemon, start_method=""spawn"")
+"
+2025-12-01 06:40:55.406139+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/multiprocessing/spawn.py"", line 202, in start_processes
+"
+2025-12-01 06:40:55.407910+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    while not context.join():
+"
+2025-12-01 06:40:55.409918+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/multiprocessing/spawn.py"", line 163, in join
+"
+2025-12-01 06:40:55.411877+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+"
+2025-12-01 06:40:55.413553+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"torch.multiprocessing.spawn.ProcessRaisedException: 
+"
+2025-12-01 06:40:55.415447+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"
+"
+2025-12-01 06:40:55.417265+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"-- Process 0 terminated with the following error:
+"
+2025-12-01 06:40:55.419010+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"Traceback (most recent call last):
+"
+2025-12-01 06:40:55.420819+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/multiprocessing/spawn.py"", line 74, in _wrap
+"
+2025-12-01 06:40:55.422519+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    fn(i, *args)
+"
+2025-12-01 06:40:55.423532+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/se.py"", line 329, in mp_inference
+"
+2025-12-01 06:40:55.424838+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    results = self.predict(data, model)
+"
+2025-12-01 06:40:55.426374+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/se.py"", line 154, in predict
+"
+2025-12-01 06:40:55.427850+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    result = model(**batch, test_mode=True)
+"
+2025-12-01 06:40:55.429138+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1518, in _wrapped_call_impl
+"
+2025-12-01 06:40:55.430685+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._call_impl(*args, **kwargs)
+"
+2025-12-01 06:40:55.432045+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1527, in _call_impl
+"
+2025-12-01 06:40:55.432982+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return forward_call(*args, **kwargs)
+"
+2025-12-01 06:40:55.433810+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/parallel/distributed.py"", line 1519, in forward
+"
+2025-12-01 06:40:55.434934+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    else self._run_ddp_forward(*inputs, **kwargs)
+"
+2025-12-01 06:40:55.436274+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/parallel/distributed.py"", line 1355, in _run_ddp_forward
+"
+2025-12-01 06:40:55.437546+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self.module(*inputs, **kwargs)  # type: ignore[index]
+"
+2025-12-01 06:40:55.438636+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1518, in _wrapped_call_impl
+"
+2025-12-01 06:40:55.440002+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._call_impl(*args, **kwargs)
+"
+2025-12-01 06:40:55.441201+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1527, in _call_impl
+"
+2025-12-01 06:40:55.442255+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return forward_call(*args, **kwargs)
+"
+2025-12-01 06:40:55.442991+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/selfsup/module/mmcv/mmcv/runner/fp16_utils.py"", line 109, in new_func
+"
+2025-12-01 06:40:55.443701+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return old_func(*args, **kwargs)
+"
+2025-12-01 06:40:55.444800+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/mmedit/models/restorers/srgan.py"", line 95, in forward
+"
+2025-12-01 06:40:55.445861+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self.forward_test(lq, gt, **kwargs)
+"
+2025-12-01 06:40:55.447027+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/weaver/models/restorers/real_esrgan.py"", line 275, in forward_test
+"
+2025-12-01 06:40:55.448128+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    output = _model(lq)
+"
+2025-12-01 06:40:55.449289+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1518, in _wrapped_call_impl
+"
+2025-12-01 06:40:55.450407+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._call_impl(*args, **kwargs)
+"
+2025-12-01 06:40:55.451330+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1527, in _call_impl
+"
+2025-12-01 06:40:55.452483+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return forward_call(*args, **kwargs)
+"
+2025-12-01 06:40:55.453461+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/weaver/models/backbones/sr_backbones/restormer_net.py"", line 468, in forward
+"
+2025-12-01 06:40:55.454556+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    inp_enc_level1 = self.patch_embed(inp_img)
+"
+2025-12-01 06:40:55.455564+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1518, in _wrapped_call_impl
+"
+2025-12-01 06:40:55.456635+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._call_impl(*args, **kwargs)
+"
+2025-12-01 06:40:55.457636+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1527, in _call_impl
+"
+2025-12-01 06:40:55.458707+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return forward_call(*args, **kwargs)
+"
+2025-12-01 06:40:55.459690+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/weaver/models/backbones/sr_backbones/restormer_net.py"", line 241, in forward
+"
+2025-12-01 06:40:55.460747+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    x = self.proj(x)
+"
+2025-12-01 06:40:55.461737+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1518, in _wrapped_call_impl
+"
+2025-12-01 06:40:55.466595+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._call_impl(*args, **kwargs)
+"
+2025-12-01 06:40:55.467597+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1527, in _call_impl
+"
+2025-12-01 06:40:55.468233+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return forward_call(*args, **kwargs)
+"
+2025-12-01 06:40:55.468841+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py"", line 460, in forward
+"
+2025-12-01 06:40:55.469447+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._conv_forward(input, self.weight, self.bias)
+"
+2025-12-01 06:40:55.470037+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py"", line 456, in _conv_forward
+"
+2025-12-01 06:40:55.470932+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return F.conv2d(input, weight, bias, self.stride,
+"
+2025-12-01 06:40:55.471553+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"RuntimeError: Given groups=1, weight of size [64, 4, 3, 3], expected input[1, 3, 128, 128] to have 4 channels, but got 3 channels instead
+"
+2025-12-01 06:40:55.472162+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"
+"
+2025-12-01 06:40:55.472811+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"
+"
+2025-12-01 06:40:55.473433+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"[                                                  ] 0/31941, elapsed: 0s, ETA:[32m2025-12-01T06:40:55.389233+0000[0m [31m[1mAn exception occurred:
+"
+2025-12-01 06:40:55.474108+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"Traceback (most recent call last):
+"
+2025-12-01 06:40:55.475174+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/se.py"", line 397, in inference
+"
+2025-12-01 06:40:55.475847+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    mp.spawn(
+"
+2025-12-01 06:40:55.476455+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/multiprocessing/spawn.py"", line 246, in spawn
+"
+2025-12-01 06:40:55.477105+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return start_processes(fn, args, nprocs, join, daemon, start_method=""spawn"")
+"
+2025-12-01 06:40:55.478144+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/multiprocessing/spawn.py"", line 202, in start_processes
+"
+2025-12-01 06:40:55.479212+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    while not context.join():
+"
+2025-12-01 06:40:55.480255+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/multiprocessing/spawn.py"", line 163, in join
+"
+2025-12-01 06:40:55.480936+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+"
+2025-12-01 06:40:55.481572+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"torch.multiprocessing.spawn.ProcessRaisedException: 
+"
+2025-12-01 06:40:55.482216+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"
+"
+2025-12-01 06:40:55.482812+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"-- Process 0 terminated with the following error:
+"
+2025-12-01 06:40:55.483603+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"Traceback (most recent call last):
+"
+2025-12-01 06:40:55.484211+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/multiprocessing/spawn.py"", line 74, in _wrap
+"
+2025-12-01 06:40:55.485258+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    fn(i, *args)
+"
+2025-12-01 06:40:55.486174+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/se.py"", line 329, in mp_inference
+"
+2025-12-01 06:40:55.486954+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    results = self.predict(data, model)
+"
+2025-12-01 06:40:55.487937+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/se.py"", line 154, in predict
+"
+2025-12-01 06:40:55.488850+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    result = model(**batch, test_mode=True)
+"
+2025-12-01 06:40:55.489882+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1518, in _wrapped_call_impl
+"
+2025-12-01 06:40:55.490833+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._call_impl(*args, **kwargs)
+"
+2025-12-01 06:40:55.491840+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1527, in _call_impl
+"
+2025-12-01 06:40:55.492797+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return forward_call(*args, **kwargs)
+"
+2025-12-01 06:40:55.493813+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/parallel/distributed.py"", line 1519, in forward
+"
+2025-12-01 06:40:55.542102+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    else self._run_ddp_forward(*inputs, **kwargs)
+"
+2025-12-01 06:40:55.544340+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/parallel/distributed.py"", line 1355, in _run_ddp_forward
+"
+2025-12-01 06:40:55.546492+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self.module(*inputs, **kwargs)  # type: ignore[index]
+"
+2025-12-01 06:40:55.548385+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1518, in _wrapped_call_impl
+"
+2025-12-01 06:40:55.550515+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._call_impl(*args, **kwargs)
+"
+2025-12-01 06:40:55.552779+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1527, in _call_impl
+"
+2025-12-01 06:40:55.554761+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return forward_call(*args, **kwargs)
+"
+2025-12-01 06:40:55.556548+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/selfsup/module/mmcv/mmcv/runner/fp16_utils.py"", line 109, in new_func
+"
+2025-12-01 06:40:55.558200+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return old_func(*args, **kwargs)
+"
+2025-12-01 06:40:55.559944+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/mmedit/models/restorers/srgan.py"", line 95, in forward
+"
+2025-12-01 06:40:55.561809+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self.forward_test(lq, gt, **kwargs)
+"
+2025-12-01 06:40:55.563400+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/weaver/models/restorers/real_esrgan.py"", line 275, in forward_test
+"
+2025-12-01 06:40:55.565049+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    output = _model(lq)
+"
+2025-12-01 06:40:55.566581+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1518, in _wrapped_call_impl
+"
+2025-12-01 06:40:55.567926+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._call_impl(*args, **kwargs)
+"
+2025-12-01 06:40:55.569571+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1527, in _call_impl
+"
+2025-12-01 06:40:55.571157+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return forward_call(*args, **kwargs)
+"
+2025-12-01 06:40:55.572473+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/weaver/models/backbones/sr_backbones/restormer_net.py"", line 468, in forward
+"
+2025-12-01 06:40:55.574084+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    inp_enc_level1 = self.patch_embed(inp_img)
+"
+2025-12-01 06:40:55.575378+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1518, in _wrapped_call_impl
+"
+2025-12-01 06:40:55.576518+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._call_impl(*args, **kwargs)
+"
+2025-12-01 06:40:55.577867+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1527, in _call_impl
+"
+2025-12-01 06:40:55.579269+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return forward_call(*args, **kwargs)
+"
+2025-12-01 06:40:55.580568+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/weaver/weaver/models/backbones/sr_backbones/restormer_net.py"", line 241, in forward
+"
+2025-12-01 06:40:55.582051+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    x = self.proj(x)
+"
+2025-12-01 06:40:55.583425+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1518, in _wrapped_call_impl
+"
+2025-12-01 06:40:55.584500+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._call_impl(*args, **kwargs)
+"
+2025-12-01 06:40:55.585859+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1527, in _call_impl
+"
+2025-12-01 06:40:55.587087+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return forward_call(*args, **kwargs)
+"
+2025-12-01 06:40:55.588145+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py"", line 460, in forward
+"
+2025-12-01 06:40:55.589513+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return self._conv_forward(input, self.weight, self.bias)
+"
+2025-12-01 06:40:55.590853+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py"", line 456, in _conv_forward
+"
+2025-12-01 06:40:55.592029+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"    return F.conv2d(input, weight, bias, self.stride,
+"
+2025-12-01 06:40:55.593530+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"RuntimeError: Given groups=1, weight of size [64, 4, 3, 3], expected input[1, 3, 128, 128] to have 4 channels, but got 3 channels instead
+"
+2025-12-01 06:40:55.594800+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"
+"
+2025-12-01 06:40:55.595738+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,"[0m
+"
+2025-12-01 06:41:00.114339+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccae-734d-a845-48fb6408ab37,None
+2025-12-01 06:41:00.119768+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccae-734d-a845-48fb6408ab37,Inference was failed. See the logs for detail.
+2025-12-01 06:41:00.121908+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccae-734d-a845-48fb6408ab37,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-12-01 06:41:00.136790+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccae-734d-a845-48fb6408ab37,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-12-01 06:41:02.661036+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019ad8a2-ccac-7bf8-8f4d-2a6459de4dbd,Finished in state Completed()
+2025-12-01 06:41:02.673172+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 532, in run_modint_flow
+    job_id, inference_result = _run_modint_job(
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 325, in _run_modint_job
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-12-01 06:41:02.730611+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-12-01 06:41:02.733046+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 532, in run_modint_flow
+    job_id, inference_result = _run_modint_job(
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 325, in _run_modint_job
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-12-01 06:41:03.475022+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,,Process for flow run 'vagabond-axolotl' exited with status code: 1
+2025-12-02 06:01:17.152473+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Worker 'KubernetesWorker 634daee2-cf3c-49e6-9732-928c0c178c7d' submitting flow run '278b94a3-c41b-406b-9efe-6867fde96e93'
+2025-12-02 06:01:17.420707+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Creating Kubernetes job...
+2025-12-02 06:01:17.693225+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Completed submission of flow run '278b94a3-c41b-406b-9efe-6867fde96e93'
+2025-12-02 06:01:24.150941+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Opening process...
+2025-12-02 06:01:26.757496+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,, > Running git_clone step...
+2025-12-02 06:01:31.134680+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Beginning flow run 'vagabond-axolotl' for flow 'run-modint-flow'
+2025-12-02 06:01:31.141808+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,"run_modint_flow starting for SkySat-SR-4x-BGRN (dir=/nas/Dataset/modint-prefect-inferences/SkySat-SR-4x-BGRN/2025/12/01/278b94a3-c41b-406b-9efe-6867fde96e93, flow_run_uuid=278b94a3-c41b-406b-9efe-6867fde96e93)"
+2025-12-02 06:01:31.631271+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dca4-7815-b0ee-3eff1761e6d5,This job ID will be used - modint-prefect-vagabond-axolotl-2
+2025-12-02 06:01:31.636270+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dca4-7815-b0ee-3eff1761e6d5,Finished in state Completed()
+2025-12-02 06:01:32.030693+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcf7-7cc9-a704-72b40475fe32,Finished in state Completed()
+2025-12-02 06:01:32.039915+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcf7-7774-a268-cbd74e09fe3d,Finished in state Completed()
+2025-12-02 06:01:32.082991+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfc-773a-ac33-88bedb14435f,{'scene_path': '/nas/Projects/C-BIZ01A/Dhruva/5m_resolution.tif'}
+2025-12-02 06:01:32.193330+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-df04-724e-9c63-1ccd6557da67,Finished in state Completed()
+2025-12-02 06:01:32.835219+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,Beginning subflow run 'opal-kakapo' for flow 'run-namespaced-job'
+2025-12-02 06:01:47.604062+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+"
+2025-12-02 06:01:47.607497+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"  warnings.warn(f""Importing from {__name__} is deprecated, please import via timm.layers"", FutureWarning)
+"
+2025-12-02 06:01:51.682350+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"Downloading artifacts:   0%|          | 0/2 [00:00<?, ?it/s]Downloading artifacts:  50%|█████     | 1/2 [00:00<00:00, 40.24it/s]Downloading artifacts: 100%|██████████| 2/2 [00:03<00:00,  1.60s/it]Downloading artifacts: 100%|██████████| 2/2 [00:03<00:00,  1.60s/it]Downloading artifacts: 100%|██████████| 2/2 [00:03<00:00,  1.60s/it]
+"
+2025-12-02 06:01:54.074841+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"2025-12-02 06:01:54.074 | ERROR    | se:inference:434 - An exception occurred:
+"
+2025-12-02 06:01:54.077616+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"Traceback (most recent call last):
+"
+2025-12-02 06:01:54.079635+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"  File ""/weaver/se.py"", line 357, in inference
+"
+2025-12-02 06:01:54.082356+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"    scene_files = self.list_scene_files(scene_path)
+"
+2025-12-02 06:01:54.084285+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"  File ""/weaver/se.py"", line 347, in list_scene_files
+"
+2025-12-02 06:01:54.086872+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"    raise FileNotFoundError(f'{scene_path} not found')
+"
+2025-12-02 06:01:54.088678+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"FileNotFoundError: /nas/Projects/C-BIZ01A/Dhruva/5m_resolution.tif not found
+"
+2025-12-02 06:01:54.090674+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"
+"
+2025-12-02 06:01:54.093946+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"load checkpoint from local path: /tmp/tmpx31eaphp/checkpoint/model_final.pth
+"
+2025-12-02 06:01:54.096120+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"[32m2025-12-02T06:01:54.074797+0000[0m [31m[1mAn exception occurred:
+"
+2025-12-02 06:01:54.097991+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"Traceback (most recent call last):
+"
+2025-12-02 06:01:54.099639+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"  File ""/weaver/se.py"", line 357, in inference
+"
+2025-12-02 06:01:54.101526+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"    scene_files = self.list_scene_files(scene_path)
+"
+2025-12-02 06:01:54.103336+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"  File ""/weaver/se.py"", line 347, in list_scene_files
+"
+2025-12-02 06:01:54.104951+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"    raise FileNotFoundError(f'{scene_path} not found')
+"
+2025-12-02 06:01:54.106806+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"FileNotFoundError: /nas/Projects/C-BIZ01A/Dhruva/5m_resolution.tif not found
+"
+2025-12-02 06:01:54.108392+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,"[0m
+"
+2025-12-02 06:02:01.350193+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfb-7b88-9b50-f65bcc4296e5,Finished in state Completed()
+2025-12-02 06:02:02.121425+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfc-773a-ac33-88bedb14435f,None
+2025-12-02 06:02:02.126143+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfc-773a-ac33-88bedb14435f,Inference was failed. See the logs for detail.
+2025-12-02 06:02:02.128126+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfc-773a-ac33-88bedb14435f,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-12-02 06:02:02.143123+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,019adda6-dcfc-773a-ac33-88bedb14435f,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-12-02 06:02:02.153846+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 532, in run_modint_flow
+    job_id, inference_result = _run_modint_job(
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 325, in _run_modint_job
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-12-02 06:02:02.219964+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-12-02 06:02:02.222328+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 532, in run_modint_flow
+    job_id, inference_result = _run_modint_job(
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 325, in _run_modint_job
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-12-02 06:02:02.920061+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,,Process for flow run 'vagabond-axolotl' exited with status code: 1
+2025-12-02 07:11:38.344891+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Worker 'KubernetesWorker 634daee2-cf3c-49e6-9732-928c0c178c7d' submitting flow run '278b94a3-c41b-406b-9efe-6867fde96e93'
+2025-12-02 07:11:38.511436+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Creating Kubernetes job...
+2025-12-02 07:11:38.878593+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Completed submission of flow run '278b94a3-c41b-406b-9efe-6867fde96e93'
+2025-12-02 07:11:45.176178+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Opening process...
+2025-12-02 07:11:47.867955+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,, > Running git_clone step...
+2025-12-02 07:11:53.416688+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Beginning flow run 'vagabond-axolotl' for flow 'run-modint-flow'
+2025-12-02 07:11:53.425589+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,"run_modint_flow starting for SkySat-SR-4x-BGRN (dir=/nas/Dataset/modint-prefect-inferences/SkySat-SR-4x-BGRN/2025/12/01/278b94a3-c41b-406b-9efe-6867fde96e93, flow_run_uuid=278b94a3-c41b-406b-9efe-6867fde96e93)"
+2025-12-02 07:11:53.610137+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-487e-7646-b2ce-8e67f2bcd569,This job ID will be used - modint-prefect-vagabond-axolotl-3
+2025-12-02 07:11:53.615107+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-487e-7646-b2ce-8e67f2bcd569,Finished in state Completed()
+2025-12-02 07:11:54.060797+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-4912-743e-a4a4-c128f6a10e1c,Finished in state Completed()
+2025-12-02 07:11:54.064914+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-4911-7463-9666-cfc40a9e604f,Finished in state Completed()
+2025-12-02 07:11:54.112333+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492e-7198-85f6-79411445f1f6,{'scene_path': '/nas/Projects/C-BIZ01A/Dhruva/5m_resolution.tif'}
+2025-12-02 07:11:54.214065+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-4b49-7e78-bba8-cdc3db8d0f9f,Finished in state Completed()
+2025-12-02 07:11:54.847752+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,Beginning subflow run 'opal-kakapo' for flow 'run-namespaced-job'
+2025-12-02 07:12:09.803224+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+"
+2025-12-02 07:12:09.806625+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"  warnings.warn(f""Importing from {__name__} is deprecated, please import via timm.layers"", FutureWarning)
+"
+2025-12-02 07:12:13.847965+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"Downloading artifacts:   0%|          | 0/2 [00:00<?, ?it/s]Downloading artifacts:  50%|█████     | 1/2 [00:00<00:00, 42.04it/s]Downloading artifacts: 100%|██████████| 2/2 [00:03<00:00,  1.60s/it]Downloading artifacts: 100%|██████████| 2/2 [00:03<00:00,  1.60s/it]Downloading artifacts: 100%|██████████| 2/2 [00:03<00:00,  1.60s/it]
+"
+2025-12-02 07:12:16.689808+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"2025-12-02 07:12:16.688 | ERROR    | se:inference:434 - An exception occurred:
+"
+2025-12-02 07:12:16.692157+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"Traceback (most recent call last):
+"
+2025-12-02 07:12:16.694173+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"  File ""/weaver/se.py"", line 357, in inference
+"
+2025-12-02 07:12:16.696070+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"    scene_files = self.list_scene_files(scene_path)
+"
+2025-12-02 07:12:16.698277+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"  File ""/weaver/se.py"", line 347, in list_scene_files
+"
+2025-12-02 07:12:16.701909+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"    raise FileNotFoundError(f'{scene_path} not found')
+"
+2025-12-02 07:12:16.703702+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"FileNotFoundError: /nas/Projects/C-BIZ01A/Dhruva/5m_resolution.tif not found
+"
+2025-12-02 07:12:16.705869+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"
+"
+2025-12-02 07:12:16.708119+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"load checkpoint from local path: /tmp/tmplwhzct_o/checkpoint/model_final.pth
+"
+2025-12-02 07:12:16.710026+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"[32m2025-12-02T07:12:16.688310+0000[0m [31m[1mAn exception occurred:
+"
+2025-12-02 07:12:16.711833+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"Traceback (most recent call last):
+"
+2025-12-02 07:12:16.713436+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"  File ""/weaver/se.py"", line 357, in inference
+"
+2025-12-02 07:12:16.715297+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"    scene_files = self.list_scene_files(scene_path)
+"
+2025-12-02 07:12:16.717129+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"  File ""/weaver/se.py"", line 347, in list_scene_files
+"
+2025-12-02 07:12:16.718639+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"    raise FileNotFoundError(f'{scene_path} not found')
+"
+2025-12-02 07:12:16.720310+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"FileNotFoundError: /nas/Projects/C-BIZ01A/Dhruva/5m_resolution.tif not found
+"
+2025-12-02 07:12:16.721972+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,"[0m
+"
+2025-12-02 07:12:23.934879+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492b-756d-8174-bca7a5f38f85,Finished in state Completed()
+2025-12-02 07:12:24.163168+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492e-7198-85f6-79411445f1f6,None
+2025-12-02 07:12:24.167633+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492e-7198-85f6-79411445f1f6,Inference was failed. See the logs for detail.
+2025-12-02 07:12:24.169557+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492e-7198-85f6-79411445f1f6,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-12-02 07:12:24.189159+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,019adde7-492e-7198-85f6-79411445f1f6,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-12-02 07:12:24.201969+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 532, in run_modint_flow
+    job_id, inference_result = _run_modint_job(
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 325, in _run_modint_job
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-12-02 07:12:24.262764+00:00,20,278b94a3-c41b-406b-9efe-6867fde96e93,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-12-02 07:12:24.265217+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 532, in run_modint_flow
+    job_id, inference_result = _run_modint_job(
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 325, in _run_modint_job
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-12-02 07:12:25.060278+00:00,40,278b94a3-c41b-406b-9efe-6867fde96e93,,Process for flow run 'vagabond-axolotl' exited with status code: 1

@@ -1,0 +1,129 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-11-11 01:20:33.262199+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,,Worker 'KubernetesWorker b5700100-6765-494e-b637-58b56901dc89' submitting flow run '22d72e50-71e9-49f7-b8b0-54f92171410c'
+2025-11-11 01:20:33.449967+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,,Creating Kubernetes job...
+2025-11-11 01:20:33.638714+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,,Completed submission of flow run '22d72e50-71e9-49f7-b8b0-54f92171410c'
+2025-11-11 01:20:40.702287+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,,Opening process...
+2025-11-11 01:20:43.345264+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,, > Running git_clone step...
+2025-11-11 01:20:48.928748+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,,Beginning flow run 'warm-coucal' for flow 'run-modint-flow'
+2025-11-11 01:20:49.146792+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-514d-714d-afc2-d1726360df6f,This job ID will be used - modint-prefect-warm-coucal-1
+2025-11-11 01:20:49.153314+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-514d-714d-afc2-d1726360df6f,Finished in state Completed()
+2025-11-11 01:20:49.648075+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-5204-75b1-a7d1-77ca80ed7057,Finished in state Completed()
+2025-11-11 01:20:49.690066+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-5208-7b4a-bd0c-68b90d929c78,{'scene_path': '/nas/COG/planet/Y2025/M09/D21/planet_20250921_002045_ssc13d1_0011/20250921_002045_ssc13d1_0011_pansharpened_clip_cog.tif'}
+2025-11-11 01:20:49.801089+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-5466-7efe-9229-884ef3e5df00,Finished in state Completed()
+2025-11-11 01:20:51.061408+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-5205-7db1-bb73-0bed49039413,Beginning subflow run 'finicky-bulldog' for flow 'run-namespaced-job'
+2025-11-11 01:20:56.543883+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-5205-7db1-bb73-0bed49039413,"failed to watch directory ""/var/log/pods/serving_modint-prefect-warm-coucal-1-cqrj7_1567613c-e8f7-4874-9a34-243533440b05/inference"": no space left on device"
+2025-11-11 01:21:47.398281+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-5205-7db1-bb73-0bed49039413,Finished in state Completed()
+2025-11-11 01:21:49.749907+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-5208-7b4a-bd0c-68b90d929c78,"{'msg': 'Traceback (most recent call last):\n  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 121, in inference\n    result = self.predict(data)\n  File ""/usr/local/lib/python3.8/site-packages/torch/autograd/grad_mode.py"", line 28, in decorate_context\n    return func(*args, **kwargs)\n  File ""/ardet/ardet/apis/det_runner.py"", line 99, in predict\n    return self.model.test_step(batch)\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/model/base_model/base_model.py"", line 145, in test_step\n    return self._run_forward(data, mode=\'predict\')  # type: ignore\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/model/base_model/base_model.py"", line 361, in _run_forward\n    results = self(**data, mode=mode)\n  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl\n    return forward_call(*input, **kwargs)\n  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/base.py"", line 94, in forward\n    return self.predict(inputs, data_samples)\n  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/two_stage.py"", line 227, in predict\n    x = self.extract_feat(batch_inputs)\n  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/two_stage.py"", line 110, in extract_feat\n    x = self.backbone(batch_inputs)\n  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl\n    return forward_call(*input, **kwargs)\n  File ""/ardet/ardet/models/backbones/vitdet.py"", line 423, in forward\n    x = blk(x)\n  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl\n    return forward_call(*input, **kwargs)\n  File ""/ardet/ardet/models/backbones/vitdet.py"", line 303, in forward\n    x = self.attn(x)\n  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl\n    return forward_call(*input, **kwargs)\n  File ""/ardet/ardet/models/backbones/vitdet.py"", line 209, in forward\n    attn = add_decomposed_rel_pos(attn, q, self.rel_pos_h,\n  File ""/ardet/ardet/models/backbones/vitdet.py"", line 166, in add_decomposed_rel_pos\n    attn.view(B, q_h, q_w, k_h, k_w) +  # noqa: W504\nRuntimeError: CUDA out of memory. Tried to allocate 4.47 GiB (GPU 0; 10.57 GiB total capacity; 5.19 GiB already allocated; 4.01 GiB free; 5.27 GiB reserved in total by PyTorch)\n', 'retriable': False}"
+2025-11-11 01:21:49.756110+00:00,40,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-5208-7b4a-bd0c-68b90d929c78,Inference was failed. See the logs for detail.
+2025-11-11 01:21:49.758307+00:00,40,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-5208-7b4a-bd0c-68b90d929c78,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-11 01:21:49.773311+00:00,40,22d72e50-71e9-49f7-b8b0-54f92171410c,019a7080-5208-7b4a-bd0c-68b90d929c78,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-11-11 01:21:49.782753+00:00,40,22d72e50-71e9-49f7-b8b0-54f92171410c,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 528, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-11 01:21:49.847193+00:00,20,22d72e50-71e9-49f7-b8b0-54f92171410c,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-11-11 01:21:49.850235+00:00,40,22d72e50-71e9-49f7-b8b0-54f92171410c,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 528, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-11 01:21:50.663621+00:00,40,22d72e50-71e9-49f7-b8b0-54f92171410c,,Process for flow run 'warm-coucal' exited with status code: 1

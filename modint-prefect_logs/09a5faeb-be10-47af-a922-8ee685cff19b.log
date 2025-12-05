@@ -1,0 +1,48 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-09-02 09:19:50.322932+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,,Worker 'KubernetesWorker 6c1a7ef3-6580-4f6c-9303-f2c1895094ef' submitting flow run '09a5faeb-be10-47af-a922-8ee685cff19b'
+2025-09-02 09:19:50.539580+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,,Creating Kubernetes job...
+2025-09-02 09:19:51.184327+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,,Completed submission of flow run '09a5faeb-be10-47af-a922-8ee685cff19b'
+2025-09-02 09:20:00.115778+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,,Opening process...
+2025-09-02 09:20:03.713539+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,, > Running git_clone step...
+2025-09-02 09:20:11.520998+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,,Beginning flow run 'innocent-labradoodle' for flow 'run-bhc-change-detection-flow'
+2025-09-02 09:20:11.538399+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,,Using quad ID: L15-1733E-1258N
+2025-09-02 09:20:11.540332+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,,Input path: /nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif
+2025-09-02 09:20:11.542185+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,,Output directory: /nas/Projects/N-BHC24A/change_detection
+2025-09-02 09:20:11.771936+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,019909ba-0b3b-7166-9f2b-07fe8ba90fa4,This job ID will be used - prefect-innocent-labradoodle-1
+2025-09-02 09:20:11.780263+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,019909ba-0b3b-7166-9f2b-07fe8ba90fa4,Finished in state Completed()
+2025-09-02 09:20:12.249068+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,019909ba-0c09-7068-ba4b-ee63186b0f47,No completed run found for quad_id 'L15-1733E-1258N' in 2024-10.
+2025-09-02 09:20:12.257426+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,019909ba-0c09-7068-ba4b-ee63186b0f47,Finished in state Completed()
+2025-09-02 09:20:12.267769+00:00,40,09a5faeb-be10-47af-a922-8ee685cff19b,,"Encountered exception during execution: FileNotFoundError('Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1733E-1258N--building.gpkg')
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 756, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Previous month segmentation data not found for {current_month_filename}"")
+FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1733E-1258N--building.gpkg"
+2025-09-02 09:20:12.368313+00:00,20,09a5faeb-be10-47af-a922-8ee685cff19b,,Finished in state Failed('Flow run encountered an exception: FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1733E-1258N--building.gpkg')
+2025-09-02 09:20:12.372132+00:00,40,09a5faeb-be10-47af-a922-8ee685cff19b,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 756, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Previous month segmentation data not found for {current_month_filename}"")
+FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1733E-1258N--building.gpkg"
+2025-09-02 09:20:13.167469+00:00,40,09a5faeb-be10-47af-a922-8ee685cff19b,,Process for flow run 'innocent-labradoodle' exited with status code: 1

@@ -1,0 +1,253 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-11-28 02:53:12.455664+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,,Worker 'KubernetesWorker 634daee2-cf3c-49e6-9732-928c0c178c7d' submitting flow run 'eeb42bc5-0c32-41df-9ceb-052a449d7448'
+2025-11-28 02:53:12.643314+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,,Creating Kubernetes job...
+2025-11-28 02:53:12.888482+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,,Completed submission of flow run 'eeb42bc5-0c32-41df-9ceb-052a449d7448'
+2025-11-28 02:53:19.869486+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,,Opening process...
+2025-11-28 02:53:22.459946+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,, > Running git_clone step...
+2025-11-28 02:53:26.677120+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,,Beginning flow run 'tau2-carnen' for flow 'run-modint-flow'
+2025-11-28 02:53:26.683983+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,,"run_modint_flow starting for EO-Segmentation-Landcover (dir=/nas/Dataset/modint-prefect-inferences/EO-Segmentation-Landcover/2025/11/28/eeb42bc5-0c32-41df-9ceb-052a449d7448, flow_run_uuid=eeb42bc5-0c32-41df-9ceb-052a449d7448)"
+2025-11-28 02:53:27.141896+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3c9d-7377-ba54-5f2931268adf,This job ID will be used - modint-prefect-tau2-carnen-1
+2025-11-28 02:53:27.146758+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3c9d-7377-ba54-5f2931268adf,Finished in state Completed()
+2025-11-28 02:53:27.460005+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3ced-715f-b10a-33cbddf69e4c,Finished in state Completed()
+2025-11-28 02:53:27.612450+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cf0-7e01-ab33-d17351bff8ab,{'scene_path': '/nas/k8s/dev/research/hojin/DSAR-TD/dataset/dsar_td/selected/scene_45/sar'}
+2025-11-28 02:53:27.616279+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3e93-738b-b708-4d6abdda6227,Finished in state Completed()
+2025-11-28 02:53:28.644205+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,Beginning subflow run 'aquatic-dugong' for flow 'run-namespaced-job'
+2025-11-28 02:53:34.753176+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"/usr/local/lib/python3.10/dist-packages/mmengine/optim/optimizer/zero_optimizer.py:11: DeprecationWarning: `TorchScript` support for functional optimizers is deprecated and will be removed in a future PyTorch release. Consider using the `torch.compile` optimizer instead.
+"
+2025-11-28 02:53:34.755679+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  from torch.distributed.optim import \
+"
+2025-11-28 02:53:35.861173+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"/SIAseg/siaseg/apis/orthogonalize/orthogonalize_polygon.py:22: FutureWarning: This function has no longer any effect, and will be removed in a future release. Starting with Shapely 2.0, equivalent speedups are always available
+"
+2025-11-28 02:53:35.863407+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  speedups.enable()
+"
+2025-11-28 02:53:39.420979+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"WARNING: can not import selective_scan_cuda.
+"
+2025-11-28 02:53:39.423827+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"No module named 'selective_scan_cuda'
+"
+2025-11-28 02:53:39.914088+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"2025-11-28 02:53:39.912 | ERROR    | siaseg.apis.seg_runner:inference:413 - An exception occurred:
+"
+2025-11-28 02:53:39.916438+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"Traceback (most recent call last):
+"
+2025-11-28 02:53:39.919291+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 109, in __getattr__
+"
+2025-11-28 02:53:39.921135+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    value = super().__getattr__(name)
+"
+2025-11-28 02:53:39.923273+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/usr/local/lib/python3.10/dist-packages/addict/addict.py"", line 67, in __getattr__
+"
+2025-11-28 02:53:39.925159+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    return self.__getitem__(item)
+"
+2025-11-28 02:53:39.926811+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 138, in __getitem__
+"
+2025-11-28 02:53:39.928822+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    return self.build_lazy(super().__getitem__(key))
+"
+2025-11-28 02:53:39.930740+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 105, in __missing__
+"
+2025-11-28 02:53:39.937493+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    raise KeyError(name)
+"
+2025-11-28 02:53:39.938914+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"KeyError: 'pipeline'
+"
+2025-11-28 02:53:39.940342+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"
+"
+2025-11-28 02:53:39.942128+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"During handling of the above exception, another exception occurred:
+"
+2025-11-28 02:53:39.943816+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"
+"
+2025-11-28 02:53:39.945371+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"Traceback (most recent call last):
+"
+2025-11-28 02:53:39.947245+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 378, in inference
+"
+2025-11-28 02:53:39.948963+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    self.model = self.init_model(self.run_id, self.artifact_path)
+"
+2025-11-28 02:53:39.950527+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 302, in init_model
+"
+2025-11-28 02:53:39.952347+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    cfg = apply_dataset_settings_for_scene(cfg)
+"
+2025-11-28 02:53:39.954072+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 80, in apply_dataset_settings_for_scene
+"
+2025-11-28 02:53:39.955605+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    patch_size, stride = find_patchsize_stride_from_cfg(cfg)
+"
+2025-11-28 02:53:39.957112+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 44, in find_patchsize_stride_from_cfg
+"
+2025-11-28 02:53:39.958428+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    x['type'] for x in cfg.train_dataloader.dataset.pipeline
+"
+2025-11-28 02:53:39.959969+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 113, in __getattr__
+"
+2025-11-28 02:53:39.961476+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    raise AttributeError(f""'{self.__class__.__name__}' object has no ""
+"
+2025-11-28 02:53:39.962792+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"AttributeError: 'ConfigDict' object has no attribute 'pipeline'
+"
+2025-11-28 02:53:39.964303+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"
+"
+2025-11-28 02:53:39.965601+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"[32m2025-11-28T02:53:39.912127+0000[0m [31m[1mAn exception occurred:
+"
+2025-11-28 02:53:39.966738+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"Traceback (most recent call last):
+"
+2025-11-28 02:53:39.968128+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 109, in __getattr__
+"
+2025-11-28 02:53:39.969463+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    value = super().__getattr__(name)
+"
+2025-11-28 02:53:39.970595+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/usr/local/lib/python3.10/dist-packages/addict/addict.py"", line 67, in __getattr__
+"
+2025-11-28 02:53:39.971505+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    return self.__getitem__(item)
+"
+2025-11-28 02:53:39.972862+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 138, in __getitem__
+"
+2025-11-28 02:53:39.973808+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    return self.build_lazy(super().__getitem__(key))
+"
+2025-11-28 02:53:39.974643+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 105, in __missing__
+"
+2025-11-28 02:53:39.975415+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    raise KeyError(name)
+"
+2025-11-28 02:53:39.976173+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"KeyError: 'pipeline'
+"
+2025-11-28 02:53:39.976924+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"
+"
+2025-11-28 02:53:39.977666+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"During handling of the above exception, another exception occurred:
+"
+2025-11-28 02:53:39.997766+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"
+"
+2025-11-28 02:53:39.999690+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"Traceback (most recent call last):
+"
+2025-11-28 02:53:40.001461+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 378, in inference
+"
+2025-11-28 02:53:40.003072+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    self.model = self.init_model(self.run_id, self.artifact_path)
+"
+2025-11-28 02:53:40.004979+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 302, in init_model
+"
+2025-11-28 02:53:40.007008+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    cfg = apply_dataset_settings_for_scene(cfg)
+"
+2025-11-28 02:53:40.008878+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 80, in apply_dataset_settings_for_scene
+"
+2025-11-28 02:53:40.010989+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    patch_size, stride = find_patchsize_stride_from_cfg(cfg)
+"
+2025-11-28 02:53:40.013230+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 44, in find_patchsize_stride_from_cfg
+"
+2025-11-28 02:53:40.015280+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    x['type'] for x in cfg.train_dataloader.dataset.pipeline
+"
+2025-11-28 02:53:40.017030+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 113, in __getattr__
+"
+2025-11-28 02:53:40.018597+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"    raise AttributeError(f""'{self.__class__.__name__}' object has no ""
+"
+2025-11-28 02:53:40.020427+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"AttributeError: 'ConfigDict' object has no attribute 'pipeline'
+"
+2025-11-28 02:53:40.022181+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,"[0m
+"
+2025-11-28 02:53:47.172675+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cee-7686-800a-0a62ade68843,Finished in state Completed()
+2025-11-28 02:53:57.666051+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cf0-7e01-ab33-d17351bff8ab,"{'msg': 'Traceback (most recent call last):\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 109, in __getattr__\n    value = super().__getattr__(name)\n  File ""/usr/local/lib/python3.10/dist-packages/addict/addict.py"", line 67, in __getattr__\n    return self.__getitem__(item)\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 138, in __getitem__\n    return self.build_lazy(super().__getitem__(key))\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 105, in __missing__\n    raise KeyError(name)\nKeyError: \'pipeline\'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 378, in inference\n    self.model = self.init_model(self.run_id, self.artifact_path)\n  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 302, in init_model\n    cfg = apply_dataset_settings_for_scene(cfg)\n  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 80, in apply_dataset_settings_for_scene\n    patch_size, stride = find_patchsize_stride_from_cfg(cfg)\n  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 44, in find_patchsize_stride_from_cfg\n    x[\'type\'] for x in cfg.train_dataloader.dataset.pipeline\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 113, in __getattr__\n    raise AttributeError(f""\'{self.__class__.__name__}\' object has no ""\nAttributeError: \'ConfigDict\' object has no attribute \'pipeline\'\n', 'retriable': False}"
+2025-11-28 02:53:57.672476+00:00,40,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cf0-7e01-ab33-d17351bff8ab,Inference was failed. See the logs for detail.
+2025-11-28 02:53:57.674432+00:00,40,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cf0-7e01-ab33-d17351bff8ab,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-28 02:53:57.690187+00:00,40,eeb42bc5-0c32-41df-9ceb-052a449d7448,019ac861-3cf0-7e01-ab33-d17351bff8ab,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-11-28 02:53:57.699888+00:00,40,eeb42bc5-0c32-41df-9ceb-052a449d7448,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 532, in run_modint_flow
+    job_id, inference_result = _run_modint_job(
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 325, in _run_modint_job
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-28 02:53:57.774874+00:00,20,eeb42bc5-0c32-41df-9ceb-052a449d7448,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-11-28 02:53:57.777668+00:00,40,eeb42bc5-0c32-41df-9ceb-052a449d7448,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 532, in run_modint_flow
+    job_id, inference_result = _run_modint_job(
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 325, in _run_modint_job
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-v2/modint_prefect/prefect_flow.py"", line 170, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-28 02:53:58.722106+00:00,40,eeb42bc5-0c32-41df-9ceb-052a449d7448,,Process for flow run 'tau2-carnen' exited with status code: 1

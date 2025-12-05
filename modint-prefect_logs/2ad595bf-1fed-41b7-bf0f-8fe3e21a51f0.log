@@ -1,0 +1,580 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-10-02 09:53:07.254153+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Worker 'KubernetesWorker a05e490e-9eac-4523-9166-1b04920e6d58' submitting flow run '2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0'
+2025-10-02 09:53:07.412939+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Creating Kubernetes job...
+2025-10-02 09:53:08.117220+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Completed submission of flow run '2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0'
+2025-10-02 09:53:15.276807+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Opening process...
+2025-10-02 09:53:18.090182+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,, > Running git_clone step...
+2025-10-02 09:53:23.794819+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Beginning flow run 'imposing-aardwolf' for flow 'run-bhc-change-detection-flow'
+2025-10-02 09:53:23.801162+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Using quad ID: L15-1752E-1274N
+2025-10-02 09:53:23.802646+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Input path: /nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif
+2025-10-02 09:53:23.804087+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Output directory: /nas/Projects/N-BHC24A/change_detection
+2025-10-02 09:53:23.975466+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3979-7b5d-a95d-1f749b128253,This job ID will be used - prefect-imposing-aardwolf-1
+2025-10-02 09:53:23.980829+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3979-7b5d-a95d-1f749b128253,Finished in state Completed()
+2025-10-02 09:53:24.276601+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3a10-7d2f-ac41-3a90065f7051,Searching with specific quad_id pattern: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_10_*--L15-1752E-1274N--building.gpkg
+2025-10-02 09:53:24.299660+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3a10-7d2f-ac41-3a90065f7051,Finished in state Completed()
+2025-10-02 09:53:24.432227+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3b65-76e2-ba2d-d62782c97ab9,Finished in state Completed()
+2025-10-02 09:53:24.537718+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3bd7-7d60-b11e-196000d95411,Finished in state Completed()
+2025-10-02 09:53:24.545965+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Previous RGB VRT path: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_10_mosaic_cog_L15-1752E-1274N.vrt
+2025-10-02 09:53:24.548174+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Current RGB VRT path: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1752E-1274N.vrt
+2025-10-02 09:53:24.549953+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Previous mask path: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_10_mosaic_cog--L15-1752E-1274N--building.gpkg
+2025-10-02 09:53:24.551902+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Current mask path: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1752E-1274N--building.gpkg
+2025-10-02 09:53:24.699023+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3cbb-7974-b009-9f212127f7f7,Finished in state Completed()
+2025-10-02 09:53:25.837947+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,Beginning subflow run 'cyan-kingfisher' for flow 'run-namespaced-job'
+2025-10-02 09:53:32.080738+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] All required packages seem to be installed correctly.
+"
+2025-10-02 09:53:32.083334+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] 로그 파일이 '/app/argos_temp_work/prefect-imposing-aardwolf-1/prefect-imposing-aardwolf-1-logs.txt'에 생성되었습니다.
+"
+2025-10-02 09:53:32.086811+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] Log file is being written to: /app/argos_temp_work/prefect-imposing-aardwolf-1/prefect-imposing-aardwolf-1-logs.txt
+"
+2025-10-02 09:53:32.088945+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] Temporary work directory: /app/argos_temp_work/prefect-imposing-aardwolf-1
+"
+2025-10-02 09:53:32.090971+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] Final output will be saved in: /nas/Projects/N-BHC24A/change_detection
+"
+2025-10-02 09:53:32.093106+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] --- Starting Analysis Pipeline ---
+"
+2025-10-02 09:53:32.095047+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] [JOB_ID] prefect-imposing-aardwolf-1 - Change detection analysis initiated
+"
+2025-10-02 09:53:32.096881+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] [JOB_ID] prefect-imposing-aardwolf-1 - Previous RGB: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_10_mosaic_cog_L15-1752E-1274N.vrt
+"
+2025-10-02 09:53:32.098869+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] [JOB_ID] prefect-imposing-aardwolf-1 - Current RGB: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1752E-1274N.vrt
+"
+2025-10-02 09:53:32.100524+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] [JOB_ID] prefect-imposing-aardwolf-1 - Previous Mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_10_mosaic_cog--L15-1752E-1274N--building.gpkg
+"
+2025-10-02 09:53:32.101985+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] [JOB_ID] prefect-imposing-aardwolf-1 - Current Mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1752E-1274N--building.gpkg
+"
+2025-10-02 09:53:32.103676+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] [JOB_ID] prefect-imposing-aardwolf-1 - Temp Work Directory: /app/argos_temp_work/prefect-imposing-aardwolf-1
+"
+2025-10-02 09:53:32.105213+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] [JOB_ID] prefect-imposing-aardwolf-1 - Final Output Directory: /nas/Projects/N-BHC24A/change_detection
+"
+2025-10-02 09:53:32.106671+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] [INFO] Converting prev GPKG to mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_10_mosaic_cog--L15-1752E-1274N--building.gpkg
+"
+2025-10-02 09:53:32.108473+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:29] --- Starting GPKG to Raster Mask Preprocessing for 40000_global_monthly_2024_10_mosaic_cog--L15-1752E-1274N--building.gpkg ---
+"
+2025-10-02 09:53:35.310770+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"Creating output file that is 16384P x 16384L.
+"
+2025-10-02 09:53:35.313350+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"Using internal nodata values (e.g. 0) for image /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_10_mosaic_cog_L15-1752E-1274N.vrt.
+"
+2025-10-02 09:53:35.315419+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"Copying nodata values from source /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_10_mosaic_cog_L15-1752E-1274N.vrt to destination /tmp/vrt_temp/40000_global_monthly_2024_10_mosaic_cog_L15-1752E-1274N_L15-1752E-1274N.vrt.
+"
+2025-10-02 09:53:35.318600+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"Processing /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_10_mosaic_cog_L15-1752E-1274N.vrt [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+"
+2025-10-02 09:53:36.062970+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:36] Successfully converted 40000_global_monthly_2024_10_mosaic_cog--L15-1752E-1274N--building.gpkg to 40000_global_monthly_2024_10_mosaic_cog--L15-1752E-1274N--building.tif
+"
+2025-10-02 09:53:36.065032+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:36] --- GPKG to Raster Mask Preprocessing for 40000_global_monthly_2024_10_mosaic_cog--L15-1752E-1274N--building.gpkg Complete ---
+"
+2025-10-02 09:53:36.067000+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:36] [INFO] Converting curr GPKG to mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1752E-1274N--building.gpkg
+"
+2025-10-02 09:53:36.071362+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:36] --- Starting GPKG to Raster Mask Preprocessing for 40000_global_monthly_2024_11_mosaic_cog--L15-1752E-1274N--building.gpkg ---
+"
+2025-10-02 09:53:41.369290+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"Creating output file that is 16384P x 16384L.
+"
+2025-10-02 09:53:41.371358+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"Using internal nodata values (e.g. 0) for image /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1752E-1274N.vrt.
+"
+2025-10-02 09:53:41.373448+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"Copying nodata values from source /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1752E-1274N.vrt to destination /tmp/vrt_temp/40000_global_monthly_2024_11_mosaic_cog_L15-1752E-1274N_L15-1752E-1274N.vrt.
+"
+2025-10-02 09:53:41.376734+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"Processing /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1752E-1274N.vrt [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+"
+2025-10-02 09:53:42.005426+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:41] Successfully converted 40000_global_monthly_2024_11_mosaic_cog--L15-1752E-1274N--building.gpkg to 40000_global_monthly_2024_11_mosaic_cog--L15-1752E-1274N--building.tif
+"
+2025-10-02 09:53:42.016569+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:41] --- GPKG to Raster Mask Preprocessing for 40000_global_monthly_2024_11_mosaic_cog--L15-1752E-1274N--building.gpkg Complete ---
+"
+2025-10-02 09:53:42.018607+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:41] [JOB_ID] prefect-imposing-aardwolf-1 - Processing target: building
+"
+2025-10-02 09:53:42.021803+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"/usr/local/lib/python3.12/site-packages/osgeo/gdal.py:314: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+"
+2025-10-02 09:53:42.023274+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"  warnings.warn(
+"
+2025-10-02 09:53:42.025026+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:42] Total tiles to process: 1024
+"
+2025-10-02 09:53:42.026698+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:53:42] [INFO] Running single quad analysis.
+"
+2025-10-02 09:54:29.321786+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"Processing Single Quad:   0%|          | 0/1024 [00:00<?, ?it/s]Processing Single Quad: 100%|██████████| 1024/1024 [00:47<00:00, 21.65it/s]
+"
+2025-10-02 09:54:29.325709+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] [WARN] No changes detected in the quad.
+"
+2025-10-02 09:54:29.327578+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] [JOB_ID] prefect-imposing-aardwolf-1 - No changes detected - no GPKG generated
+"
+2025-10-02 09:54:29.329446+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] 
+"
+2025-10-02 09:54:29.331522+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"============================================================
+"
+2025-10-02 09:54:29.333553+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] --- Analysis Complete ---
+"
+2025-10-02 09:54:29.335337+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] [JOB_ID] prefect-imposing-aardwolf-1 - Analysis completed successfully
+"
+2025-10-02 09:54:29.337195+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] Total pipeline execution time: 0.99 minutes.
+"
+2025-10-02 09:54:29.338791+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] 
+"
+2025-10-02 09:54:29.340252+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"============================================================
+"
+2025-10-02 09:54:29.341904+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] --- Configuration Used for This Run ---
+"
+2025-10-02 09:54:29.343460+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] 
+"
+2025-10-02 09:54:29.344913+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"# [Default Config]
+"
+2025-10-02 09:54:29.346585+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] {'max_cmp_tasks': 2, 'pixel_area': 1.4264, 'tile_size': 512}
+"
+2025-10-02 09:54:29.348003+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] 
+"
+2025-10-02 09:54:29.349219+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"# [Final Config for: ROAD]
+"
+2025-10-02 09:54:29.353207+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] {'BRIGHTNESS_AB_DELTA_THRESH': 15,
+"
+2025-10-02 09:54:29.354586+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BRIGHTNESS_L_DELTA_LOWER': 5,
+"
+2025-10-02 09:54:29.355988+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BRIGHTNESS_L_DELTA_UPPER': 30,
+"
+2025-10-02 09:54:29.357202+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_A_LOWER': 2,
+"
+2025-10-02 09:54:29.358641+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_A_UPPER': 25,
+"
+2025-10-02 09:54:29.360072+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_B_LOWER': 5,
+"
+2025-10-02 09:54:29.361255+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_B_UPPER': 40,
+"
+2025-10-02 09:54:29.362661+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_DELTA_E_THRESH': 45,
+"
+2025-10-02 09:54:29.364106+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_L_LOWER': 20,
+"
+2025-10-02 09:54:29.365307+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_L_UPPER': 85,
+"
+2025-10-02 09:54:29.366307+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GRAY_AB_THRESH': 25,
+"
+2025-10-02 09:54:29.367127+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GRAY_DELTA_E_THRESH': 50,
+"
+2025-10-02 09:54:29.368420+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GREEN_A_THRESH': -10,
+"
+2025-10-02 09:54:29.369693+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GREEN_B_LOWER': 10,
+"
+2025-10-02 09:54:29.370753+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GREEN_B_UPPER': 100,
+"
+2025-10-02 09:54:29.372208+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GREEN_DELTA_E_THRESH': 30,
+"
+2025-10-02 09:54:29.373516+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'LOW_SAT_THRESH': 25,
+"
+2025-10-02 09:54:29.374578+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'PERCEPTUAL_CHROMA_THRESH': 20,
+"
+2025-10-02 09:54:29.375906+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SHADOW_AB_DELTA_THRESH': 10,
+"
+2025-10-02 09:54:29.377122+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SHADOW_L_DELTA_THRESH': 50,
+"
+2025-10-02 09:54:29.378091+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SNOW_AB_THRESH': 30,
+"
+2025-10-02 09:54:29.379290+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SNOW_L_THRESH': 190,
+"
+2025-10-02 09:54:29.380468+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SNOW_TILE_THRESH': 0.5,
+"
+2025-10-02 09:54:29.381379+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SOIL_AB_DELTA_THRESH': 10,
+"
+2025-10-02 09:54:29.382485+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SOIL_DRYING_L_DELTA_LOWER': 10,
+"
+2025-10-02 09:54:29.383539+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SOIL_DRYING_L_DELTA_UPPER': 40,
+"
+2025-10-02 09:54:29.384301+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SOIL_L_DELTA_LOWER': -40,
+"
+2025-10-02 09:54:29.385058+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SOIL_L_DELTA_UPPER': -10,
+"
+2025-10-02 09:54:29.385794+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'TINT_BLUE_FACTOR': 1.15,
+"
+2025-10-02 09:54:29.386504+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'TINT_FILTER_ENABLED': True,
+"
+2025-10-02 09:54:29.387126+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'TINT_GREEN_FACTOR': 1.15,
+"
+2025-10-02 09:54:29.387748+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'TINT_MIN_MEAN_VALUE': 30,
+"
+2025-10-02 09:54:29.388379+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'TINT_RED_FACTOR': 1.15,
+"
+2025-10-02 09:54:29.388996+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'WATER_H_RANGE': (90, 140),
+"
+2025-10-02 09:54:29.389621+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'WATER_RGB_INDEX_THRESH': 0.05,
+"
+2025-10-02 09:54:29.390240+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'WATER_S_MIN_THRESH': 60,
+"
+2025-10-02 09:54:29.390857+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'WATER_TEXTURE_THRESH': 10.0,
+"
+2025-10-02 09:54:29.391473+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'WATER_TILE_THRESH': 0.5,
+"
+2025-10-02 09:54:29.426351+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'max_cmp_tasks': 2,
+"
+2025-10-02 09:54:29.428400+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'min_final_pixel_size': 50,
+"
+2025-10-02 09:54:29.430665+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'min_pixel_size': 140,
+"
+2025-10-02 09:54:29.432649+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'morphological_kernel_size': 7,
+"
+2025-10-02 09:54:29.434450+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'pixel_area': 1.4264,
+"
+2025-10-02 09:54:29.436691+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'structure_threshold': 0.8,
+"
+2025-10-02 09:54:29.438316+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'tile_size': 512}
+"
+2025-10-02 09:54:29.439929+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] 
+"
+2025-10-02 09:54:29.441894+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"# [Final Config for: BUILDING]
+"
+2025-10-02 09:54:29.443649+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] {'BRIGHTNESS_AB_DELTA_THRESH': 15,
+"
+2025-10-02 09:54:29.445229+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BRIGHTNESS_L_DELTA_LOWER': 5,
+"
+2025-10-02 09:54:29.447143+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BRIGHTNESS_L_DELTA_UPPER': 30,
+"
+2025-10-02 09:54:29.448764+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_A_LOWER': 2,
+"
+2025-10-02 09:54:29.450117+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_A_UPPER': 25,
+"
+2025-10-02 09:54:29.451905+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_B_LOWER': 5,
+"
+2025-10-02 09:54:29.453464+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_B_UPPER': 40,
+"
+2025-10-02 09:54:29.454818+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_DELTA_E_THRESH': 45,
+"
+2025-10-02 09:54:29.456623+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_L_LOWER': 20,
+"
+2025-10-02 09:54:29.457974+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'BROWN_L_UPPER': 85,
+"
+2025-10-02 09:54:29.459601+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GRAY_AB_THRESH': 25,
+"
+2025-10-02 09:54:29.460948+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GRAY_DELTA_E_THRESH': 50,
+"
+2025-10-02 09:54:29.462105+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GREEN_A_THRESH': -10,
+"
+2025-10-02 09:54:29.463662+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GREEN_B_LOWER': 10,
+"
+2025-10-02 09:54:29.465057+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GREEN_B_UPPER': 100,
+"
+2025-10-02 09:54:29.466285+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'GREEN_DELTA_E_THRESH': 30,
+"
+2025-10-02 09:54:29.467837+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'LOW_SAT_THRESH': 25,
+"
+2025-10-02 09:54:29.469169+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'PERCEPTUAL_CHROMA_THRESH': 20,
+"
+2025-10-02 09:54:29.470347+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SHADOW_AB_DELTA_THRESH': 10,
+"
+2025-10-02 09:54:29.471886+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SHADOW_L_DELTA_THRESH': 50,
+"
+2025-10-02 09:54:29.473217+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SNOW_AB_THRESH': 20,
+"
+2025-10-02 09:54:29.474504+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SNOW_L_THRESH': 220,
+"
+2025-10-02 09:54:29.476068+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SNOW_TILE_THRESH': 0.5,
+"
+2025-10-02 09:54:29.477364+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SOIL_AB_DELTA_THRESH': 10,
+"
+2025-10-02 09:54:29.478487+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SOIL_DRYING_L_DELTA_LOWER': 10,
+"
+2025-10-02 09:54:29.524295+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SOIL_DRYING_L_DELTA_UPPER': 40,
+"
+2025-10-02 09:54:29.526676+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SOIL_L_DELTA_LOWER': -40,
+"
+2025-10-02 09:54:29.528539+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'SOIL_L_DELTA_UPPER': -10,
+"
+2025-10-02 09:54:29.530659+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'TINT_BLUE_FACTOR': 1.15,
+"
+2025-10-02 09:54:29.532685+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'TINT_FILTER_ENABLED': True,
+"
+2025-10-02 09:54:29.534471+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'TINT_GREEN_FACTOR': 1.15,
+"
+2025-10-02 09:54:29.536533+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'TINT_MIN_MEAN_VALUE': 30,
+"
+2025-10-02 09:54:29.538316+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'TINT_RED_FACTOR': 1.15,
+"
+2025-10-02 09:54:29.539835+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'WATER_H_RANGE': (90, 140),
+"
+2025-10-02 09:54:29.541159+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'WATER_RGB_INDEX_THRESH': 0.05,
+"
+2025-10-02 09:54:29.542961+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'WATER_S_MIN_THRESH': 60,
+"
+2025-10-02 09:54:29.544719+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'WATER_TEXTURE_THRESH': 10.0,
+"
+2025-10-02 09:54:29.546232+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'WATER_TILE_THRESH': 0.5,
+"
+2025-10-02 09:54:29.547744+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'max_cmp_tasks': 2,
+"
+2025-10-02 09:54:29.549255+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'min_final_pixel_size': 50,
+"
+2025-10-02 09:54:29.550538+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'min_pixel_size': 100,
+"
+2025-10-02 09:54:29.552086+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'morphological_kernel_size': 5,
+"
+2025-10-02 09:54:29.553589+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'pixel_area': 1.4264,
+"
+2025-10-02 09:54:29.554862+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'structure_threshold': 0.75,
+"
+2025-10-02 09:54:29.556400+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2," 'tile_size': 512}
+"
+2025-10-02 09:54:29.557801+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] ============================================================
+"
+2025-10-02 09:54:29.558918+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] Total pipeline execution time: 0.99 minutes.
+"
+2025-10-02 09:54:29.560297+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"[2025-10-02 18:54:29] Check log file for full details and configuration.
+"
+2025-10-02 09:54:35.521576+00:00,40,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"Task run failed with exception: RuntimeError(""Job 'prefect-imposing-aardwolf-1' failed due to [], check the Kubernetes pod logs for more information."") - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-imposing-aardwolf-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-02 09:54:35.540112+00:00,40,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,0199a457-3c4a-72b5-9f77-9f33720158a2,"Finished in state Failed(""Task run encountered an exception RuntimeError: Job 'prefect-imposing-aardwolf-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-02 09:54:35.547170+00:00,40,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,"Encountered exception during execution: RuntimeError(""Job 'prefect-imposing-aardwolf-1' failed due to [], check the Kubernetes pod logs for more information."")
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 805, in run_bhc_change_detection_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-imposing-aardwolf-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-02 09:54:35.597826+00:00,20,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,"Finished in state Failed(""Flow run encountered an exception: RuntimeError: Job 'prefect-imposing-aardwolf-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-02 09:54:35.601343+00:00,40,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 805, in run_bhc_change_detection_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-imposing-aardwolf-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-02 09:54:36.526015+00:00,40,2ad595bf-1fed-41b7-bf0f-8fe3e21a51f0,,Process for flow run 'imposing-aardwolf' exited with status code: 1

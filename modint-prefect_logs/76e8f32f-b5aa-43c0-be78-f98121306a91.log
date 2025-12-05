@@ -1,0 +1,166 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-09-17 08:13:38.103347+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,,Worker 'KubernetesWorker 342d561a-03a7-414d-a84b-df60f475dd88' submitting flow run '76e8f32f-b5aa-43c0-be78-f98121306a91'
+2025-09-17 08:13:38.349333+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,,Creating Kubernetes job...
+2025-09-17 08:13:38.972920+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,,Completed submission of flow run '76e8f32f-b5aa-43c0-be78-f98121306a91'
+2025-09-17 08:13:46.157214+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,,Opening process...
+2025-09-17 08:13:48.913872+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,, > Running git_clone step...
+2025-09-17 08:13:54.729666+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,,Beginning flow run 'omicron5-uinic' for flow 'run-modint-flow-without-redis'
+2025-09-17 08:13:54.925421+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,019956bc-c0cc-715d-85e0-26a0d5a7b21d,This job ID will be used - modint-prefect-omicron5-uinic-1
+2025-09-17 08:13:54.931589+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,019956bc-c0cc-715d-85e0-26a0d5a7b21d,Finished in state Completed()
+2025-09-17 08:13:55.461224+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,019956bc-c32d-7386-9bd9-d74f2ecbc36b,Finished in state Completed()
+2025-09-17 08:13:55.998705+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,019956bc-c177-7e3c-b340-0f0dc488e53e,"spawn /app/modint_prefect/utils/scheduler config
+[?25l[2K[1m[32m✔[0m [1mServer Connection: [0m[1m:[0m █
+[J spawn /app/modint_prefect/utils/scheduler login
+[?25l[2K[1m[31m✗[0m [1mLogin id: [0m[1m:[0m █
+[J [Jd [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m d█
+d [J [Jl [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dl█
+l [J [Jk [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk█
+k [J [J- [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-█
+- [J [Jb [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-b█
+b [J [Jo [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bo█
+o [J [Jt [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+t [J [J [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+[1A[2K[2K[2mLogin id: [0m[2m:[0m dlk-bot
+[?25h[?25l[2K[1m[31m✗[0m [1mPassword: [0m[1m:[0m █
+[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+*[J [J [J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+ [J[1A[2K[2K[2mPassword: [0m[2m:[0m **************
+ [?25h[JLogin succeed: dlk-bot@si-analytics.ai
+Login successful
+"
+2025-09-17 08:13:56.005533+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,019956bc-c177-7e3c-b340-0f0dc488e53e,"Running this command in scheduler... /app/modint_prefect/utils/scheduler run --name modint-prefect-omicron5-uinic-1 --cpus 2 --memory 64Gi --gpus 1 --node a40-102,a100-101,a6000-101,a6000-102,a6000-103,v100-101,v100-202 harbor.sia-service.kr/research/weaver:feature-1band_inf-20250609.2 -- python3 /weaver/tools/batch_inference.py /nas/k8s/dev/research/jeongwon/weaver/configs/inf_1ch.py /nas/k8s/dev/research/jeongwon/weaver/configs/RestormerGAN_aerial_1ch_iter_205000.pth --path /nas/Projects/C-BIZ01A/Spottitt/Dunnstown/Dunstown_Kellis_250mbuffer_EirGrid_SO25035188-3-01_DS_PHR1A_202408311120523_FR1_PX_W007N52_0321_09964_ap_otb9_250m.tif"" --save-path /ext/modint-prefect-workspace/sales-team-playground/David/Spottitt/Dunstown_Kellis_250mbuffer_EirGrid_SO25035188-3-01_DS_PHR1A_202408311120523_FR1_PX_W007N52_0321_09964_ap_otb9_250m_SuperX_1CH.tif --tmpdir /ext/modint-prefect-workspace/temp/superx --cfg-options scene_test_dataset.inference_mode.inp_channels=4"
+2025-09-17 08:13:56.013481+00:00,40,76e8f32f-b5aa-43c0-be78-f98121306a91,019956bc-c177-7e3c-b340-0f0dc488e53e,"Task run failed with exception: SchedulerError('/bin/sh: 1: Syntax error: Unterminated quoted string\n') - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 369, in run_inference_scheduler
+    result = run_scheduler(cmd_str=cmd_str)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/utils/scheduler.py"", line 19, in run_scheduler
+    raise SchedulerError(result.stderr.decode(""utf-8""))
+modint_prefect.configs.SchedulerError: /bin/sh: 1: Syntax error: Unterminated quoted string
+"
+2025-09-17 08:13:56.049745+00:00,40,76e8f32f-b5aa-43c0-be78-f98121306a91,019956bc-c177-7e3c-b340-0f0dc488e53e,Finished in state Failed('Task run encountered an exception SchedulerError: /bin/sh: 1: Syntax error: Unterminated quoted string\n')
+2025-09-17 08:13:56.056051+00:00,40,76e8f32f-b5aa-43c0-be78-f98121306a91,019956bc-c177-760f-a8d8-53f4b996699a,"Finished in state NotReady(""Upstream task run '019956bc-c177-7e3c-b340-0f0dc488e53e' did not reach a 'COMPLETED' state."", type=PENDING)"
+2025-09-17 08:13:56.061073+00:00,40,76e8f32f-b5aa-43c0-be78-f98121306a91,,"Encountered exception during execution: SchedulerError('/bin/sh: 1: Syntax error: Unterminated quoted string\n')
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 624, in run_modint_flow_without_redis
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 369, in run_inference_scheduler
+    result = run_scheduler(cmd_str=cmd_str)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/utils/scheduler.py"", line 19, in run_scheduler
+    raise SchedulerError(result.stderr.decode(""utf-8""))
+modint_prefect.configs.SchedulerError: /bin/sh: 1: Syntax error: Unterminated quoted string
+"
+2025-09-17 08:13:56.166488+00:00,20,76e8f32f-b5aa-43c0-be78-f98121306a91,,Finished in state Failed('Flow run encountered an exception: SchedulerError: /bin/sh: 1: Syntax error: Unterminated quoted string\n')
+2025-09-17 08:13:56.169178+00:00,40,76e8f32f-b5aa-43c0-be78-f98121306a91,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 624, in run_modint_flow_without_redis
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 369, in run_inference_scheduler
+    result = run_scheduler(cmd_str=cmd_str)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/utils/scheduler.py"", line 19, in run_scheduler
+    raise SchedulerError(result.stderr.decode(""utf-8""))
+modint_prefect.configs.SchedulerError: /bin/sh: 1: Syntax error: Unterminated quoted string
+"
+2025-09-17 08:13:56.912830+00:00,40,76e8f32f-b5aa-43c0-be78-f98121306a91,,Process for flow run 'omicron5-uinic' exited with status code: 1

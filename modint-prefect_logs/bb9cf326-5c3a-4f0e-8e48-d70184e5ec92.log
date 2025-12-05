@@ -1,0 +1,166 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-10-28 01:18:06.440127+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,,Worker 'KubernetesWorker dd8da5d6-45af-4244-a22a-2d47ea425ac5' submitting flow run 'bb9cf326-5c3a-4f0e-8e48-d70184e5ec92'
+2025-10-28 01:18:06.635301+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,,Creating Kubernetes job...
+2025-10-28 01:18:06.828830+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,,Completed submission of flow run 'bb9cf326-5c3a-4f0e-8e48-d70184e5ec92'
+2025-10-28 01:18:13.147043+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,,Opening process...
+2025-10-28 01:18:15.771765+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,, > Running git_clone step...
+2025-10-28 01:18:21.475599+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,,Beginning flow run 'inquisitive-lorikeet' for flow 'run-modint-flow-without-redis'
+2025-10-28 01:18:21.643276+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,019a2865-0947-73ca-836f-842222dee49c,This job ID will be used - modint-prefect-inquisitive-lorikeet-1
+2025-10-28 01:18:21.649250+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,019a2865-0947-73ca-836f-842222dee49c,Finished in state Completed()
+2025-10-28 01:18:22.171841+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,019a2865-0bb8-74a6-bf72-edf99968c633,Finished in state Completed()
+2025-10-28 01:18:22.331830+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,019a2865-09d4-7273-9e7f-084823dad01a,"spawn /app/modint_prefect/utils/scheduler config
+[?25l[2K[1m[32m✔[0m [1mServer Connection: [0m[1m:[0m █
+[Jspawn /app/modint_prefect/utils/scheduler login
+[?25l[2K[1m[31m✗[0m [1mLogin id: [0m[1m:[0m █
+[J [Jd [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m d█
+d [J [Jl [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dl█
+l [J [Jk [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk█
+k [J [J- [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-█
+- [J [Jb [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-b█
+b [J [Jo [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bo█
+o [J [Jt [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+t [J [J [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+ [J[1A[2K[2K[2mLogin id: [0m[2m:[0m dlk-bot
+ [?25h[J[?25l[2K[1m[31m✗[0m [1mPassword: [0m[1m:[0m █
+[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+*[J [J [J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+ [J[1A[2K[2K[2mPassword: [0m[2m:[0m **************
+ [?25h[JLogin succeed: dlk-bot@si-analytics.ai
+Login successful
+"
+2025-10-28 01:18:22.338405+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,019a2865-09d4-7273-9e7f-084823dad01a,"Running this command in scheduler... /app/modint_prefect/utils/scheduler run --name modint-prefect-inquisitive-lorikeet-1 --cpus 2 --memory 64Gi --gpus 1 --node a10-101,a40-102,a100-101,a6000-101,a6000-102,a6000-103,v100-101,v100-202 harbor.sia-service.kr/research/weaver:modint-v0.1.1-20250717.28 -- python3 /weaver/tools/batch_inference.py /nas/k8s/dev/research/jeongwon/weaver/configs/inf_1ch.py /nas/k8s/dev/research/jeongwon/weaver/configs/RestormerGAN_aerial_1ch_iter_205000.pth --path /nas/Projects/C-BIZ01A/Telefix/20250618_123409_MS1 (1).tiff --save-path /nas/Projects/C-BIZ01A/Telefix/Result/20250618_123409_MS1 (1)_SuperX.tiff --tmpdir /ext/modint-prefect-workspace/temp/superx --cfg-options scene_test_dataset.inference_mode.inp_channels=4 --single-band"
+2025-10-28 01:18:22.347924+00:00,40,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,019a2865-09d4-7273-9e7f-084823dad01a,"Task run failed with exception: SchedulerError('/bin/sh: 1: Syntax error: ""("" unexpected\n') - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 366, in run_inference_scheduler
+    result = run_scheduler(cmd_str=cmd_str)
+  File ""/app/modint-prefect-main/modint_prefect/utils/scheduler.py"", line 19, in run_scheduler
+    raise SchedulerError(result.stderr.decode(""utf-8""))
+modint_prefect.configs.SchedulerError: /bin/sh: 1: Syntax error: ""("" unexpected
+"
+2025-10-28 01:18:22.386893+00:00,40,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,019a2865-09d4-7273-9e7f-084823dad01a,"Finished in state Failed('Task run encountered an exception SchedulerError: /bin/sh: 1: Syntax error: ""("" unexpected\n')"
+2025-10-28 01:18:22.390398+00:00,40,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,019a2865-09d5-7b16-bcd9-1d8924727d8f,"Finished in state NotReady(""Upstream task run '019a2865-09d4-7273-9e7f-084823dad01a' did not reach a 'COMPLETED' state."", type=PENDING)"
+2025-10-28 01:18:22.396904+00:00,40,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,,"Encountered exception during execution: SchedulerError('/bin/sh: 1: Syntax error: ""("" unexpected\n')
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 622, in run_modint_flow_without_redis
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 183, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 366, in run_inference_scheduler
+    result = run_scheduler(cmd_str=cmd_str)
+  File ""/app/modint-prefect-main/modint_prefect/utils/scheduler.py"", line 19, in run_scheduler
+    raise SchedulerError(result.stderr.decode(""utf-8""))
+modint_prefect.configs.SchedulerError: /bin/sh: 1: Syntax error: ""("" unexpected
+"
+2025-10-28 01:18:22.504218+00:00,20,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,,"Finished in state Failed('Flow run encountered an exception: SchedulerError: /bin/sh: 1: Syntax error: ""("" unexpected\n')"
+2025-10-28 01:18:22.507061+00:00,40,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 622, in run_modint_flow_without_redis
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 183, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 366, in run_inference_scheduler
+    result = run_scheduler(cmd_str=cmd_str)
+  File ""/app/modint-prefect-main/modint_prefect/utils/scheduler.py"", line 19, in run_scheduler
+    raise SchedulerError(result.stderr.decode(""utf-8""))
+modint_prefect.configs.SchedulerError: /bin/sh: 1: Syntax error: ""("" unexpected
+"
+2025-10-28 01:18:23.272540+00:00,40,bb9cf326-5c3a-4f0e-8e48-d70184e5ec92,,Process for flow run 'inquisitive-lorikeet' exited with status code: 1

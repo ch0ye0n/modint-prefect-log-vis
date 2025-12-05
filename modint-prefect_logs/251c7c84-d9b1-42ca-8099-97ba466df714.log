@@ -1,0 +1,109 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-08-25 04:50:40.737900+00:00,20,251c7c84-d9b1-42ca-8099-97ba466df714,,Worker 'KubernetesWorker 6c1a7ef3-6580-4f6c-9303-f2c1895094ef' submitting flow run '251c7c84-d9b1-42ca-8099-97ba466df714'
+2025-08-25 04:50:40.930031+00:00,20,251c7c84-d9b1-42ca-8099-97ba466df714,,Creating Kubernetes job...
+2025-08-25 04:50:42.711910+00:00,20,251c7c84-d9b1-42ca-8099-97ba466df714,,Completed submission of flow run '251c7c84-d9b1-42ca-8099-97ba466df714'
+2025-08-25 04:50:51.523800+00:00,20,251c7c84-d9b1-42ca-8099-97ba466df714,,Opening process...
+2025-08-25 04:50:54.238507+00:00,20,251c7c84-d9b1-42ca-8099-97ba466df714,, > Running git_clone step...
+2025-08-25 04:50:58.847600+00:00,20,251c7c84-d9b1-42ca-8099-97ba466df714,,Beginning flow run 'tacky-echidna' for flow 'run-bhc-segmentation-flow'
+2025-08-25 04:50:58.860137+00:00,20,251c7c84-d9b1-42ca-8099-97ba466df714,,Using quad ID: L15-1735E-1273N
+2025-08-25 04:51:06.824768+00:00,20,251c7c84-d9b1-42ca-8099-97ba466df714,0198df90-b326-7512-88f7-78eeb36c1f96,Finished in state Completed()
+2025-08-25 04:51:06.827513+00:00,20,251c7c84-d9b1-42ca-8099-97ba466df714,,Input path: /ext/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1735E-1273N.vrt
+2025-08-25 04:51:06.828557+00:00,20,251c7c84-d9b1-42ca-8099-97ba466df714,,Output directory: /nas/Projects/N-BHC24A/segmentation
+2025-08-25 05:05:53.732637+00:00,40,251c7c84-d9b1-42ca-8099-97ba466df714,,"Encountered exception during execution: PrefectHTTPStatusError(""Server error '500 Internal Server Error' for url 'https://modint-prefect.sia-service.kr/api/flow_runs/41f234e9-b24b-4da4-9272-883fd51f5cf1/set_state'\nResponse: {'exception_message': 'Internal Server Error'}\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"")
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 649, in run_bhc_segmentation_flow
+    run_modint_flow(input_path=input_path, output_dir=temp_output_dir, flow_config=flow_config)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 803, in call_flow_fn
+    self.handle_success(result)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 384, in handle_success
+    self.set_state(terminal_state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 335, in set_state
+    state = propose_state_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/engine.py"", line 475, in propose_state_sync
+    response = set_state_and_handle_waits(set_state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/engine.py"", line 461, in set_state_and_handle_waits
+    response = set_state_func()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/orchestration/_flow_runs/client.py"", line 349, in set_flow_run_state
+    response = self.request(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/orchestration/base.py"", line 33, in request
+    return self._client.send(request)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/base.py"", line 622, in send
+    response.raise_for_status()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/base.py"", line 163, in raise_for_status
+    raise PrefectHTTPStatusError.from_httpx_error(exc) from exc.__cause__
+prefect.exceptions.PrefectHTTPStatusError: Server error '500 Internal Server Error' for url 'https://modint-prefect.sia-service.kr/api/flow_runs/41f234e9-b24b-4da4-9272-883fd51f5cf1/set_state'
+Response: {'exception_message': 'Internal Server Error'}
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+2025-08-25 05:05:53.826944+00:00,20,251c7c84-d9b1-42ca-8099-97ba466df714,,"Finished in state Failed(""Flow run encountered an exception: PrefectHTTPStatusError: Server error '500 Internal Server Error' for url 'https://modint-prefect.sia-service.kr/api/flow_runs/41f234e9-b24b-4da4-9272-883fd51f5cf1/set_state'\nResponse: {'exception_message': 'Internal Server Error'}\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"")"
+2025-08-25 05:05:53.830339+00:00,40,251c7c84-d9b1-42ca-8099-97ba466df714,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 649, in run_bhc_segmentation_flow
+    run_modint_flow(input_path=input_path, output_dir=temp_output_dir, flow_config=flow_config)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 803, in call_flow_fn
+    self.handle_success(result)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 384, in handle_success
+    self.set_state(terminal_state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 335, in set_state
+    state = propose_state_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/engine.py"", line 475, in propose_state_sync
+    response = set_state_and_handle_waits(set_state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/engine.py"", line 461, in set_state_and_handle_waits
+    response = set_state_func()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/orchestration/_flow_runs/client.py"", line 349, in set_flow_run_state
+    response = self.request(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/orchestration/base.py"", line 33, in request
+    return self._client.send(request)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/base.py"", line 622, in send
+    response.raise_for_status()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/base.py"", line 163, in raise_for_status
+    raise PrefectHTTPStatusError.from_httpx_error(exc) from exc.__cause__
+prefect.exceptions.PrefectHTTPStatusError: Server error '500 Internal Server Error' for url 'https://modint-prefect.sia-service.kr/api/flow_runs/41f234e9-b24b-4da4-9272-883fd51f5cf1/set_state'
+Response: {'exception_message': 'Internal Server Error'}
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+2025-08-25 05:05:54.743157+00:00,40,251c7c84-d9b1-42ca-8099-97ba466df714,,Process for flow run 'tacky-echidna' exited with status code: 1

@@ -1,0 +1,111 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-12-01 01:42:44.036371+00:00,20,f93327fa-06b5-4260-9dd9-a5e09fbc985d,019ad793-9159-7089-a842-e49f519a9f60,Finished in state Completed()
+2025-12-01 02:12:40.075314+00:00,40,f93327fa-06b5-4260-9dd9-a5e09fbc985d,019ad793-927c-7269-933a-6b14bfb92d7a,"Task run failed with exception: ApiException() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 419, in wait_for_completion
+    v1_job = await read_namespaced_job.fn(
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 257, in read_namespaced_job
+    return await batch_v1_client.read_namespaced_job(
+  File ""/usr/local/lib/python3.10/site-packages/kubernetes_asyncio/client/api_client.py"", line 192, in __call_api
+    raise e
+  File ""/usr/local/lib/python3.10/site-packages/kubernetes_asyncio/client/api_client.py"", line 185, in __call_api
+    response_data = await self.request(
+  File ""/usr/local/lib/python3.10/site-packages/kubernetes_asyncio/client/rest.py"", line 212, in GET
+    return (await self.request(""GET"", url,
+  File ""/usr/local/lib/python3.10/site-packages/kubernetes_asyncio/client/rest.py"", line 206, in request
+    raise ApiException(http_resp=r)
+kubernetes_asyncio.client.exceptions.ApiException: (404)
+Reason: Not Found
+HTTP response headers: <CIMultiDictProxy('Audit-Id': 'cbea48be-522d-4a86-94ef-73a7f99ba915', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6f55dbca-b508-4e70-afe9-52f67e73d324', 'X-Kubernetes-Pf-Prioritylevel-Uid': '150be131-8663-4adc-81ef-ace72a324432', 'Date': 'Mon, 01 Dec 2025 02:12:40 GMT', 'Content-Length': '260')>
+HTTP response body: {""kind"":""Status"",""apiVersion"":""v1"",""metadata"":{},""status"":""Failure"",""message"":""jobs.batch \""modint-prefect-nu2-atalia-conflux-1\"" not found"",""reason"":""NotFound"",""details"":{""name"":""modint-prefect-nu2-atalia-conflux-1"",""group"":""batch"",""kind"":""jobs""},""code"":404}
+
+"
+2025-12-01 02:12:40.098294+00:00,30,f93327fa-06b5-4260-9dd9-a5e09fbc985d,019ad793-927c-7269-933a-6b14bfb92d7a,"Failed to write result: Failed to serialize object of type 'ApiException' with serializer 'pickle'. You can try a different serializer (e.g. result_serializer=""json"") or disabling persistence (persist_result=False) for this flow or task. Execution will continue, but the result has not been written"
+2025-12-01 02:12:40.105704+00:00,40,f93327fa-06b5-4260-9dd9-a5e09fbc985d,019ad793-927c-7269-933a-6b14bfb92d7a,"Finished in state Failed('Task run encountered an exception ApiException: (404)\nReason: Not Found\nHTTP response headers: <CIMultiDictProxy(\'Audit-Id\': \'cbea48be-522d-4a86-94ef-73a7f99ba915\', \'Cache-Control\': \'no-cache, private\', \'Content-Type\': \'application/json\', \'X-Kubernetes-Pf-Flowschema-Uid\': \'6f55dbca-b508-4e70-afe9-52f67e73d324\', \'X-Kubernetes-Pf-Prioritylevel-Uid\': \'150be131-8663-4adc-81ef-ace72a324432\', \'Date\': \'Mon, 01 Dec 2025 02:12:40 GMT\', \'Content-Length\': \'260\')>\nHTTP response body: {""kind"":""Status"",""apiVersion"":""v1"",""metadata"":{},""status"":""Failure"",""message"":""jobs.batch \\""modint-prefect-nu2-atalia-conflux-1\\"" not found"",""reason"":""NotFound"",""details"":{""name"":""modint-prefect-nu2-atalia-conflux-1"",""group"":""batch"",""kind"":""jobs""},""code"":404}\n\n')"
+2025-12-01 02:12:40.108345+00:00,40,f93327fa-06b5-4260-9dd9-a5e09fbc985d,,"Encountered exception during execution: ApiException()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 419, in wait_for_completion
+    v1_job = await read_namespaced_job.fn(
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 257, in read_namespaced_job
+    return await batch_v1_client.read_namespaced_job(
+  File ""/usr/local/lib/python3.10/site-packages/kubernetes_asyncio/client/api_client.py"", line 192, in __call_api
+    raise e
+  File ""/usr/local/lib/python3.10/site-packages/kubernetes_asyncio/client/api_client.py"", line 185, in __call_api
+    response_data = await self.request(
+  File ""/usr/local/lib/python3.10/site-packages/kubernetes_asyncio/client/rest.py"", line 212, in GET
+    return (await self.request(""GET"", url,
+  File ""/usr/local/lib/python3.10/site-packages/kubernetes_asyncio/client/rest.py"", line 206, in request
+    raise ApiException(http_resp=r)
+kubernetes_asyncio.client.exceptions.ApiException: (404)
+Reason: Not Found
+HTTP response headers: <CIMultiDictProxy('Audit-Id': 'cbea48be-522d-4a86-94ef-73a7f99ba915', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6f55dbca-b508-4e70-afe9-52f67e73d324', 'X-Kubernetes-Pf-Prioritylevel-Uid': '150be131-8663-4adc-81ef-ace72a324432', 'Date': 'Mon, 01 Dec 2025 02:12:40 GMT', 'Content-Length': '260')>
+HTTP response body: {""kind"":""Status"",""apiVersion"":""v1"",""metadata"":{},""status"":""Failure"",""message"":""jobs.batch \""modint-prefect-nu2-atalia-conflux-1\"" not found"",""reason"":""NotFound"",""details"":{""name"":""modint-prefect-nu2-atalia-conflux-1"",""group"":""batch"",""kind"":""jobs""},""code"":404}
+
+"
+2025-12-01 02:12:40.191866+00:00,20,f93327fa-06b5-4260-9dd9-a5e09fbc985d,,"Finished in state Failed('Flow run encountered an exception: ApiException: (404)\nReason: Not Found\nHTTP response headers: <CIMultiDictProxy(\'Audit-Id\': \'cbea48be-522d-4a86-94ef-73a7f99ba915\', \'Cache-Control\': \'no-cache, private\', \'Content-Type\': \'application/json\', \'X-Kubernetes-Pf-Flowschema-Uid\': \'6f55dbca-b508-4e70-afe9-52f67e73d324\', \'X-Kubernetes-Pf-Prioritylevel-Uid\': \'150be131-8663-4adc-81ef-ace72a324432\', \'Date\': \'Mon, 01 Dec 2025 02:12:40 GMT\', \'Content-Length\': \'260\')>\nHTTP response body: {""kind"":""Status"",""apiVersion"":""v1"",""metadata"":{},""status"":""Failure"",""message"":""jobs.batch \\""modint-prefect-nu2-atalia-conflux-1\\"" not found"",""reason"":""NotFound"",""details"":{""name"":""modint-prefect-nu2-atalia-conflux-1"",""group"":""batch"",""kind"":""jobs""},""code"":404}\n\n')"

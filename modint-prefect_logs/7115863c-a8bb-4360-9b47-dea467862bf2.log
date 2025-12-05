@@ -1,0 +1,48 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-09-12 02:13:51.921142+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,,Worker 'KubernetesWorker 60ba2673-f28e-4e96-bb27-de594dcc54dd' submitting flow run '7115863c-a8bb-4360-9b47-dea467862bf2'
+2025-09-12 02:13:53.982910+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,,Creating Kubernetes job...
+2025-09-12 02:13:54.668429+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,,Completed submission of flow run '7115863c-a8bb-4360-9b47-dea467862bf2'
+2025-09-12 02:14:02.019011+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,,Opening process...
+2025-09-12 02:14:04.742912+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,, > Running git_clone step...
+2025-09-12 02:14:10.500746+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,,Beginning flow run 'porcelain-shellfish' for flow 'run-bhc-change-detection-flow'
+2025-09-12 02:14:10.509707+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,,Using quad ID: L15-1744E-1271N
+2025-09-12 02:14:10.511669+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,,Input path: /nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif
+2025-09-12 02:14:10.513643+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,,Output directory: /nas/Projects/N-BHC24A/change_detection
+2025-09-12 02:14:10.660053+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,01993bb3-9b6b-71ba-842b-5b238317c21f,This job ID will be used - prefect-porcelain-shellfish-1
+2025-09-12 02:14:10.667428+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,01993bb3-9b6b-71ba-842b-5b238317c21f,Finished in state Completed()
+2025-09-12 02:14:10.956879+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,01993bb3-9bee-7e87-817c-f4257ad9e00c,No completed run found for quad_id 'L15-1744E-1271N' in 2024-10.
+2025-09-12 02:14:10.972357+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,01993bb3-9bee-7e87-817c-f4257ad9e00c,Finished in state Completed()
+2025-09-12 02:14:10.977432+00:00,40,7115863c-a8bb-4360-9b47-dea467862bf2,,"Encountered exception during execution: FileNotFoundError('Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1744E-1271N--building.gpkg')
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 756, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Previous month segmentation data not found for {current_month_filename}"")
+FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1744E-1271N--building.gpkg"
+2025-09-12 02:14:11.057274+00:00,20,7115863c-a8bb-4360-9b47-dea467862bf2,,Finished in state Failed('Flow run encountered an exception: FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1744E-1271N--building.gpkg')
+2025-09-12 02:14:11.059902+00:00,40,7115863c-a8bb-4360-9b47-dea467862bf2,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 756, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Previous month segmentation data not found for {current_month_filename}"")
+FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1744E-1271N--building.gpkg"
+2025-09-12 02:14:11.650171+00:00,40,7115863c-a8bb-4360-9b47-dea467862bf2,,Process for flow run 'porcelain-shellfish' exited with status code: 1

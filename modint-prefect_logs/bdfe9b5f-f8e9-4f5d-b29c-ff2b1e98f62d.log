@@ -1,0 +1,53 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-09-05 06:52:36.834648+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Worker 'KubernetesWorker 4d157788-5802-4dcd-81ac-e20991547472' submitting flow run 'bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d'
+2025-09-05 06:52:36.984957+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Creating Kubernetes job...
+2025-09-05 06:52:37.651675+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Job 'modint-prefect-job-cx8hm': Starting watch for pod start...
+2025-09-05 06:52:37.672168+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Completed submission of flow run 'bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d'
+2025-09-05 06:52:38.130463+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Job 'modint-prefect-job-cx8hm': Pod has status 'Pending'.
+2025-09-05 06:52:41.081947+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Job 'modint-prefect-job-cx8hm': Pod has status 'Running'.
+2025-09-05 06:52:44.879890+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Opening process...
+2025-09-05 06:52:47.552548+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,, > Running git_clone step...
+2025-09-05 06:52:53.407251+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Beginning flow run 'discreet-ferret' for flow 'run-bhc-change-detection-flow'
+2025-09-05 06:52:53.433303+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Using quad ID: L15-1731E-1274N
+2025-09-05 06:52:53.434936+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Input path: /nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif
+2025-09-05 06:52:53.436429+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Output directory: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/change_detection
+2025-09-05 06:52:53.577745+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,019918a6-435e-7a36-9ffd-7742c4493afd,This job ID will be used - prefect-discreet-ferret-1
+2025-09-05 06:52:53.583750+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,019918a6-435e-7a36-9ffd-7742c4493afd,Finished in state Completed()
+2025-09-05 06:52:53.962639+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,019918a6-43d3-73c1-8d0b-7628a4c15670,Searching with specific quad_id pattern: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_10_*--L15-1731E-1274N--building.gpkg
+2025-09-05 06:52:54.079415+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,019918a6-43d3-73c1-8d0b-7628a4c15670,Finished in state Completed()
+2025-09-05 06:52:54.167684+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,019918a6-45c6-758d-8322-3e7b14dfdab7,Finished in state Completed()
+2025-09-05 06:52:54.255812+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,019918a6-461e-764e-9f5f-cdf39520ee4a,Finished in state Completed()
+2025-09-05 06:52:54.263349+00:00,40,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,"Encountered exception during execution: FileNotFoundError('Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1731E-1274N--building.gpkg')
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 764, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Current month segmentation result not found: {curr_mask_path}"")
+FileNotFoundError: Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1731E-1274N--building.gpkg"
+2025-09-05 06:52:54.352170+00:00,20,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Finished in state Failed('Flow run encountered an exception: FileNotFoundError: Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1731E-1274N--building.gpkg')
+2025-09-05 06:52:54.355089+00:00,40,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 764, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Current month segmentation result not found: {curr_mask_path}"")
+FileNotFoundError: Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1731E-1274N--building.gpkg"
+2025-09-05 06:52:55.108021+00:00,40,bdfe9b5f-f8e9-4f5d-b29c-ff2b1e98f62d,,Process for flow run 'discreet-ferret' exited with status code: 1

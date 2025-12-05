@@ -1,0 +1,98 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-08-25 04:35:08.793039+00:00,20,3796e318-7313-4af0-a747-05b9180a47cc,,Worker 'KubernetesWorker 6c1a7ef3-6580-4f6c-9303-f2c1895094ef' submitting flow run '3796e318-7313-4af0-a747-05b9180a47cc'
+2025-08-25 04:35:12.471554+00:00,20,3796e318-7313-4af0-a747-05b9180a47cc,,Creating Kubernetes job...
+2025-08-25 04:35:15.152148+00:00,20,3796e318-7313-4af0-a747-05b9180a47cc,,Completed submission of flow run '3796e318-7313-4af0-a747-05b9180a47cc'
+2025-08-25 04:35:31.553905+00:00,20,3796e318-7313-4af0-a747-05b9180a47cc,,Opening process...
+2025-08-25 04:35:34.956991+00:00,20,3796e318-7313-4af0-a747-05b9180a47cc,, > Running git_clone step...
+2025-08-25 04:35:40.868558+00:00,20,3796e318-7313-4af0-a747-05b9180a47cc,,Beginning flow run 'indigo-marmoset' for flow 'run-bhc-segmentation-flow'
+2025-08-25 04:35:40.875592+00:00,20,3796e318-7313-4af0-a747-05b9180a47cc,,Using quad ID: L15-1730E-1273N
+2025-08-25 04:35:48.447094+00:00,40,3796e318-7313-4af0-a747-05b9180a47cc,0198df82-b136-7714-b008-321fa567883f,"Task run failed with exception: CalledProcessError(1, ['gdalwarp', '-of', 'VRT', '-overwrite', '-te', '124.2773437', '40.04443757999778', '124.2773437327955', '40.17887330972662', '-te_srs', 'EPSG:4326', '/nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif', '/ext/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1730E-1273N.vrt']) - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 425, in create_vrt_from_quad
+    subprocess.run(cmd, check=True)
+  File ""/usr/local/lib/python3.10/subprocess.py"", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['gdalwarp', '-of', 'VRT', '-overwrite', '-te', '124.2773437', '40.04443757999778', '124.2773437327955', '40.17887330972662', '-te_srs', 'EPSG:4326', '/nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif', '/ext/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1730E-1273N.vrt']' returned non-zero exit status 1."
+2025-08-25 04:35:48.466624+00:00,40,3796e318-7313-4af0-a747-05b9180a47cc,0198df82-b136-7714-b008-321fa567883f,"Finished in state Failed(""Task run encountered an exception CalledProcessError: Command '['gdalwarp', '-of', 'VRT', '-overwrite', '-te', '124.2773437', '40.04443757999778', '124.2773437327955', '40.17887330972662', '-te_srs', 'EPSG:4326', '/nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif', '/ext/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1730E-1273N.vrt']' returned non-zero exit status 1."")"
+2025-08-25 04:35:48.472120+00:00,40,3796e318-7313-4af0-a747-05b9180a47cc,,"Encountered exception during execution: CalledProcessError(1, ['gdalwarp', '-of', 'VRT', '-overwrite', '-te', '124.2773437', '40.04443757999778', '124.2773437327955', '40.17887330972662', '-te_srs', 'EPSG:4326', '/nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif', '/ext/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1730E-1273N.vrt'])
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 638, in run_bhc_segmentation_flow
+    input_path = create_vrt_from_quad(input_path, quad_id)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 425, in create_vrt_from_quad
+    subprocess.run(cmd, check=True)
+  File ""/usr/local/lib/python3.10/subprocess.py"", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['gdalwarp', '-of', 'VRT', '-overwrite', '-te', '124.2773437', '40.04443757999778', '124.2773437327955', '40.17887330972662', '-te_srs', 'EPSG:4326', '/nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif', '/ext/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1730E-1273N.vrt']' returned non-zero exit status 1."
+2025-08-25 04:35:48.527864+00:00,20,3796e318-7313-4af0-a747-05b9180a47cc,,"Finished in state Failed(""Flow run encountered an exception: CalledProcessError: Command '['gdalwarp', '-of', 'VRT', '-overwrite', '-te', '124.2773437', '40.04443757999778', '124.2773437327955', '40.17887330972662', '-te_srs', 'EPSG:4326', '/nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif', '/ext/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1730E-1273N.vrt']' returned non-zero exit status 1."")"
+2025-08-25 04:35:48.538572+00:00,40,3796e318-7313-4af0-a747-05b9180a47cc,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 638, in run_bhc_segmentation_flow
+    input_path = create_vrt_from_quad(input_path, quad_id)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 425, in create_vrt_from_quad
+    subprocess.run(cmd, check=True)
+  File ""/usr/local/lib/python3.10/subprocess.py"", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['gdalwarp', '-of', 'VRT', '-overwrite', '-te', '124.2773437', '40.04443757999778', '124.2773437327955', '40.17887330972662', '-te_srs', 'EPSG:4326', '/nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif', '/ext/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1730E-1273N.vrt']' returned non-zero exit status 1."
+2025-08-25 04:35:49.404229+00:00,40,3796e318-7313-4af0-a747-05b9180a47cc,,Process for flow run 'indigo-marmoset' exited with status code: 1

@@ -1,0 +1,449 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-10-15 08:39:34.817635+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,,Worker 'KubernetesWorker a05e490e-9eac-4523-9166-1b04920e6d58' submitting flow run '5e0a1618-8095-4fec-bf60-32c6676cf689'
+2025-10-15 08:39:34.976831+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,,Creating Kubernetes job...
+2025-10-15 08:39:37.663685+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,,Completed submission of flow run '5e0a1618-8095-4fec-bf60-32c6676cf689'
+2025-10-15 08:39:45.052383+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,,Opening process...
+2025-10-15 08:39:47.711312+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,, > Running git_clone step...
+2025-10-15 08:39:53.435486+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,,Beginning flow run 'swinging-panda' for flow 'run-modint-flow'
+2025-10-15 08:39:53.626956+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-997e-733f-ba18-d4e1f399faa1,This job ID will be used - modint-prefect-swinging-panda-1
+2025-10-15 08:39:53.633143+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-997e-733f-ba18-d4e1f399faa1,Finished in state Completed()
+2025-10-15 08:39:54.170451+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a24-7cd5-8ec9-591bbc8052c3,Finished in state Completed()
+2025-10-15 08:39:54.229393+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a26-7ec7-b5a4-393f69f05b8f,{'scene_path': '/nas/COG/planet/Y2025/M04/D26/planet_20250426_060236_ssc10d3_0015/20250426_060236_ssc10d3_0015_pansharpened_clip_cog.tif'}
+2025-10-15 08:39:54.331174+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9ca2-7b7f-aa4e-451dc1404f9d,Finished in state Completed()
+2025-10-15 08:39:55.380224+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,Beginning subflow run 'glorious-swan' for flow 'run-namespaced-job'
+2025-10-15 08:40:03.564198+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"Downloading artifacts:   0%|          | 0/13 [00:00<?, ?it/s]2025/10/15 08:40:03 INFO mlflow.store.artifact.artifact_repo: The progress bar can be disabled by setting the environment variable MLFLOW_ENABLE_ARTIFACTS_PROGRESS_BAR to false
+"
+2025-10-15 08:40:37.412571+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"Loads checkpoint by local backend from path: /tmp/tmps834n3mw/checkpoint/model_final.pth
+"
+2025-10-15 08:40:37.414800+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"Downloading artifacts:   8%|▊         | 1/13 [00:00<00:00, 1961.79it/s]Downloading artifacts:  15%|█▌        | 2/13 [00:00<00:00, 2558.28it/s]Downloading artifacts:  23%|██▎       | 3/13 [00:00<00:00, 2933.08it/s]Downloading artifacts:  31%|███       | 4/13 [00:00<00:00, 3251.40it/s]Downloading artifacts:  38%|███▊      | 5/13 [00:00<00:00, 3506.36it/s]Downloading artifacts:  46%|████▌     | 6/13 [00:00<00:00, 3695.96it/s]Downloading artifacts:  54%|█████▍    | 7/13 [00:00<00:00, 97.70it/s]  Downloading artifacts:  62%|██████▏   | 8/13 [00:00<00:00, 93.79it/s]Downloading artifacts:  69%|██████▉   | 9/13 [00:00<00:00, 101.70it/s]Downloading artifacts:  77%|███████▋  | 10/13 [00:00<00:00, 108.38it/s]Downloading artifacts:  85%|████████▍ | 11/13 [00:00<00:00, 73.86it/s] Downloading artifacts:  85%|████████▍ | 11/13 [00:00<00:00, 73.86it/s]Downloading artifacts:  92%|█████████▏| 12/13 [00:00<00:00, 73.86it/s]Downloading artifacts: 100%|██████████| 13/13 [00:15<00:00, 73.86it/s]Downloading artifacts: 100%|██████████| 13/13 [00:15<00:00,  1.17s/it]
+"
+2025-10-15 08:40:38.506917+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"Making patches:   0%|          | 0/1 [00:00<?, ?it/s]Making patches: 100%|██████████| 1/1 [00:00<00:00, 12018.06it/s]
+"
+2025-10-15 08:40:40.552596+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"2025-10-15 08:40:40.544 | ERROR    | modint.runner.base_runner:inference:137 - An exception occurred:
+"
+2025-10-15 08:40:40.564546+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"Traceback (most recent call last):
+"
+2025-10-15 08:40:40.567113+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 121, in inference
+"
+2025-10-15 08:40:40.568718+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    result = self.predict(data)
+"
+2025-10-15 08:40:40.569539+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/torch/autograd/grad_mode.py"", line 28, in decorate_context
+"
+2025-10-15 08:40:40.570839+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return func(*args, **kwargs)
+"
+2025-10-15 08:40:40.572084+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/ardet/ardet/apis/det_runner.py"", line 99, in predict
+"
+2025-10-15 08:40:40.572995+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return self.model.test_step(batch)
+"
+2025-10-15 08:40:40.575542+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/model/base_model/base_model.py"", line 145, in test_step
+"
+2025-10-15 08:40:40.576660+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return self._run_forward(data, mode='predict')  # type: ignore
+"
+2025-10-15 08:40:40.577365+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/model/base_model/base_model.py"", line 361, in _run_forward
+"
+2025-10-15 08:40:40.578038+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    results = self(**data, mode=mode)
+"
+2025-10-15 08:40:40.578685+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl
+"
+2025-10-15 08:40:40.579361+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return forward_call(*input, **kwargs)
+"
+2025-10-15 08:40:40.580129+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/base.py"", line 94, in forward
+"
+2025-10-15 08:40:40.580837+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return self.predict(inputs, data_samples)
+"
+2025-10-15 08:40:40.581478+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/two_stage.py"", line 227, in predict
+"
+2025-10-15 08:40:40.582121+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    x = self.extract_feat(batch_inputs)
+"
+2025-10-15 08:40:40.582765+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/two_stage.py"", line 110, in extract_feat
+"
+2025-10-15 08:40:40.584391+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    x = self.backbone(batch_inputs)
+"
+2025-10-15 08:40:40.585592+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl
+"
+2025-10-15 08:40:40.586676+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return forward_call(*input, **kwargs)
+"
+2025-10-15 08:40:40.587779+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/ardet/ardet/models/backbones/vitdet.py"", line 423, in forward
+"
+2025-10-15 08:40:40.588824+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    x = blk(x)
+"
+2025-10-15 08:40:40.589907+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl
+"
+2025-10-15 08:40:40.590928+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return forward_call(*input, **kwargs)
+"
+2025-10-15 08:40:40.592047+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/ardet/ardet/models/backbones/vitdet.py"", line 303, in forward
+"
+2025-10-15 08:40:40.593077+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    x = self.attn(x)
+"
+2025-10-15 08:40:40.594141+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl
+"
+2025-10-15 08:40:40.595162+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return forward_call(*input, **kwargs)
+"
+2025-10-15 08:40:40.596243+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/ardet/ardet/models/backbones/vitdet.py"", line 209, in forward
+"
+2025-10-15 08:40:40.597252+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    attn = add_decomposed_rel_pos(attn, q, self.rel_pos_h,
+"
+2025-10-15 08:40:40.597922+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/ardet/ardet/models/backbones/vitdet.py"", line 166, in add_decomposed_rel_pos
+"
+2025-10-15 08:40:40.598534+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    attn.view(B, q_h, q_w, k_h, k_w) +  # noqa: W504
+"
+2025-10-15 08:40:40.599548+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"RuntimeError: CUDA out of memory. Tried to allocate 3.80 GiB (GPU 0; 10.76 GiB total capacity; 9.15 GiB already allocated; 201.38 MiB free; 9.22 GiB reserved in total by PyTorch)
+"
+2025-10-15 08:40:40.600609+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"
+"
+2025-10-15 08:40:40.601671+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"[32m2025-10-15T08:40:40.544149+0000[0m [31m[1mAn exception occurred:
+"
+2025-10-15 08:40:40.602689+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"Traceback (most recent call last):
+"
+2025-10-15 08:40:40.603786+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 121, in inference
+"
+2025-10-15 08:40:40.604827+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    result = self.predict(data)
+"
+2025-10-15 08:40:40.605461+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/torch/autograd/grad_mode.py"", line 28, in decorate_context
+"
+2025-10-15 08:40:40.606092+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return func(*args, **kwargs)
+"
+2025-10-15 08:40:40.606696+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/ardet/ardet/apis/det_runner.py"", line 99, in predict
+"
+2025-10-15 08:40:40.607302+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return self.model.test_step(batch)
+"
+2025-10-15 08:40:40.607915+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/model/base_model/base_model.py"", line 145, in test_step
+"
+2025-10-15 08:40:40.608532+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return self._run_forward(data, mode='predict')  # type: ignore
+"
+2025-10-15 08:40:40.609147+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/model/base_model/base_model.py"", line 361, in _run_forward
+"
+2025-10-15 08:40:40.609775+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    results = self(**data, mode=mode)
+"
+2025-10-15 08:40:40.610384+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl
+"
+2025-10-15 08:40:40.610969+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return forward_call(*input, **kwargs)
+"
+2025-10-15 08:40:40.611535+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/base.py"", line 94, in forward
+"
+2025-10-15 08:40:40.612127+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return self.predict(inputs, data_samples)
+"
+2025-10-15 08:40:40.612695+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/two_stage.py"", line 227, in predict
+"
+2025-10-15 08:40:40.613277+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    x = self.extract_feat(batch_inputs)
+"
+2025-10-15 08:40:40.613821+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/two_stage.py"", line 110, in extract_feat
+"
+2025-10-15 08:40:40.614388+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    x = self.backbone(batch_inputs)
+"
+2025-10-15 08:40:40.614935+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl
+"
+2025-10-15 08:40:40.615498+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return forward_call(*input, **kwargs)
+"
+2025-10-15 08:40:40.623578+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/ardet/ardet/models/backbones/vitdet.py"", line 423, in forward
+"
+2025-10-15 08:40:40.624689+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    x = blk(x)
+"
+2025-10-15 08:40:40.625337+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl
+"
+2025-10-15 08:40:40.626048+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return forward_call(*input, **kwargs)
+"
+2025-10-15 08:40:40.626819+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/ardet/ardet/models/backbones/vitdet.py"", line 303, in forward
+"
+2025-10-15 08:40:40.627577+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    x = self.attn(x)
+"
+2025-10-15 08:40:40.628347+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl
+"
+2025-10-15 08:40:40.629121+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    return forward_call(*input, **kwargs)
+"
+2025-10-15 08:40:40.629890+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/ardet/ardet/models/backbones/vitdet.py"", line 209, in forward
+"
+2025-10-15 08:40:40.630894+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    attn = add_decomposed_rel_pos(attn, q, self.rel_pos_h,
+"
+2025-10-15 08:40:40.632226+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"  File ""/ardet/ardet/models/backbones/vitdet.py"", line 166, in add_decomposed_rel_pos
+"
+2025-10-15 08:40:40.633440+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"    attn.view(B, q_h, q_w, k_h, k_w) +  # noqa: W504
+"
+2025-10-15 08:40:40.634536+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"RuntimeError: CUDA out of memory. Tried to allocate 3.80 GiB (GPU 0; 10.76 GiB total capacity; 9.15 GiB already allocated; 201.38 MiB free; 9.22 GiB reserved in total by PyTorch)
+"
+2025-10-15 08:40:40.635415+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"[0m
+"
+2025-10-15 08:40:47.760223+00:00,40,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"Task run failed with exception: RuntimeError(""Job 'modint-prefect-swinging-panda-1' failed due to [], check the Kubernetes pod logs for more information."") - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'modint-prefect-swinging-panda-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-15 08:40:47.777531+00:00,40,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a25-7c0e-b6ec-9b17610be0fd,"Finished in state Failed(""Task run encountered an exception RuntimeError: Job 'modint-prefect-swinging-panda-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-15 08:40:54.302672+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a26-7ec7-b5a4-393f69f05b8f,"{'msg': 'Traceback (most recent call last):\n  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 121, in inference\n    result = self.predict(data)\n  File ""/usr/local/lib/python3.8/site-packages/torch/autograd/grad_mode.py"", line 28, in decorate_context\n    return func(*args, **kwargs)\n  File ""/ardet/ardet/apis/det_runner.py"", line 99, in predict\n    return self.model.test_step(batch)\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/model/base_model/base_model.py"", line 145, in test_step\n    return self._run_forward(data, mode=\'predict\')  # type: ignore\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/model/base_model/base_model.py"", line 361, in _run_forward\n    results = self(**data, mode=mode)\n  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl\n    return forward_call(*input, **kwargs)\n  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/base.py"", line 94, in forward\n    return self.predict(inputs, data_samples)\n  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/two_stage.py"", line 227, in predict\n    x = self.extract_feat(batch_inputs)\n  File ""/usr/local/lib/python3.8/site-packages/mmdet/models/detectors/two_stage.py"", line 110, in extract_feat\n    x = self.backbone(batch_inputs)\n  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl\n    return forward_call(*input, **kwargs)\n  File ""/ardet/ardet/models/backbones/vitdet.py"", line 423, in forward\n    x = blk(x)\n  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl\n    return forward_call(*input, **kwargs)\n  File ""/ardet/ardet/models/backbones/vitdet.py"", line 303, in forward\n    x = self.attn(x)\n  File ""/usr/local/lib/python3.8/site-packages/torch/nn/modules/module.py"", line 1051, in _call_impl\n    return forward_call(*input, **kwargs)\n  File ""/ardet/ardet/models/backbones/vitdet.py"", line 209, in forward\n    attn = add_decomposed_rel_pos(attn, q, self.rel_pos_h,\n  File ""/ardet/ardet/models/backbones/vitdet.py"", line 166, in add_decomposed_rel_pos\n    attn.view(B, q_h, q_w, k_h, k_w) +  # noqa: W504\nRuntimeError: CUDA out of memory. Tried to allocate 3.80 GiB (GPU 0; 10.76 GiB total capacity; 9.15 GiB already allocated; 201.38 MiB free; 9.22 GiB reserved in total by PyTorch)\n', 'retriable': False}"
+2025-10-15 08:40:54.309565+00:00,40,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a26-7ec7-b5a4-393f69f05b8f,Inference was failed. See the logs for detail.
+2025-10-15 08:40:54.311621+00:00,40,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a26-7ec7-b5a4-393f69f05b8f,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-10-15 08:40:54.323806+00:00,40,5e0a1618-8095-4fec-bf60-32c6676cf689,0199e706-9a26-7ec7-b5a4-393f69f05b8f,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-10-15 08:40:54.333160+00:00,40,5e0a1618-8095-4fec-bf60-32c6676cf689,,"Encountered exception during execution: RuntimeError(""Job 'modint-prefect-swinging-panda-1' failed due to [], check the Kubernetes pod logs for more information."")
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 529, in run_modint_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'modint-prefect-swinging-panda-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-15 08:40:54.384444+00:00,20,5e0a1618-8095-4fec-bf60-32c6676cf689,,"Finished in state Failed(""Flow run encountered an exception: RuntimeError: Job 'modint-prefect-swinging-panda-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-15 08:40:54.387399+00:00,40,5e0a1618-8095-4fec-bf60-32c6676cf689,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 529, in run_modint_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'modint-prefect-swinging-panda-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-15 08:40:55.191080+00:00,40,5e0a1618-8095-4fec-bf60-32c6676cf689,,Process for flow run 'swinging-panda' exited with status code: 1

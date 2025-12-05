@@ -1,0 +1,1242 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-10-02 14:54:59.789574+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Worker 'KubernetesWorker a05e490e-9eac-4523-9166-1b04920e6d58' submitting flow run 'b482b04b-8728-447c-89b5-1467e848fb37'
+2025-10-02 14:54:59.978171+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Creating Kubernetes job...
+2025-10-02 14:55:01.236345+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Completed submission of flow run 'b482b04b-8728-447c-89b5-1467e848fb37'
+2025-10-02 14:55:07.854037+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Opening process...
+2025-10-02 14:55:10.630234+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,, > Running git_clone step...
+2025-10-02 14:55:16.296731+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Beginning flow run 'uppish-ferret' for flow 'run-bhc-change-detection-flow'
+2025-10-02 14:55:16.307291+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Using quad ID: L15-1735E-1269N
+2025-10-02 14:55:16.308842+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Input path: /nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif
+2025-10-02 14:55:16.310308+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Output directory: /nas/Projects/N-BHC24A/change_detection
+2025-10-02 14:55:16.441376+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9974-74fe-86e6-b1ae92979316,This job ID will be used - prefect-uppish-ferret-1
+2025-10-02 14:55:16.446949+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9974-74fe-86e6-b1ae92979316,Finished in state Completed()
+2025-10-02 14:55:16.731766+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-99e2-7673-8c66-163cdfe205a9,Searching with specific quad_id pattern: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_10_*--L15-1735E-1269N--building.gpkg
+2025-10-02 14:55:16.760148+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-99e2-7673-8c66-163cdfe205a9,Finished in state Completed()
+2025-10-02 14:55:16.877069+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9b20-790d-82e3-8bb834c96e56,Finished in state Completed()
+2025-10-02 14:55:16.989368+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9b93-7b13-8adf-72093cbb788c,Finished in state Completed()
+2025-10-02 14:55:16.998008+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Previous RGB VRT path: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_10_mosaic_cog_L15-1735E-1269N.vrt
+2025-10-02 14:55:16.999940+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Current RGB VRT path: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1735E-1269N.vrt
+2025-10-02 14:55:17.001707+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Previous mask path: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building.gpkg
+2025-10-02 14:55:17.003656+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,Current mask path: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1735E-1269N--building.gpkg
+2025-10-02 14:55:17.166277+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c8d-797e-b5b7-2863ddaf83e0,Finished in state Completed()
+2025-10-02 14:55:18.222501+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,Beginning subflow run 'cyber-dodo' for flow 'run-namespaced-job'
+2025-10-02 14:55:24.175526+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] All required packages seem to be installed correctly.
+"
+2025-10-02 14:55:24.177708+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] 로그 파일이 '/app/argos_temp_work/prefect-uppish-ferret-1/prefect-uppish-ferret-1-logs.txt'에 생성되었습니다.
+"
+2025-10-02 14:55:24.179752+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] Log file is being written to: /app/argos_temp_work/prefect-uppish-ferret-1/prefect-uppish-ferret-1-logs.txt
+"
+2025-10-02 14:55:24.181742+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] Temporary work directory: /app/argos_temp_work/prefect-uppish-ferret-1
+"
+2025-10-02 14:55:24.184397+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] Final output will be saved in: /nas/Projects/N-BHC24A/change_detection
+"
+2025-10-02 14:55:24.187375+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] --- Starting Analysis Pipeline ---
+"
+2025-10-02 14:55:24.189302+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] [JOB_ID] prefect-uppish-ferret-1 - Change detection analysis initiated
+"
+2025-10-02 14:55:24.191138+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] [JOB_ID] prefect-uppish-ferret-1 - Previous RGB: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_10_mosaic_cog_L15-1735E-1269N.vrt
+"
+2025-10-02 14:55:24.192788+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] [JOB_ID] prefect-uppish-ferret-1 - Current RGB: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1735E-1269N.vrt
+"
+2025-10-02 14:55:24.194625+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] [JOB_ID] prefect-uppish-ferret-1 - Previous Mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building.gpkg
+"
+2025-10-02 14:55:24.196442+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] [JOB_ID] prefect-uppish-ferret-1 - Current Mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1735E-1269N--building.gpkg
+"
+2025-10-02 14:55:24.198382+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] [JOB_ID] prefect-uppish-ferret-1 - Temp Work Directory: /app/argos_temp_work/prefect-uppish-ferret-1
+"
+2025-10-02 14:55:24.200071+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] [JOB_ID] prefect-uppish-ferret-1 - Final Output Directory: /nas/Projects/N-BHC24A/change_detection
+"
+2025-10-02 14:55:24.201754+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] [INFO] Converting prev GPKG to mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building.gpkg
+"
+2025-10-02 14:55:24.203517+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:22] --- Starting GPKG to Raster Mask Preprocessing for 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building.gpkg ---
+"
+2025-10-02 14:55:28.469665+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Creating output file that is 16384P x 16384L.
+"
+2025-10-02 14:55:28.471774+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Using internal nodata values (e.g. 0) for image /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_10_mosaic_cog_L15-1735E-1269N.vrt.
+"
+2025-10-02 14:55:28.473974+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Copying nodata values from source /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_10_mosaic_cog_L15-1735E-1269N.vrt to destination /tmp/vrt_temp/40000_global_monthly_2024_10_mosaic_cog_L15-1735E-1269N_L15-1735E-1269N.vrt.
+"
+2025-10-02 14:55:28.477389+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Processing /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_10_mosaic_cog_L15-1735E-1269N.vrt [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+"
+2025-10-02 14:55:29.661476+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:29] Successfully converted 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building.gpkg to 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building.tif
+"
+2025-10-02 14:55:29.664673+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:29] --- GPKG to Raster Mask Preprocessing for 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building.gpkg Complete ---
+"
+2025-10-02 14:55:29.666770+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:29] [INFO] Converting curr GPKG to mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1735E-1269N--building.gpkg
+"
+2025-10-02 14:55:29.669081+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:29] --- Starting GPKG to Raster Mask Preprocessing for 40000_global_monthly_2024_11_mosaic_cog--L15-1735E-1269N--building.gpkg ---
+"
+2025-10-02 14:55:35.150930+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Creating output file that is 16384P x 16384L.
+"
+2025-10-02 14:55:35.153641+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Using internal nodata values (e.g. 0) for image /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1735E-1269N.vrt.
+"
+2025-10-02 14:55:35.156720+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Copying nodata values from source /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1735E-1269N.vrt to destination /tmp/vrt_temp/40000_global_monthly_2024_11_mosaic_cog_L15-1735E-1269N_L15-1735E-1269N.vrt.
+"
+2025-10-02 14:55:35.159771+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Processing /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1735E-1269N.vrt [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+"
+2025-10-02 14:55:36.481783+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:36] Successfully converted 40000_global_monthly_2024_11_mosaic_cog--L15-1735E-1269N--building.gpkg to 40000_global_monthly_2024_11_mosaic_cog--L15-1735E-1269N--building.tif
+"
+2025-10-02 14:55:36.484368+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:36] --- GPKG to Raster Mask Preprocessing for 40000_global_monthly_2024_11_mosaic_cog--L15-1735E-1269N--building.gpkg Complete ---
+"
+2025-10-02 14:55:36.486434+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:36] [JOB_ID] prefect-uppish-ferret-1 - Processing target: building
+"
+2025-10-02 14:55:36.490651+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"/usr/local/lib/python3.12/site-packages/osgeo/gdal.py:314: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+"
+2025-10-02 14:55:36.493155+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"  warnings.warn(
+"
+2025-10-02 14:55:36.497506+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:36] Total tiles to process: 1024
+"
+2025-10-02 14:55:36.499450+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:55:36] [INFO] Running single quad analysis.
+"
+2025-10-02 14:57:03.241644+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Processing Single Quad:   0%|          | 0/1024 [00:00<?, ?it/s]Processing Single Quad:  68%|██████▊   | 696/1024 [01:00<00:28, 11.58it/s]Processing Single Quad:  68%|██████▊   | 696/1024 [01:20<00:28, 11.58it/s]Processing Single Quad: 100%|██████████| 1024/1024 [01:26<00:00, 11.81it/s]
+"
+2025-10-02 14:57:03.270570+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:03] Saved final report to /app/argos_temp_work/prefect-uppish-ferret-1/change_summary_report_building.csv
+"
+2025-10-02 14:57:03.277954+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:03] [INFO] Starting top 161 tiles detailed visualization.
+"
+2025-10-02 14:57:03.280445+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   0%|          | 0/161 [00:00<?, ?it/s][2025-10-02 23:57:03] [DEBUG] ==> Processing Rank 1/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2560, x=7168)
+"
+2025-10-02 14:57:06.846212+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:06] [SUCCESS] Generated panel for Rank 1: Rank0001_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2560x7168.jpg
+"
+2025-10-02 14:57:06.849453+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   1%|          | 1/161 [00:03<09:30,  3.57s/it][2025-10-02 23:57:06] [DEBUG] ==> Processing Rank 2/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=10240)
+"
+2025-10-02 14:57:10.046525+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:10] [SUCCESS] Generated panel for Rank 2: Rank0002_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x10240.jpg
+"
+2025-10-02 14:57:10.049355+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   1%|          | 2/161 [00:06<08:52,  3.35s/it][2025-10-02 23:57:10] [DEBUG] ==> Processing Rank 3/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=10752)
+"
+2025-10-02 14:57:13.185419+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:13] [SUCCESS] Generated panel for Rank 3: Rank0003_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x10752.jpg
+"
+2025-10-02 14:57:13.189983+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   2%|▏         | 3/161 [00:09<08:34,  3.25s/it][2025-10-02 23:57:13] [DEBUG] ==> Processing Rank 4/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=11264)
+"
+2025-10-02 14:57:16.124886+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:16] [SUCCESS] Generated panel for Rank 4: Rank0004_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x11264.jpg
+"
+2025-10-02 14:57:16.126949+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   2%|▏         | 4/161 [00:12<08:11,  3.13s/it][2025-10-02 23:57:16] [DEBUG] ==> Processing Rank 5/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=12288)
+"
+2025-10-02 14:57:19.210732+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:19] [SUCCESS] Generated panel for Rank 5: Rank0005_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x12288.jpg
+"
+2025-10-02 14:57:19.213675+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   3%|▎         | 5/161 [00:15<08:05,  3.11s/it][2025-10-02 23:57:19] [DEBUG] ==> Processing Rank 6/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=12800)
+"
+2025-10-02 14:57:22.241666+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:22] [SUCCESS] Generated panel for Rank 6: Rank0006_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x12800.jpg
+"
+2025-10-02 14:57:22.244055+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   4%|▎         | 6/161 [00:18<07:58,  3.09s/it][2025-10-02 23:57:22] [DEBUG] ==> Processing Rank 7/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=13312)
+"
+2025-10-02 14:57:25.129753+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:25] [SUCCESS] Generated panel for Rank 7: Rank0007_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x13312.jpg
+"
+2025-10-02 14:57:25.133537+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   4%|▍         | 7/161 [00:21<07:45,  3.02s/it][2025-10-02 23:57:25] [DEBUG] ==> Processing Rank 8/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=13824)
+"
+2025-10-02 14:57:28.150530+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:28] [SUCCESS] Generated panel for Rank 8: Rank0008_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x13824.jpg
+"
+2025-10-02 14:57:28.153901+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   5%|▍         | 8/161 [00:24<07:42,  3.02s/it][2025-10-02 23:57:28] [DEBUG] ==> Processing Rank 9/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=14336)
+"
+2025-10-02 14:57:31.135841+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:31] [SUCCESS] Generated panel for Rank 9: Rank0009_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x14336.jpg
+"
+2025-10-02 14:57:31.138043+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   6%|▌         | 9/161 [00:27<07:37,  3.01s/it][2025-10-02 23:57:31] [DEBUG] ==> Processing Rank 10/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=14848)
+"
+2025-10-02 14:57:34.532785+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:34] [SUCCESS] Generated panel for Rank 10: Rank0010_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x14848.jpg
+"
+2025-10-02 14:57:34.536175+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   6%|▌         | 10/161 [00:31<07:52,  3.13s/it][2025-10-02 23:57:34] [DEBUG] ==> Processing Rank 11/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=15360)
+"
+2025-10-02 14:57:37.716009+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:37] [SUCCESS] Generated panel for Rank 11: Rank0011_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x15360.jpg
+"
+2025-10-02 14:57:37.719300+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   7%|▋         | 11/161 [00:34<07:51,  3.15s/it][2025-10-02 23:57:37] [DEBUG] ==> Processing Rank 12/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=15872)
+"
+2025-10-02 14:57:40.855696+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:40] [SUCCESS] Generated panel for Rank 12: Rank0012_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x15872.jpg
+"
+2025-10-02 14:57:40.859038+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   7%|▋         | 12/161 [00:37<07:48,  3.14s/it][2025-10-02 23:57:40] [DEBUG] ==> Processing Rank 13/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=512, x=4096)
+"
+2025-10-02 14:57:43.930206+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:43] [SUCCESS] Generated panel for Rank 13: Rank0013_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y512x4096.jpg
+"
+2025-10-02 14:57:43.933697+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   8%|▊         | 13/161 [00:40<07:42,  3.12s/it][2025-10-02 23:57:43] [DEBUG] ==> Processing Rank 14/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=512, x=5120)
+"
+2025-10-02 14:57:46.832176+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:46] [SUCCESS] Generated panel for Rank 14: Rank0014_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y512x5120.jpg
+"
+2025-10-02 14:57:46.835549+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   9%|▊         | 14/161 [00:43<07:29,  3.06s/it][2025-10-02 23:57:46] [DEBUG] ==> Processing Rank 15/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=512, x=10240)
+"
+2025-10-02 14:57:49.882010+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:49] [SUCCESS] Generated panel for Rank 15: Rank0015_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y512x10240.jpg
+"
+2025-10-02 14:57:49.883543+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:   9%|▉         | 15/161 [00:46<07:25,  3.05s/it][2025-10-02 23:57:49] [DEBUG] ==> Processing Rank 16/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=512, x=10752)
+"
+2025-10-02 14:57:52.935095+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:52] [SUCCESS] Generated panel for Rank 16: Rank0016_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y512x10752.jpg
+"
+2025-10-02 14:57:52.938591+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  10%|▉         | 16/161 [00:49<07:22,  3.05s/it][2025-10-02 23:57:52] [DEBUG] ==> Processing Rank 17/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=512, x=11776)
+"
+2025-10-02 14:57:55.846369+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:55] [SUCCESS] Generated panel for Rank 17: Rank0017_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y512x11776.jpg
+"
+2025-10-02 14:57:55.849593+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  11%|█         | 17/161 [00:52<07:13,  3.01s/it][2025-10-02 23:57:55] [DEBUG] ==> Processing Rank 18/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=512, x=12288)
+"
+2025-10-02 14:57:58.930255+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:57:58] [SUCCESS] Generated panel for Rank 18: Rank0018_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y512x12288.jpg
+"
+2025-10-02 14:57:58.932614+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  11%|█         | 18/161 [00:55<07:13,  3.03s/it][2025-10-02 23:57:58] [DEBUG] ==> Processing Rank 19/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=512, x=12800)
+"
+2025-10-02 14:58:01.909049+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:01] [SUCCESS] Generated panel for Rank 19: Rank0019_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y512x12800.jpg
+"
+2025-10-02 14:58:01.911118+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  12%|█▏        | 19/161 [00:58<07:08,  3.02s/it][2025-10-02 23:58:01] [DEBUG] ==> Processing Rank 20/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=512, x=13312)
+"
+2025-10-02 14:58:04.894953+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:04] [SUCCESS] Generated panel for Rank 20: Rank0020_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y512x13312.jpg
+"
+2025-10-02 14:58:04.897374+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  12%|█▏        | 20/161 [01:01<07:04,  3.01s/it][2025-10-02 23:58:04] [DEBUG] ==> Processing Rank 21/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=512, x=13824)
+"
+2025-10-02 14:58:07.818804+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:07] [SUCCESS] Generated panel for Rank 21: Rank0021_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y512x13824.jpg
+"
+2025-10-02 14:58:07.822079+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  13%|█▎        | 21/161 [01:04<06:57,  2.98s/it][2025-10-02 23:58:07] [DEBUG] ==> Processing Rank 22/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=512, x=15360)
+"
+2025-10-02 14:58:10.877731+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:10] [SUCCESS] Generated panel for Rank 22: Rank0022_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y512x15360.jpg
+"
+2025-10-02 14:58:10.880764+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  14%|█▎        | 22/161 [01:07<06:57,  3.01s/it][2025-10-02 23:58:10] [DEBUG] ==> Processing Rank 23/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=512, x=15872)
+"
+2025-10-02 14:58:13.896953+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:13] [SUCCESS] Generated panel for Rank 23: Rank0023_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y512x15872.jpg
+"
+2025-10-02 14:58:13.900294+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  14%|█▍        | 23/161 [01:10<06:55,  3.01s/it][2025-10-02 23:58:13] [DEBUG] ==> Processing Rank 24/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1024, x=4608)
+"
+2025-10-02 14:58:16.937565+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:16] [SUCCESS] Generated panel for Rank 24: Rank0024_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1024x4608.jpg
+"
+2025-10-02 14:58:16.941198+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  15%|█▍        | 24/161 [01:13<06:53,  3.02s/it][2025-10-02 23:58:16] [DEBUG] ==> Processing Rank 25/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1024, x=5120)
+"
+2025-10-02 14:58:20.025703+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:20] [SUCCESS] Generated panel for Rank 25: Rank0025_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1024x5120.jpg
+"
+2025-10-02 14:58:20.029204+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  16%|█▌        | 25/161 [01:16<06:53,  3.04s/it][2025-10-02 23:58:20] [DEBUG] ==> Processing Rank 26/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1024, x=9728)
+"
+2025-10-02 14:58:23.015538+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:23] [SUCCESS] Generated panel for Rank 26: Rank0026_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1024x9728.jpg
+"
+2025-10-02 14:58:23.018820+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  16%|█▌        | 26/161 [01:19<06:48,  3.02s/it][2025-10-02 23:58:23] [DEBUG] ==> Processing Rank 27/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1024, x=10240)
+"
+2025-10-02 14:58:25.867345+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:25] [SUCCESS] Generated panel for Rank 27: Rank0027_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1024x10240.jpg
+"
+2025-10-02 14:58:25.869404+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  17%|█▋        | 27/161 [01:22<06:38,  2.97s/it][2025-10-02 23:58:25] [DEBUG] ==> Processing Rank 28/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1024, x=10752)
+"
+2025-10-02 14:58:28.958241+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:28] [SUCCESS] Generated panel for Rank 28: Rank0028_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1024x10752.jpg
+"
+2025-10-02 14:58:28.961123+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  17%|█▋        | 28/161 [01:25<06:40,  3.01s/it][2025-10-02 23:58:28] [DEBUG] ==> Processing Rank 29/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1024, x=12288)
+"
+2025-10-02 14:58:32.370662+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:32] [SUCCESS] Generated panel for Rank 29: Rank0029_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1024x12288.jpg
+"
+2025-10-02 14:58:32.374463+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  18%|█▊        | 29/161 [01:29<06:53,  3.13s/it][2025-10-02 23:58:32] [DEBUG] ==> Processing Rank 30/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1024, x=12800)
+"
+2025-10-02 14:58:35.639964+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:35] [SUCCESS] Generated panel for Rank 30: Rank0030_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1024x12800.jpg
+"
+2025-10-02 14:58:35.643362+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  19%|█▊        | 30/161 [01:32<06:55,  3.17s/it][2025-10-02 23:58:35] [DEBUG] ==> Processing Rank 31/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1024, x=13312)
+"
+2025-10-02 14:58:38.604281+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:38] [SUCCESS] Generated panel for Rank 31: Rank0031_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1024x13312.jpg
+"
+2025-10-02 14:58:38.607705+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  19%|█▉        | 31/161 [01:35<06:44,  3.11s/it][2025-10-02 23:58:38] [DEBUG] ==> Processing Rank 32/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1024, x=15360)
+"
+2025-10-02 14:58:41.869496+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:41] [SUCCESS] Generated panel for Rank 32: Rank0032_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1024x15360.jpg
+"
+2025-10-02 14:58:41.872856+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  20%|█▉        | 32/161 [01:38<06:47,  3.16s/it][2025-10-02 23:58:41] [DEBUG] ==> Processing Rank 33/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=0, x=512)
+"
+2025-10-02 14:58:45.016590+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:45] [SUCCESS] Generated panel for Rank 33: Rank0033_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y0x512.jpg
+"
+2025-10-02 14:58:45.019208+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  20%|██        | 33/161 [01:41<06:43,  3.15s/it][2025-10-02 23:58:45] [DEBUG] ==> Processing Rank 34/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1024, x=15872)
+"
+2025-10-02 14:58:47.949799+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:47] [SUCCESS] Generated panel for Rank 34: Rank0034_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1024x15872.jpg
+"
+2025-10-02 14:58:47.952180+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  21%|██        | 34/161 [01:44<06:32,  3.09s/it][2025-10-02 23:58:47] [DEBUG] ==> Processing Rank 35/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1536, x=11264)
+"
+2025-10-02 14:58:51.028814+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:51] [SUCCESS] Generated panel for Rank 35: Rank0035_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1536x11264.jpg
+"
+2025-10-02 14:58:51.032264+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  22%|██▏       | 35/161 [01:47<06:28,  3.08s/it][2025-10-02 23:58:51] [DEBUG] ==> Processing Rank 36/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1536, x=12288)
+"
+2025-10-02 14:58:54.058244+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:54] [SUCCESS] Generated panel for Rank 36: Rank0036_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1536x12288.jpg
+"
+2025-10-02 14:58:54.060648+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  22%|██▏       | 36/161 [01:50<06:23,  3.07s/it][2025-10-02 23:58:54] [DEBUG] ==> Processing Rank 37/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1536, x=11776)
+"
+2025-10-02 14:58:57.002876+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:58:57] [SUCCESS] Generated panel for Rank 37: Rank0037_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1536x11776.jpg
+"
+2025-10-02 14:58:57.004961+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  23%|██▎       | 37/161 [01:53<06:15,  3.03s/it][2025-10-02 23:58:57] [DEBUG] ==> Processing Rank 38/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1536, x=13312)
+"
+2025-10-02 14:59:00.036363+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:00] [SUCCESS] Generated panel for Rank 38: Rank0038_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1536x13312.jpg
+"
+2025-10-02 14:59:00.039651+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  24%|██▎       | 38/161 [01:56<06:12,  3.03s/it][2025-10-02 23:59:00] [DEBUG] ==> Processing Rank 39/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1536, x=13824)
+"
+2025-10-02 14:59:03.037720+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:03] [SUCCESS] Generated panel for Rank 39: Rank0039_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1536x13824.jpg
+"
+2025-10-02 14:59:03.041056+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  24%|██▍       | 39/161 [01:59<06:08,  3.02s/it][2025-10-02 23:59:03] [DEBUG] ==> Processing Rank 40/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1536, x=15360)
+"
+2025-10-02 14:59:05.905354+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:05] [SUCCESS] Generated panel for Rank 40: Rank0040_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1536x15360.jpg
+"
+2025-10-02 14:59:05.907886+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  25%|██▍       | 40/161 [02:02<06:00,  2.98s/it][2025-10-02 23:59:05] [DEBUG] ==> Processing Rank 41/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1536, x=12800)
+"
+2025-10-02 14:59:08.912481+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:08] [SUCCESS] Generated panel for Rank 41: Rank0041_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1536x12800.jpg
+"
+2025-10-02 14:59:08.914809+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  25%|██▌       | 41/161 [02:05<05:58,  2.99s/it][2025-10-02 23:59:08] [DEBUG] ==> Processing Rank 42/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=1536, x=15872)
+"
+2025-10-02 14:59:11.948035+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:11] [SUCCESS] Generated panel for Rank 42: Rank0042_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y1536x15872.jpg
+"
+2025-10-02 14:59:11.951301+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  26%|██▌       | 42/161 [02:08<05:57,  3.00s/it][2025-10-02 23:59:11] [DEBUG] ==> Processing Rank 43/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2048, x=8192)
+"
+2025-10-02 14:59:14.990633+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:14] [SUCCESS] Generated panel for Rank 43: Rank0043_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2048x8192.jpg
+"
+2025-10-02 14:59:14.993268+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  27%|██▋       | 43/161 [02:11<05:55,  3.01s/it][2025-10-02 23:59:14] [DEBUG] ==> Processing Rank 44/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2048, x=9216)
+"
+2025-10-02 14:59:17.896567+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:17] [SUCCESS] Generated panel for Rank 44: Rank0044_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2048x9216.jpg
+"
+2025-10-02 14:59:17.900192+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  27%|██▋       | 44/161 [02:14<05:48,  2.98s/it][2025-10-02 23:59:17] [DEBUG] ==> Processing Rank 45/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2048, x=8704)
+"
+2025-10-02 14:59:20.939066+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:20] [SUCCESS] Generated panel for Rank 45: Rank0045_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2048x8704.jpg
+"
+2025-10-02 14:59:20.941414+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  28%|██▊       | 45/161 [02:17<05:47,  3.00s/it][2025-10-02 23:59:20] [DEBUG] ==> Processing Rank 46/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2048, x=12288)
+"
+2025-10-02 14:59:23.952605+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:23] [SUCCESS] Generated panel for Rank 46: Rank0046_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2048x12288.jpg
+"
+2025-10-02 14:59:23.954970+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  29%|██▊       | 46/161 [02:20<05:45,  3.00s/it][2025-10-02 23:59:23] [DEBUG] ==> Processing Rank 47/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2048, x=14336)
+"
+2025-10-02 14:59:26.838287+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:26] [SUCCESS] Generated panel for Rank 47: Rank0047_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2048x14336.jpg
+"
+2025-10-02 14:59:26.840518+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  29%|██▉       | 47/161 [02:23<05:38,  2.97s/it][2025-10-02 23:59:26] [DEBUG] ==> Processing Rank 48/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2560, x=7680)
+"
+2025-10-02 14:59:29.917655+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:29] [SUCCESS] Generated panel for Rank 48: Rank0048_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2560x7680.jpg
+"
+2025-10-02 14:59:29.920552+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  30%|██▉       | 48/161 [02:26<05:39,  3.00s/it][2025-10-02 23:59:29] [DEBUG] ==> Processing Rank 49/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2560, x=8192)
+"
+2025-10-02 14:59:32.909493+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:32] [SUCCESS] Generated panel for Rank 49: Rank0049_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2560x8192.jpg
+"
+2025-10-02 14:59:32.911776+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  30%|███       | 49/161 [02:29<05:35,  3.00s/it][2025-10-02 23:59:32] [DEBUG] ==> Processing Rank 50/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2560, x=8704)
+"
+2025-10-02 14:59:35.790863+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:35] [SUCCESS] Generated panel for Rank 50: Rank0050_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2560x8704.jpg
+"
+2025-10-02 14:59:35.793536+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  31%|███       | 50/161 [02:32<05:28,  2.96s/it][2025-10-02 23:59:35] [DEBUG] ==> Processing Rank 51/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2560, x=11264)
+"
+2025-10-02 14:59:38.796490+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:38] [SUCCESS] Generated panel for Rank 51: Rank0051_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2560x11264.jpg
+"
+2025-10-02 14:59:38.799677+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  32%|███▏      | 51/161 [02:35<05:27,  2.98s/it][2025-10-02 23:59:38] [DEBUG] ==> Processing Rank 52/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2560, x=11776)
+"
+2025-10-02 14:59:41.772313+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:41] [SUCCESS] Generated panel for Rank 52: Rank0052_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2560x11776.jpg
+"
+2025-10-02 14:59:41.775572+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  32%|███▏      | 52/161 [02:38<05:24,  2.98s/it][2025-10-02 23:59:41] [DEBUG] ==> Processing Rank 53/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2560, x=12288)
+"
+2025-10-02 14:59:44.827360+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:44] [SUCCESS] Generated panel for Rank 53: Rank0053_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2560x12288.jpg
+"
+2025-10-02 14:59:44.830656+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  33%|███▎      | 53/161 [02:41<05:23,  3.00s/it][2025-10-02 23:59:44] [DEBUG] ==> Processing Rank 54/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=2560, x=14848)
+"
+2025-10-02 14:59:47.736166+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:47] [SUCCESS] Generated panel for Rank 54: Rank0054_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y2560x14848.jpg
+"
+2025-10-02 14:59:47.739443+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  34%|███▎      | 54/161 [02:44<05:18,  2.97s/it][2025-10-02 23:59:47] [DEBUG] ==> Processing Rank 55/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=3072, x=7168)
+"
+2025-10-02 14:59:51.035039+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:51] [SUCCESS] Generated panel for Rank 55: Rank0055_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y3072x7168.jpg
+"
+2025-10-02 14:59:51.038389+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  34%|███▍      | 55/161 [02:47<05:25,  3.07s/it][2025-10-02 23:59:51] [DEBUG] ==> Processing Rank 56/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=3072, x=7680)
+"
+2025-10-02 14:59:54.477833+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:54] [SUCCESS] Generated panel for Rank 56: Rank0056_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y3072x7680.jpg
+"
+2025-10-02 14:59:54.481476+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  35%|███▍      | 56/161 [02:51<05:34,  3.18s/it][2025-10-02 23:59:54] [DEBUG] ==> Processing Rank 57/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=3072, x=8192)
+"
+2025-10-02 14:59:57.446601+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-02 23:59:57] [SUCCESS] Generated panel for Rank 57: Rank0057_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y3072x8192.jpg
+"
+2025-10-02 14:59:57.449940+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  35%|███▌      | 57/161 [02:54<05:24,  3.12s/it][2025-10-02 23:59:57] [DEBUG] ==> Processing Rank 58/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=3072, x=11776)
+"
+2025-10-02 15:00:00.565817+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:00] [SUCCESS] Generated panel for Rank 58: Rank0058_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y3072x11776.jpg
+"
+2025-10-02 15:00:00.568689+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  36%|███▌      | 58/161 [02:57<05:21,  3.12s/it][2025-10-03 00:00:00] [DEBUG] ==> Processing Rank 59/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=3072, x=12288)
+"
+2025-10-02 15:00:03.866819+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:03] [SUCCESS] Generated panel for Rank 59: Rank0059_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y3072x12288.jpg
+"
+2025-10-02 15:00:03.869567+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  37%|███▋      | 59/161 [03:00<05:23,  3.17s/it][2025-10-03 00:00:03] [DEBUG] ==> Processing Rank 60/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=3072, x=12800)
+"
+2025-10-02 15:00:06.828841+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:06] [SUCCESS] Generated panel for Rank 60: Rank0060_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y3072x12800.jpg
+"
+2025-10-02 15:00:06.831555+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  37%|███▋      | 60/161 [03:03<05:14,  3.11s/it][2025-10-03 00:00:06] [DEBUG] ==> Processing Rank 61/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=3072, x=13312)
+"
+2025-10-02 15:00:09.953501+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:09] [SUCCESS] Generated panel for Rank 61: Rank0061_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y3072x13312.jpg
+"
+2025-10-02 15:00:09.957488+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  38%|███▊      | 61/161 [03:06<05:11,  3.11s/it][2025-10-03 00:00:09] [DEBUG] ==> Processing Rank 62/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=3584, x=7168)
+"
+2025-10-02 15:00:13.358935+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:13] [SUCCESS] Generated panel for Rank 62: Rank0062_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y3584x7168.jpg
+"
+2025-10-02 15:00:13.362259+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  39%|███▊      | 62/161 [03:10<05:16,  3.20s/it][2025-10-03 00:00:13] [DEBUG] ==> Processing Rank 63/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=3584, x=12288)
+"
+2025-10-02 15:00:16.456310+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:16] [SUCCESS] Generated panel for Rank 63: Rank0063_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y3584x12288.jpg
+"
+2025-10-02 15:00:16.458959+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  39%|███▉      | 63/161 [03:13<05:10,  3.17s/it][2025-10-03 00:00:16] [DEBUG] ==> Processing Rank 64/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=3584, x=12800)
+"
+2025-10-02 15:00:19.401179+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:19] [SUCCESS] Generated panel for Rank 64: Rank0064_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y3584x12800.jpg
+"
+2025-10-02 15:00:19.404529+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  40%|███▉      | 64/161 [03:16<05:00,  3.10s/it][2025-10-03 00:00:19] [DEBUG] ==> Processing Rank 65/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=3584, x=13312)
+"
+2025-10-02 15:00:22.489569+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:22] [SUCCESS] Generated panel for Rank 65: Rank0065_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y3584x13312.jpg
+"
+2025-10-02 15:00:22.492909+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  40%|████      | 65/161 [03:19<04:57,  3.10s/it][2025-10-03 00:00:22] [DEBUG] ==> Processing Rank 66/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4096, x=12288)
+"
+2025-10-02 15:00:25.499115+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:25] [SUCCESS] Generated panel for Rank 66: Rank0066_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4096x12288.jpg
+"
+2025-10-02 15:00:25.502532+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  41%|████      | 66/161 [03:22<04:51,  3.07s/it][2025-10-03 00:00:25] [DEBUG] ==> Processing Rank 67/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4096, x=12800)
+"
+2025-10-02 15:00:28.433594+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:28] [SUCCESS] Generated panel for Rank 67: Rank0067_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4096x12800.jpg
+"
+2025-10-02 15:00:28.436604+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  42%|████▏     | 67/161 [03:25<04:44,  3.03s/it][2025-10-03 00:00:28] [DEBUG] ==> Processing Rank 68/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4096, x=13312)
+"
+2025-10-02 15:00:31.447080+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:31] [SUCCESS] Generated panel for Rank 68: Rank0068_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4096x13312.jpg
+"
+2025-10-02 15:00:31.449428+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  42%|████▏     | 68/161 [03:28<04:41,  3.03s/it][2025-10-03 00:00:31] [DEBUG] ==> Processing Rank 69/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4096, x=14336)
+"
+2025-10-02 15:00:34.421635+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:34] [SUCCESS] Generated panel for Rank 69: Rank0069_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4096x14336.jpg
+"
+2025-10-02 15:00:34.423969+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  43%|████▎     | 69/161 [03:31<04:36,  3.01s/it][2025-10-03 00:00:34] [DEBUG] ==> Processing Rank 70/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4096, x=14848)
+"
+2025-10-02 15:00:37.317426+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:37] [SUCCESS] Generated panel for Rank 70: Rank0070_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4096x14848.jpg
+"
+2025-10-02 15:00:37.319767+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  43%|████▎     | 70/161 [03:34<04:30,  2.98s/it][2025-10-03 00:00:37] [DEBUG] ==> Processing Rank 71/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4096, x=15360)
+"
+2025-10-02 15:00:40.341576+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:40] [SUCCESS] Generated panel for Rank 71: Rank0071_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4096x15360.jpg
+"
+2025-10-02 15:00:40.343931+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  44%|████▍     | 71/161 [03:37<04:29,  2.99s/it][2025-10-03 00:00:40] [DEBUG] ==> Processing Rank 72/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4096, x=15872)
+"
+2025-10-02 15:00:43.565910+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:43] [SUCCESS] Generated panel for Rank 72: Rank0072_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4096x15872.jpg
+"
+2025-10-02 15:00:43.569395+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  45%|████▍     | 72/161 [03:40<04:32,  3.06s/it][2025-10-03 00:00:43] [DEBUG] ==> Processing Rank 73/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4608, x=12288)
+"
+2025-10-02 15:00:46.516458+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:46] [SUCCESS] Generated panel for Rank 73: Rank0073_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4608x12288.jpg
+"
+2025-10-02 15:00:46.519421+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  45%|████▌     | 73/161 [03:43<04:26,  3.03s/it][2025-10-03 00:00:46] [DEBUG] ==> Processing Rank 74/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4608, x=13312)
+"
+2025-10-02 15:00:49.709271+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:49] [SUCCESS] Generated panel for Rank 74: Rank0074_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4608x13312.jpg
+"
+2025-10-02 15:00:49.712772+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  46%|████▌     | 74/161 [03:46<04:27,  3.08s/it][2025-10-03 00:00:49] [DEBUG] ==> Processing Rank 75/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4608, x=13824)
+"
+2025-10-02 15:00:52.810850+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:52] [SUCCESS] Generated panel for Rank 75: Rank0075_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4608x13824.jpg
+"
+2025-10-02 15:00:52.815589+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  47%|████▋     | 75/161 [03:49<04:25,  3.08s/it][2025-10-03 00:00:52] [DEBUG] ==> Processing Rank 76/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4608, x=14336)
+"
+2025-10-02 15:00:55.959177+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:55] [SUCCESS] Generated panel for Rank 76: Rank0076_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4608x14336.jpg
+"
+2025-10-02 15:00:55.962779+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  47%|████▋     | 76/161 [03:52<04:23,  3.10s/it][2025-10-03 00:00:55] [DEBUG] ==> Processing Rank 77/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4608, x=14848)
+"
+2025-10-02 15:00:58.980086+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:00:58] [SUCCESS] Generated panel for Rank 77: Rank0077_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4608x14848.jpg
+"
+2025-10-02 15:00:58.983139+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  48%|████▊     | 77/161 [03:55<04:18,  3.08s/it][2025-10-03 00:00:58] [DEBUG] ==> Processing Rank 78/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4608, x=15360)
+"
+2025-10-02 15:01:02.036643+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:02] [SUCCESS] Generated panel for Rank 78: Rank0078_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4608x15360.jpg
+"
+2025-10-02 15:01:02.040235+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  48%|████▊     | 78/161 [03:58<04:14,  3.07s/it][2025-10-03 00:01:02] [DEBUG] ==> Processing Rank 79/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=4608, x=15872)
+"
+2025-10-02 15:01:05.062246+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:05] [SUCCESS] Generated panel for Rank 79: Rank0079_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y4608x15872.jpg
+"
+2025-10-02 15:01:05.065933+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  49%|████▉     | 79/161 [04:01<04:10,  3.06s/it][2025-10-03 00:01:05] [DEBUG] ==> Processing Rank 80/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5120, x=7168)
+"
+2025-10-02 15:01:08.002194+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:08] [SUCCESS] Generated panel for Rank 80: Rank0080_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5120x7168.jpg
+"
+2025-10-02 15:01:08.005854+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  50%|████▉     | 80/161 [04:04<04:04,  3.02s/it][2025-10-03 00:01:08] [DEBUG] ==> Processing Rank 81/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5120, x=7680)
+"
+2025-10-02 15:01:11.070511+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:11] [SUCCESS] Generated panel for Rank 81: Rank0081_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5120x7680.jpg
+"
+2025-10-02 15:01:11.073075+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  50%|█████     | 81/161 [04:07<04:02,  3.04s/it][2025-10-03 00:01:11] [DEBUG] ==> Processing Rank 82/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5120, x=12288)
+"
+2025-10-02 15:01:14.058138+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:14] [SUCCESS] Generated panel for Rank 82: Rank0082_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5120x12288.jpg
+"
+2025-10-02 15:01:14.060498+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  51%|█████     | 82/161 [04:10<03:58,  3.02s/it][2025-10-03 00:01:14] [DEBUG] ==> Processing Rank 83/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5120, x=12800)
+"
+2025-10-02 15:01:16.961354+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:16] [SUCCESS] Generated panel for Rank 83: Rank0083_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5120x12800.jpg
+"
+2025-10-02 15:01:16.963486+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  52%|█████▏    | 83/161 [04:13<03:52,  2.98s/it][2025-10-03 00:01:16] [DEBUG] ==> Processing Rank 84/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5120, x=13312)
+"
+2025-10-02 15:01:20.143858+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:20] [SUCCESS] Generated panel for Rank 84: Rank0084_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5120x13312.jpg
+"
+2025-10-02 15:01:20.146158+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  52%|█████▏    | 84/161 [04:16<03:54,  3.05s/it][2025-10-03 00:01:20] [DEBUG] ==> Processing Rank 85/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5120, x=13824)
+"
+2025-10-02 15:01:23.195521+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:23] [SUCCESS] Generated panel for Rank 85: Rank0085_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5120x13824.jpg
+"
+2025-10-02 15:01:23.198931+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  53%|█████▎    | 85/161 [04:19<03:51,  3.05s/it][2025-10-03 00:01:23] [DEBUG] ==> Processing Rank 86/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5120, x=14336)
+"
+2025-10-02 15:01:26.231341+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:26] [SUCCESS] Generated panel for Rank 86: Rank0086_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5120x14336.jpg
+"
+2025-10-02 15:01:26.234685+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  53%|█████▎    | 86/161 [04:22<03:48,  3.04s/it][2025-10-03 00:01:26] [DEBUG] ==> Processing Rank 87/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5120, x=14848)
+"
+2025-10-02 15:01:29.141216+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:29] [SUCCESS] Generated panel for Rank 87: Rank0087_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5120x14848.jpg
+"
+2025-10-02 15:01:29.145195+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  54%|█████▍    | 87/161 [04:25<03:42,  3.00s/it][2025-10-03 00:01:29] [DEBUG] ==> Processing Rank 88/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5120, x=15360)
+"
+2025-10-02 15:01:32.185146+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:32] [SUCCESS] Generated panel for Rank 88: Rank0088_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5120x15360.jpg
+"
+2025-10-02 15:01:32.187527+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  55%|█████▍    | 88/161 [04:28<03:40,  3.02s/it][2025-10-03 00:01:32] [DEBUG] ==> Processing Rank 89/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5120, x=15872)
+"
+2025-10-02 15:01:35.170499+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:35] [SUCCESS] Generated panel for Rank 89: Rank0089_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5120x15872.jpg
+"
+2025-10-02 15:01:35.173850+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  55%|█████▌    | 89/161 [04:31<03:36,  3.01s/it][2025-10-03 00:01:35] [DEBUG] ==> Processing Rank 90/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5632, x=6656)
+"
+2025-10-02 15:01:38.120182+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:38] [SUCCESS] Generated panel for Rank 90: Rank0090_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5632x6656.jpg
+"
+2025-10-02 15:01:38.123483+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  56%|█████▌    | 90/161 [04:34<03:32,  2.99s/it][2025-10-03 00:01:38] [DEBUG] ==> Processing Rank 91/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5632, x=7168)
+"
+2025-10-02 15:01:41.173537+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:41] [SUCCESS] Generated panel for Rank 91: Rank0091_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5632x7168.jpg
+"
+2025-10-02 15:01:41.176877+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  57%|█████▋    | 91/161 [04:37<03:30,  3.01s/it][2025-10-03 00:01:41] [DEBUG] ==> Processing Rank 92/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5632, x=12800)
+"
+2025-10-02 15:01:44.133776+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:44] [SUCCESS] Generated panel for Rank 92: Rank0092_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5632x12800.jpg
+"
+2025-10-02 15:01:44.136140+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  57%|█████▋    | 92/161 [04:40<03:26,  2.99s/it][2025-10-03 00:01:44] [DEBUG] ==> Processing Rank 93/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5632, x=13312)
+"
+2025-10-02 15:01:47.063248+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:47] [SUCCESS] Generated panel for Rank 93: Rank0093_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5632x13312.jpg
+"
+2025-10-02 15:01:47.065579+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  58%|█████▊    | 93/161 [04:43<03:22,  2.97s/it][2025-10-03 00:01:47] [DEBUG] ==> Processing Rank 94/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5632, x=13824)
+"
+2025-10-02 15:01:50.091059+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:50] [SUCCESS] Generated panel for Rank 94: Rank0094_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5632x13824.jpg
+"
+2025-10-02 15:01:50.093408+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  58%|█████▊    | 94/161 [04:46<03:20,  2.99s/it][2025-10-03 00:01:50] [DEBUG] ==> Processing Rank 95/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5632, x=14336)
+"
+2025-10-02 15:01:53.067655+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:53] [SUCCESS] Generated panel for Rank 95: Rank0095_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5632x14336.jpg
+"
+2025-10-02 15:01:53.071031+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  59%|█████▉    | 95/161 [04:49<03:17,  2.99s/it][2025-10-03 00:01:53] [DEBUG] ==> Processing Rank 96/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5632, x=14848)
+"
+2025-10-02 15:01:56.082686+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:56] [SUCCESS] Generated panel for Rank 96: Rank0096_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5632x14848.jpg
+"
+2025-10-02 15:01:56.085060+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  60%|█████▉    | 96/161 [04:52<03:14,  3.00s/it][2025-10-03 00:01:56] [DEBUG] ==> Processing Rank 97/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5632, x=15360)
+"
+2025-10-02 15:01:58.975033+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:01:58] [SUCCESS] Generated panel for Rank 97: Rank0097_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5632x15360.jpg
+"
+2025-10-02 15:01:58.978315+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  60%|██████    | 97/161 [04:55<03:09,  2.96s/it][2025-10-03 00:01:58] [DEBUG] ==> Processing Rank 98/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=5632, x=15872)
+"
+2025-10-02 15:02:02.048829+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:02] [SUCCESS] Generated panel for Rank 98: Rank0098_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y5632x15872.jpg
+"
+2025-10-02 15:02:02.051172+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  61%|██████    | 98/161 [04:58<03:08,  3.00s/it][2025-10-03 00:02:02] [DEBUG] ==> Processing Rank 99/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6144, x=7168)
+"
+2025-10-02 15:02:05.044406+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:05] [SUCCESS] Generated panel for Rank 99: Rank0099_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6144x7168.jpg
+"
+2025-10-02 15:02:05.044406+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:05] [SUCCESS] Generated panel for Rank 99: Rank0099_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6144x7168.jpg
+"
+2025-10-02 15:02:05.047236+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  61%|██████▏   | 99/161 [05:01<03:05,  3.00s/it][2025-10-03 00:02:05] [DEBUG] ==> Processing Rank 100/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6144, x=7680)
+"
+2025-10-02 15:02:05.047236+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  61%|██████▏   | 99/161 [05:01<03:05,  3.00s/it][2025-10-03 00:02:05] [DEBUG] ==> Processing Rank 100/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6144, x=7680)
+"
+2025-10-02 15:02:07.947048+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:07] [SUCCESS] Generated panel for Rank 100: Rank0100_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6144x7680.jpg
+"
+2025-10-02 15:02:07.949061+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  62%|██████▏   | 100/161 [05:04<03:01,  2.97s/it][2025-10-03 00:02:07] [DEBUG] ==> Processing Rank 101/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6144, x=12800)
+"
+2025-10-02 15:02:11.011881+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:11] [SUCCESS] Generated panel for Rank 101: Rank0101_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6144x12800.jpg
+"
+2025-10-02 15:02:11.014237+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  63%|██████▎   | 101/161 [05:07<02:59,  3.00s/it][2025-10-03 00:02:11] [DEBUG] ==> Processing Rank 102/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6144, x=13312)
+"
+2025-10-02 15:02:13.991724+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:13] [SUCCESS] Generated panel for Rank 102: Rank0102_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6144x13312.jpg
+"
+2025-10-02 15:02:13.995253+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  63%|██████▎   | 102/161 [05:10<02:56,  2.99s/it][2025-10-03 00:02:13] [DEBUG] ==> Processing Rank 103/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6144, x=13824)
+"
+2025-10-02 15:02:16.872406+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:16] [SUCCESS] Generated panel for Rank 103: Rank0103_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6144x13824.jpg
+"
+2025-10-02 15:02:16.874715+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  64%|██████▍   | 103/161 [05:13<02:51,  2.96s/it][2025-10-03 00:02:16] [DEBUG] ==> Processing Rank 104/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6144, x=14336)
+"
+2025-10-02 15:02:19.885264+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:19] [SUCCESS] Generated panel for Rank 104: Rank0104_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6144x14336.jpg
+"
+2025-10-02 15:02:19.887592+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  65%|██████▍   | 104/161 [05:16<02:49,  2.97s/it][2025-10-03 00:02:19] [DEBUG] ==> Processing Rank 105/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6144, x=14848)
+"
+2025-10-02 15:02:22.843895+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:22] [SUCCESS] Generated panel for Rank 105: Rank0105_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6144x14848.jpg
+"
+2025-10-02 15:02:22.846152+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  65%|██████▌   | 105/161 [05:19<02:46,  2.97s/it][2025-10-03 00:02:22] [DEBUG] ==> Processing Rank 106/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6144, x=15360)
+"
+2025-10-02 15:02:25.703736+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:25] [SUCCESS] Generated panel for Rank 106: Rank0106_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6144x15360.jpg
+"
+2025-10-02 15:02:25.706690+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  66%|██████▌   | 106/161 [05:22<02:41,  2.94s/it][2025-10-03 00:02:25] [DEBUG] ==> Processing Rank 107/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6144, x=15872)
+"
+2025-10-02 15:02:28.693749+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:28] [SUCCESS] Generated panel for Rank 107: Rank0107_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6144x15872.jpg
+"
+2025-10-02 15:02:28.696096+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  66%|██████▋   | 107/161 [05:25<02:39,  2.95s/it][2025-10-03 00:02:28] [DEBUG] ==> Processing Rank 108/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6656, x=12800)
+"
+2025-10-02 15:02:31.627785+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:31] [SUCCESS] Generated panel for Rank 108: Rank0108_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6656x12800.jpg
+"
+2025-10-02 15:02:31.630152+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  67%|██████▋   | 108/161 [05:28<02:36,  2.95s/it][2025-10-03 00:02:31] [DEBUG] ==> Processing Rank 109/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6656, x=13312)
+"
+2025-10-02 15:02:34.566121+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:34] [SUCCESS] Generated panel for Rank 109: Rank0109_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6656x13312.jpg
+"
+2025-10-02 15:02:34.568459+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  68%|██████▊   | 109/161 [05:31<02:33,  2.94s/it][2025-10-03 00:02:34] [DEBUG] ==> Processing Rank 110/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6656, x=14336)
+"
+2025-10-02 15:02:37.430118+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:37] [SUCCESS] Generated panel for Rank 110: Rank0110_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6656x14336.jpg
+"
+2025-10-02 15:02:37.432509+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  68%|██████▊   | 110/161 [05:34<02:28,  2.92s/it][2025-10-03 00:02:37] [DEBUG] ==> Processing Rank 111/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6656, x=14848)
+"
+2025-10-02 15:02:40.451920+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:40] [SUCCESS] Generated panel for Rank 111: Rank0111_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6656x14848.jpg
+"
+2025-10-02 15:02:40.455228+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  69%|██████▉   | 111/161 [05:37<02:27,  2.95s/it][2025-10-03 00:02:40] [DEBUG] ==> Processing Rank 112/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6656, x=15360)
+"
+2025-10-02 15:02:43.457584+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:43] [SUCCESS] Generated panel for Rank 112: Rank0112_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6656x15360.jpg
+"
+2025-10-02 15:02:43.459968+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  70%|██████▉   | 112/161 [05:40<02:25,  2.97s/it][2025-10-03 00:02:43] [DEBUG] ==> Processing Rank 113/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=6656, x=15872)
+"
+2025-10-02 15:02:46.336409+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:46] [SUCCESS] Generated panel for Rank 113: Rank0113_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y6656x15872.jpg
+"
+2025-10-02 15:02:46.339345+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  70%|███████   | 113/161 [05:43<02:21,  2.94s/it][2025-10-03 00:02:46] [DEBUG] ==> Processing Rank 114/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7168, x=9728)
+"
+2025-10-02 15:02:49.419785+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:49] [SUCCESS] Generated panel for Rank 114: Rank0114_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7168x9728.jpg
+"
+2025-10-02 15:02:49.422012+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  71%|███████   | 114/161 [05:46<02:20,  2.98s/it][2025-10-03 00:02:49] [DEBUG] ==> Processing Rank 115/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7168, x=13312)
+"
+2025-10-02 15:02:52.386854+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:52] [SUCCESS] Generated panel for Rank 115: Rank0115_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7168x13312.jpg
+"
+2025-10-02 15:02:52.389185+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  71%|███████▏  | 115/161 [05:49<02:16,  2.98s/it][2025-10-03 00:02:52] [DEBUG] ==> Processing Rank 116/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7168, x=13824)
+"
+2025-10-02 15:02:55.341169+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:55] [SUCCESS] Generated panel for Rank 116: Rank0116_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7168x13824.jpg
+"
+2025-10-02 15:02:55.343494+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  72%|███████▏  | 116/161 [05:52<02:13,  2.97s/it][2025-10-03 00:02:55] [DEBUG] ==> Processing Rank 117/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7168, x=14336)
+"
+2025-10-02 15:02:58.445330+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:02:58] [SUCCESS] Generated panel for Rank 117: Rank0117_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7168x14336.jpg
+"
+2025-10-02 15:02:58.447641+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  73%|███████▎  | 117/161 [05:55<02:12,  3.01s/it][2025-10-03 00:02:58] [DEBUG] ==> Processing Rank 118/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7168, x=14848)
+"
+2025-10-02 15:03:01.482515+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:01] [SUCCESS] Generated panel for Rank 118: Rank0118_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7168x14848.jpg
+"
+2025-10-02 15:03:01.485822+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  73%|███████▎  | 118/161 [05:58<02:09,  3.02s/it][2025-10-03 00:03:01] [DEBUG] ==> Processing Rank 119/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7168, x=15360)
+"
+2025-10-02 15:03:04.517632+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:04] [SUCCESS] Generated panel for Rank 119: Rank0119_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7168x15360.jpg
+"
+2025-10-02 15:03:04.519966+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  74%|███████▍  | 119/161 [06:01<02:07,  3.02s/it][2025-10-03 00:03:04] [DEBUG] ==> Processing Rank 120/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7168, x=15872)
+"
+2025-10-02 15:03:07.467136+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:07] [SUCCESS] Generated panel for Rank 120: Rank0120_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7168x15872.jpg
+"
+2025-10-02 15:03:07.470446+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  75%|███████▍  | 120/161 [06:04<02:03,  3.00s/it][2025-10-03 00:03:07] [DEBUG] ==> Processing Rank 121/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7680, x=7168)
+"
+2025-10-02 15:03:10.531869+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:10] [SUCCESS] Generated panel for Rank 121: Rank0121_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7680x7168.jpg
+"
+2025-10-02 15:03:10.534189+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  75%|███████▌  | 121/161 [06:07<02:00,  3.02s/it][2025-10-03 00:03:10] [DEBUG] ==> Processing Rank 122/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7680, x=13312)
+"
+2025-10-02 15:03:13.533988+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:13] [SUCCESS] Generated panel for Rank 122: Rank0122_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7680x13312.jpg
+"
+2025-10-02 15:03:13.536346+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  76%|███████▌  | 122/161 [06:10<01:57,  3.01s/it][2025-10-03 00:03:13] [DEBUG] ==> Processing Rank 123/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7680, x=13824)
+"
+2025-10-02 15:03:16.441656+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:16] [SUCCESS] Generated panel for Rank 123: Rank0123_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7680x13824.jpg
+"
+2025-10-02 15:03:16.444080+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  76%|███████▋  | 123/161 [06:13<01:53,  2.98s/it][2025-10-03 00:03:16] [DEBUG] ==> Processing Rank 124/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7680, x=14336)
+"
+2025-10-02 15:03:19.466372+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:19] [SUCCESS] Generated panel for Rank 124: Rank0124_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7680x14336.jpg
+"
+2025-10-02 15:03:19.468694+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  77%|███████▋  | 124/161 [06:16<01:50,  3.00s/it][2025-10-03 00:03:19] [DEBUG] ==> Processing Rank 125/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=7680, x=14848)
+"
+2025-10-02 15:03:22.443308+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:22] [SUCCESS] Generated panel for Rank 125: Rank0125_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y7680x14848.jpg
+"
+2025-10-02 15:03:22.446609+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  78%|███████▊  | 125/161 [06:19<01:47,  2.99s/it][2025-10-03 00:03:22] [DEBUG] ==> Processing Rank 126/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=8192, x=13312)
+"
+2025-10-02 15:03:25.311733+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:25] [SUCCESS] Generated panel for Rank 126: Rank0126_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y8192x13312.jpg
+"
+2025-10-02 15:03:25.315242+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  78%|███████▊  | 126/161 [06:22<01:43,  2.95s/it][2025-10-03 00:03:25] [DEBUG] ==> Processing Rank 127/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=8192, x=13824)
+"
+2025-10-02 15:03:28.366653+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:28] [SUCCESS] Generated panel for Rank 127: Rank0127_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y8192x13824.jpg
+"
+2025-10-02 15:03:28.368984+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  79%|███████▉  | 127/161 [06:25<01:41,  2.98s/it][2025-10-03 00:03:28] [DEBUG] ==> Processing Rank 128/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=8192, x=14336)
+"
+2025-10-02 15:03:31.338312+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:31] [SUCCESS] Generated panel for Rank 128: Rank0128_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y8192x14336.jpg
+"
+2025-10-02 15:03:31.341675+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  80%|███████▉  | 128/161 [06:28<01:38,  2.98s/it][2025-10-03 00:03:31] [DEBUG] ==> Processing Rank 129/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=8192, x=14848)
+"
+2025-10-02 15:03:34.277933+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:34] [SUCCESS] Generated panel for Rank 129: Rank0129_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y8192x14848.jpg
+"
+2025-10-02 15:03:34.280301+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  80%|████████  | 129/161 [06:30<01:34,  2.97s/it][2025-10-03 00:03:34] [DEBUG] ==> Processing Rank 130/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=8704, x=7168)
+"
+2025-10-02 15:03:37.338725+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:37] [SUCCESS] Generated panel for Rank 130: Rank0130_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y8704x7168.jpg
+"
+2025-10-02 15:03:37.342098+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  81%|████████  | 130/161 [06:34<01:32,  3.00s/it][2025-10-03 00:03:37] [DEBUG] ==> Processing Rank 131/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=8704, x=9728)
+"
+2025-10-02 15:03:40.392353+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:40] [SUCCESS] Generated panel for Rank 131: Rank0131_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y8704x9728.jpg
+"
+2025-10-02 15:03:40.394659+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  81%|████████▏ | 131/161 [06:37<01:30,  3.01s/it][2025-10-03 00:03:40] [DEBUG] ==> Processing Rank 132/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=8704, x=10240)
+"
+2025-10-02 15:03:43.392336+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:43] [SUCCESS] Generated panel for Rank 132: Rank0132_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y8704x10240.jpg
+"
+2025-10-02 15:03:43.395578+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  82%|████████▏ | 132/161 [06:40<01:27,  3.01s/it][2025-10-03 00:03:43] [DEBUG] ==> Processing Rank 133/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=8704, x=14336)
+"
+2025-10-02 15:03:46.288201+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:46] [SUCCESS] Generated panel for Rank 133: Rank0133_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y8704x14336.jpg
+"
+2025-10-02 15:03:46.290516+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  83%|████████▎ | 133/161 [06:43<01:23,  2.98s/it][2025-10-03 00:03:46] [DEBUG] ==> Processing Rank 134/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=8704, x=14848)
+"
+2025-10-02 15:03:49.318663+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:49] [SUCCESS] Generated panel for Rank 134: Rank0134_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y8704x14848.jpg
+"
+2025-10-02 15:03:49.321040+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  83%|████████▎ | 134/161 [06:46<01:20,  2.99s/it][2025-10-03 00:03:49] [DEBUG] ==> Processing Rank 135/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=9216, x=10240)
+"
+2025-10-02 15:03:52.308895+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:52] [SUCCESS] Generated panel for Rank 135: Rank0135_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y9216x10240.jpg
+"
+2025-10-02 15:03:52.312587+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  84%|████████▍ | 135/161 [06:49<01:17,  2.99s/it][2025-10-03 00:03:52] [DEBUG] ==> Processing Rank 136/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=9728, x=10240)
+"
+2025-10-02 15:03:55.190801+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:55] [SUCCESS] Generated panel for Rank 136: Rank0136_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y9728x10240.jpg
+"
+2025-10-02 15:03:55.193183+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  84%|████████▍ | 136/161 [06:51<01:13,  2.96s/it][2025-10-03 00:03:55] [DEBUG] ==> Processing Rank 137/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=9728, x=11264)
+"
+2025-10-02 15:03:58.219572+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:03:58] [SUCCESS] Generated panel for Rank 137: Rank0137_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y9728x11264.jpg
+"
+2025-10-02 15:03:58.221819+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  85%|████████▌ | 137/161 [06:54<01:11,  2.98s/it][2025-10-03 00:03:58] [DEBUG] ==> Processing Rank 138/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=9728, x=14336)
+"
+2025-10-02 15:04:01.207968+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:01] [SUCCESS] Generated panel for Rank 138: Rank0138_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y9728x14336.jpg
+"
+2025-10-02 15:04:01.211140+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  86%|████████▌ | 138/161 [06:57<01:08,  2.98s/it][2025-10-03 00:04:01] [DEBUG] ==> Processing Rank 139/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=9728, x=14848)
+"
+2025-10-02 15:04:04.165925+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:04] [SUCCESS] Generated panel for Rank 139: Rank0139_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y9728x14848.jpg
+"
+2025-10-02 15:04:04.169831+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  86%|████████▋ | 139/161 [07:00<01:05,  2.97s/it][2025-10-03 00:04:04] [DEBUG] ==> Processing Rank 140/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=10240, x=10752)
+"
+2025-10-02 15:04:07.240324+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:07] [SUCCESS] Generated panel for Rank 140: Rank0140_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y10240x10752.jpg
+"
+2025-10-02 15:04:07.243620+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  87%|████████▋ | 140/161 [07:03<01:03,  3.00s/it][2025-10-03 00:04:07] [DEBUG] ==> Processing Rank 141/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=10240, x=14336)
+"
+2025-10-02 15:04:10.253009+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:10] [SUCCESS] Generated panel for Rank 141: Rank0141_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y10240x14336.jpg
+"
+2025-10-02 15:04:10.255131+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  88%|████████▊ | 141/161 [07:06<01:00,  3.01s/it][2025-10-03 00:04:10] [DEBUG] ==> Processing Rank 142/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=10240, x=14848)
+"
+2025-10-02 15:04:13.293390+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:13] [SUCCESS] Generated panel for Rank 142: Rank0142_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y10240x14848.jpg
+"
+2025-10-02 15:04:13.295708+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  88%|████████▊ | 142/161 [07:10<00:57,  3.02s/it][2025-10-03 00:04:13] [DEBUG] ==> Processing Rank 143/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=10240, x=15360)
+"
+2025-10-02 15:04:16.165267+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:16] [SUCCESS] Generated panel for Rank 143: Rank0143_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y10240x15360.jpg
+"
+2025-10-02 15:04:16.168563+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  89%|████████▉ | 143/161 [07:12<00:53,  2.97s/it][2025-10-03 00:04:16] [DEBUG] ==> Processing Rank 144/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=10240, x=15872)
+"
+2025-10-02 15:04:19.193816+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:19] [SUCCESS] Generated panel for Rank 144: Rank0144_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y10240x15872.jpg
+"
+2025-10-02 15:04:19.196167+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  89%|████████▉ | 144/161 [07:15<00:50,  2.99s/it][2025-10-03 00:04:19] [DEBUG] ==> Processing Rank 145/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=10752, x=10752)
+"
+2025-10-02 15:04:22.208441+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:22] [SUCCESS] Generated panel for Rank 145: Rank0145_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y10752x10752.jpg
+"
+2025-10-02 15:04:22.211583+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  90%|█████████ | 145/161 [07:18<00:47,  3.00s/it][2025-10-03 00:04:22] [DEBUG] ==> Processing Rank 146/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=10752, x=12800)
+"
+2025-10-02 15:04:25.078280+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:25] [SUCCESS] Generated panel for Rank 146: Rank0146_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y10752x12800.jpg
+"
+2025-10-02 15:04:25.081473+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  91%|█████████ | 146/161 [07:21<00:44,  2.96s/it][2025-10-03 00:04:25] [DEBUG] ==> Processing Rank 147/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=10752, x=15360)
+"
+2025-10-02 15:04:28.077288+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:28] [SUCCESS] Generated panel for Rank 147: Rank0147_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y10752x15360.jpg
+"
+2025-10-02 15:04:28.079588+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  91%|█████████▏| 147/161 [07:24<00:41,  2.97s/it][2025-10-03 00:04:28] [DEBUG] ==> Processing Rank 148/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=10752, x=15872)
+"
+2025-10-02 15:04:31.278977+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:31] [SUCCESS] Generated panel for Rank 148: Rank0148_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y10752x15872.jpg
+"
+2025-10-02 15:04:31.282361+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  92%|█████████▏| 148/161 [07:27<00:39,  3.04s/it][2025-10-03 00:04:31] [DEBUG] ==> Processing Rank 149/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=11264, x=11264)
+"
+2025-10-02 15:04:34.288700+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:34] [SUCCESS] Generated panel for Rank 149: Rank0149_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y11264x11264.jpg
+"
+2025-10-02 15:04:34.291858+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  93%|█████████▎| 149/161 [07:31<00:36,  3.03s/it][2025-10-03 00:04:34] [DEBUG] ==> Processing Rank 150/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=11264, x=15360)
+"
+2025-10-02 15:04:37.419770+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:37] [SUCCESS] Generated panel for Rank 150: Rank0150_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y11264x15360.jpg
+"
+2025-10-02 15:04:37.423420+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  93%|█████████▎| 150/161 [07:34<00:33,  3.06s/it][2025-10-03 00:04:37] [DEBUG] ==> Processing Rank 151/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=11264, x=15872)
+"
+2025-10-02 15:04:40.565043+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:40] [SUCCESS] Generated panel for Rank 151: Rank0151_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y11264x15872.jpg
+"
+2025-10-02 15:04:40.568503+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  94%|█████████▍| 151/161 [07:37<00:30,  3.09s/it][2025-10-03 00:04:40] [DEBUG] ==> Processing Rank 152/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=11776, x=14336)
+"
+2025-10-02 15:04:43.602990+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:43] [SUCCESS] Generated panel for Rank 152: Rank0152_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y11776x14336.jpg
+"
+2025-10-02 15:04:43.605351+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  94%|█████████▍| 152/161 [07:40<00:27,  3.07s/it][2025-10-03 00:04:43] [DEBUG] ==> Processing Rank 153/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=11776, x=14848)
+"
+2025-10-02 15:04:46.551363+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:46] [SUCCESS] Generated panel for Rank 153: Rank0153_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y11776x14848.jpg
+"
+2025-10-02 15:04:46.553569+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  95%|█████████▌| 153/161 [07:43<00:24,  3.03s/it][2025-10-03 00:04:46] [DEBUG] ==> Processing Rank 154/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=11776, x=15360)
+"
+2025-10-02 15:04:49.667299+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:49] [SUCCESS] Generated panel for Rank 154: Rank0154_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y11776x15360.jpg
+"
+2025-10-02 15:04:49.670114+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  96%|█████████▌| 154/161 [07:46<00:21,  3.06s/it][2025-10-03 00:04:49] [DEBUG] ==> Processing Rank 155/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=12288, x=11264)
+"
+2025-10-02 15:04:52.716952+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:52] [SUCCESS] Generated panel for Rank 155: Rank0155_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y12288x11264.jpg
+"
+2025-10-02 15:04:52.719291+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  96%|█████████▋| 155/161 [07:49<00:18,  3.06s/it][2025-10-03 00:04:52] [DEBUG] ==> Processing Rank 156/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=12288, x=12288)
+"
+2025-10-02 15:04:55.716854+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:55] [SUCCESS] Generated panel for Rank 156: Rank0156_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y12288x12288.jpg
+"
+2025-10-02 15:04:55.720203+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  97%|█████████▋| 156/161 [07:52<00:15,  3.04s/it][2025-10-03 00:04:55] [DEBUG] ==> Processing Rank 157/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=12288, x=14336)
+"
+2025-10-02 15:04:58.866103+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:04:58] [SUCCESS] Generated panel for Rank 157: Rank0157_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y12288x14336.jpg
+"
+2025-10-02 15:04:58.868470+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  98%|█████████▊| 157/161 [07:55<00:12,  3.07s/it][2025-10-03 00:04:58] [DEBUG] ==> Processing Rank 158/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=12800, x=13824)
+"
+2025-10-02 15:05:01.913627+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:01] [SUCCESS] Generated panel for Rank 158: Rank0158_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y12800x13824.jpg
+"
+2025-10-02 15:05:01.915974+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  98%|█████████▊| 158/161 [07:58<00:09,  3.06s/it][2025-10-03 00:05:01] [DEBUG] ==> Processing Rank 159/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=12800, x=14336)
+"
+2025-10-02 15:05:04.785384+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:04] [SUCCESS] Generated panel for Rank 159: Rank0159_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y12800x14336.jpg
+"
+2025-10-02 15:05:04.787727+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  99%|█████████▉| 159/161 [08:01<00:06,  3.01s/it][2025-10-03 00:05:04] [DEBUG] ==> Processing Rank 160/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=13312, x=12288)
+"
+2025-10-02 15:05:07.891430+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:07] [SUCCESS] Generated panel for Rank 160: Rank0160_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y13312x12288.jpg
+"
+2025-10-02 15:05:07.894760+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles:  99%|█████████▉| 160/161 [08:04<00:03,  3.04s/it][2025-10-03 00:05:07] [DEBUG] ==> Processing Rank 161/161: Tile 40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building (y=13824, x=11776)
+"
+2025-10-02 15:05:10.964793+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:10] [SUCCESS] Generated panel for Rank 161: Rank0161_2024_10-2024_11_40000_global_monthly_2024_10_mosaic_cog--L15-1735E-1269N--building_y13824x11776.jpg
+"
+2025-10-02 15:05:10.967113+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Visualizing Top Tiles: 100%|██████████| 161/161 [08:07<00:00,  3.05s/it]Visualizing Top Tiles: 100%|██████████| 161/161 [08:07<00:00,  3.03s/it]
+"
+2025-10-02 15:05:10.969204+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:10] [INFO] Visualization Summary: Attempted=161, Succeeded=161, Failed/Skipped=0
+"
+2025-10-02 15:05:10.972293+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:10] [DEBUG] Found 1 increase TIFs, 0 decrease TIFs, 161 retained TIFs for building
+"
+2025-10-02 15:05:12.439876+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] [SUCCESS] Created unified GPKG: /app/argos_temp_work/prefect-uppish-ferret-1/202411--L15-1735E-1269N--building.gpkg
+"
+2025-10-02 15:05:12.442138+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] [SUCCESS] Contains 1 ADDED + 0 REMOVED + 3377 RETAINED polygons
+"
+2025-10-02 15:05:12.445327+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] Single quad analysis processed.
+"
+2025-10-02 15:05:12.475544+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] [JOB_ID] prefect-uppish-ferret-1 - Final GPKG copied to: /nas/Projects/N-BHC24A/change_detection/202411--L15-1735E-1269N--building.gpkg
+"
+2025-10-02 15:05:12.477553+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] 
+"
+2025-10-02 15:05:12.479388+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"============================================================
+"
+2025-10-02 15:05:12.481521+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] --- Analysis Complete ---
+"
+2025-10-02 15:05:12.483527+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] [JOB_ID] prefect-uppish-ferret-1 - Analysis completed successfully
+"
+2025-10-02 15:05:12.485365+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] Total pipeline execution time: 9.83 minutes.
+"
+2025-10-02 15:05:12.487198+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] 
+"
+2025-10-02 15:05:12.493337+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"============================================================
+"
+2025-10-02 15:05:12.494840+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] --- Configuration Used for This Run ---
+"
+2025-10-02 15:05:12.496451+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] 
+"
+2025-10-02 15:05:12.498340+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"# [Default Config]
+"
+2025-10-02 15:05:12.500222+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] {'max_cmp_tasks': 2, 'pixel_area': 1.4264, 'tile_size': 512}
+"
+2025-10-02 15:05:12.501884+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] 
+"
+2025-10-02 15:05:12.503759+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"# [Final Config for: ROAD]
+"
+2025-10-02 15:05:12.505624+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] {'BRIGHTNESS_AB_DELTA_THRESH': 15,
+"
+2025-10-02 15:05:12.507016+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BRIGHTNESS_L_DELTA_LOWER': 5,
+"
+2025-10-02 15:05:12.508612+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BRIGHTNESS_L_DELTA_UPPER': 30,
+"
+2025-10-02 15:05:12.510181+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_A_LOWER': 2,
+"
+2025-10-02 15:05:12.511530+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_A_UPPER': 25,
+"
+2025-10-02 15:05:12.513156+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_B_LOWER': 5,
+"
+2025-10-02 15:05:12.514699+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_B_UPPER': 40,
+"
+2025-10-02 15:05:12.516058+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_DELTA_E_THRESH': 45,
+"
+2025-10-02 15:05:12.517444+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_L_LOWER': 20,
+"
+2025-10-02 15:05:12.518811+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_L_UPPER': 85,
+"
+2025-10-02 15:05:12.519921+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GRAY_AB_THRESH': 25,
+"
+2025-10-02 15:05:12.521260+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GRAY_DELTA_E_THRESH': 50,
+"
+2025-10-02 15:05:12.522619+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GREEN_A_THRESH': -10,
+"
+2025-10-02 15:05:12.523760+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GREEN_B_LOWER': 10,
+"
+2025-10-02 15:05:12.525203+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GREEN_B_UPPER': 100,
+"
+2025-10-02 15:05:12.526537+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GREEN_DELTA_E_THRESH': 30,
+"
+2025-10-02 15:05:12.527518+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'LOW_SAT_THRESH': 25,
+"
+2025-10-02 15:05:12.528359+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'PERCEPTUAL_CHROMA_THRESH': 20,
+"
+2025-10-02 15:05:12.529153+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SHADOW_AB_DELTA_THRESH': 10,
+"
+2025-10-02 15:05:12.530365+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SHADOW_L_DELTA_THRESH': 50,
+"
+2025-10-02 15:05:12.531597+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SNOW_AB_THRESH': 30,
+"
+2025-10-02 15:05:12.532624+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SNOW_L_THRESH': 190,
+"
+2025-10-02 15:05:12.534254+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SNOW_TILE_THRESH': 0.5,
+"
+2025-10-02 15:05:12.535235+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SOIL_AB_DELTA_THRESH': 10,
+"
+2025-10-02 15:05:12.536669+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SOIL_DRYING_L_DELTA_LOWER': 10,
+"
+2025-10-02 15:05:12.537849+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SOIL_DRYING_L_DELTA_UPPER': 40,
+"
+2025-10-02 15:05:12.538777+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SOIL_L_DELTA_LOWER': -40,
+"
+2025-10-02 15:05:12.540461+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SOIL_L_DELTA_UPPER': -10,
+"
+2025-10-02 15:05:12.541424+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'TINT_BLUE_FACTOR': 1.15,
+"
+2025-10-02 15:05:12.542600+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'TINT_FILTER_ENABLED': True,
+"
+2025-10-02 15:05:12.543690+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'TINT_GREEN_FACTOR': 1.15,
+"
+2025-10-02 15:05:12.544892+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'TINT_MIN_MEAN_VALUE': 30,
+"
+2025-10-02 15:05:12.545998+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'TINT_RED_FACTOR': 1.15,
+"
+2025-10-02 15:05:12.547138+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'WATER_H_RANGE': (90, 140),
+"
+2025-10-02 15:05:12.548212+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'WATER_RGB_INDEX_THRESH': 0.05,
+"
+2025-10-02 15:05:12.549102+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'WATER_S_MIN_THRESH': 60,
+"
+2025-10-02 15:05:12.550230+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'WATER_TEXTURE_THRESH': 10.0,
+"
+2025-10-02 15:05:12.551244+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'WATER_TILE_THRESH': 0.5,
+"
+2025-10-02 15:05:12.552504+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'max_cmp_tasks': 2,
+"
+2025-10-02 15:05:12.554650+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'min_final_pixel_size': 50,
+"
+2025-10-02 15:05:12.556462+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'min_pixel_size': 140,
+"
+2025-10-02 15:05:12.558526+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'morphological_kernel_size': 7,
+"
+2025-10-02 15:05:12.560570+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'pixel_area': 1.4264,
+"
+2025-10-02 15:05:12.562314+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'structure_threshold': 0.8,
+"
+2025-10-02 15:05:12.564421+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'tile_size': 512}
+"
+2025-10-02 15:05:12.566400+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] 
+"
+2025-10-02 15:05:12.567958+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"# [Final Config for: BUILDING]
+"
+2025-10-02 15:05:12.569769+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] {'BRIGHTNESS_AB_DELTA_THRESH': 15,
+"
+2025-10-02 15:05:12.571534+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BRIGHTNESS_L_DELTA_LOWER': 5,
+"
+2025-10-02 15:05:12.573079+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BRIGHTNESS_L_DELTA_UPPER': 30,
+"
+2025-10-02 15:05:12.574861+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_A_LOWER': 2,
+"
+2025-10-02 15:05:12.576563+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_A_UPPER': 25,
+"
+2025-10-02 15:05:12.577788+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_B_LOWER': 5,
+"
+2025-10-02 15:05:12.579660+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_B_UPPER': 40,
+"
+2025-10-02 15:05:12.581163+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_DELTA_E_THRESH': 45,
+"
+2025-10-02 15:05:12.582876+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_L_LOWER': 20,
+"
+2025-10-02 15:05:12.625266+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'BROWN_L_UPPER': 85,
+"
+2025-10-02 15:05:12.627376+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GRAY_AB_THRESH': 25,
+"
+2025-10-02 15:05:12.629191+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GRAY_DELTA_E_THRESH': 50,
+"
+2025-10-02 15:05:12.631269+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GREEN_A_THRESH': -10,
+"
+2025-10-02 15:05:12.633311+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GREEN_B_LOWER': 10,
+"
+2025-10-02 15:05:12.635056+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GREEN_B_UPPER': 100,
+"
+2025-10-02 15:05:12.637021+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'GREEN_DELTA_E_THRESH': 30,
+"
+2025-10-02 15:05:12.638652+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'LOW_SAT_THRESH': 25,
+"
+2025-10-02 15:05:12.640188+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'PERCEPTUAL_CHROMA_THRESH': 20,
+"
+2025-10-02 15:05:12.642036+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SHADOW_AB_DELTA_THRESH': 10,
+"
+2025-10-02 15:05:12.643662+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SHADOW_L_DELTA_THRESH': 50,
+"
+2025-10-02 15:05:12.645184+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SNOW_AB_THRESH': 20,
+"
+2025-10-02 15:05:12.646897+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SNOW_L_THRESH': 220,
+"
+2025-10-02 15:05:12.648438+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SNOW_TILE_THRESH': 0.5,
+"
+2025-10-02 15:05:12.649674+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SOIL_AB_DELTA_THRESH': 10,
+"
+2025-10-02 15:05:12.651169+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SOIL_DRYING_L_DELTA_LOWER': 10,
+"
+2025-10-02 15:05:12.652705+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SOIL_DRYING_L_DELTA_UPPER': 40,
+"
+2025-10-02 15:05:12.653972+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SOIL_L_DELTA_LOWER': -40,
+"
+2025-10-02 15:05:12.655411+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'SOIL_L_DELTA_UPPER': -10,
+"
+2025-10-02 15:05:12.656859+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'TINT_BLUE_FACTOR': 1.15,
+"
+2025-10-02 15:05:12.658162+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'TINT_FILTER_ENABLED': True,
+"
+2025-10-02 15:05:12.659430+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'TINT_GREEN_FACTOR': 1.15,
+"
+2025-10-02 15:05:12.660558+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'TINT_MIN_MEAN_VALUE': 30,
+"
+2025-10-02 15:05:12.661910+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'TINT_RED_FACTOR': 1.15,
+"
+2025-10-02 15:05:12.663232+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'WATER_H_RANGE': (90, 140),
+"
+2025-10-02 15:05:12.664355+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'WATER_RGB_INDEX_THRESH': 0.05,
+"
+2025-10-02 15:05:12.665717+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'WATER_S_MIN_THRESH': 60,
+"
+2025-10-02 15:05:12.666950+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'WATER_TEXTURE_THRESH': 10.0,
+"
+2025-10-02 15:05:12.667955+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'WATER_TILE_THRESH': 0.5,
+"
+2025-10-02 15:05:12.669192+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'max_cmp_tasks': 2,
+"
+2025-10-02 15:05:12.670401+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'min_final_pixel_size': 50,
+"
+2025-10-02 15:05:12.671361+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'min_pixel_size': 100,
+"
+2025-10-02 15:05:12.672174+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'morphological_kernel_size': 5,
+"
+2025-10-02 15:05:12.673323+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'pixel_area': 1.4264,
+"
+2025-10-02 15:05:12.674425+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'structure_threshold': 0.75,
+"
+2025-10-02 15:05:12.675614+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c," 'tile_size': 512}
+"
+2025-10-02 15:05:12.676701+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] ============================================================
+"
+2025-10-02 15:05:12.677788+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] Total pipeline execution time: 9.83 minutes.
+"
+2025-10-02 15:05:12.678506+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"[2025-10-03 00:05:12] Check log file for full details and configuration.
+"
+2025-10-02 15:05:18.880303+00:00,40,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Task run failed with exception: RuntimeError(""Job 'prefect-uppish-ferret-1' failed due to [], check the Kubernetes pod logs for more information."") - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-uppish-ferret-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-02 15:05:18.911458+00:00,40,b482b04b-8728-447c-89b5-1467e848fb37,0199a56b-9c0d-7eb1-9ce3-cf4f8cf7714c,"Finished in state Failed(""Task run encountered an exception RuntimeError: Job 'prefect-uppish-ferret-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-02 15:05:18.916758+00:00,40,b482b04b-8728-447c-89b5-1467e848fb37,,"Encountered exception during execution: RuntimeError(""Job 'prefect-uppish-ferret-1' failed due to [], check the Kubernetes pod logs for more information."")
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 805, in run_bhc_change_detection_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-uppish-ferret-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-02 15:05:18.991668+00:00,20,b482b04b-8728-447c-89b5-1467e848fb37,,"Finished in state Failed(""Flow run encountered an exception: RuntimeError: Job 'prefect-uppish-ferret-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-02 15:05:18.994730+00:00,40,b482b04b-8728-447c-89b5-1467e848fb37,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 805, in run_bhc_change_detection_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-uppish-ferret-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-02 15:05:19.777383+00:00,40,b482b04b-8728-447c-89b5-1467e848fb37,,Process for flow run 'uppish-ferret' exited with status code: 1

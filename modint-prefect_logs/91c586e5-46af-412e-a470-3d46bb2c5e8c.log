@@ -1,0 +1,48 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-09-02 09:14:44.507053+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,,Worker 'KubernetesWorker 6c1a7ef3-6580-4f6c-9303-f2c1895094ef' submitting flow run '91c586e5-46af-412e-a470-3d46bb2c5e8c'
+2025-09-02 09:14:44.661969+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,,Creating Kubernetes job...
+2025-09-02 09:14:45.483676+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,,Completed submission of flow run '91c586e5-46af-412e-a470-3d46bb2c5e8c'
+2025-09-02 09:14:54.805343+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,,Opening process...
+2025-09-02 09:14:58.435399+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,, > Running git_clone step...
+2025-09-02 09:15:06.140831+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,,Beginning flow run 'unique-husky' for flow 'run-bhc-change-detection-flow'
+2025-09-02 09:15:06.159568+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,,Using quad ID: L15-1743E-1259N
+2025-09-02 09:15:06.161556+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,,Input path: /nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif
+2025-09-02 09:15:06.163394+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,,Output directory: /nas/Projects/N-BHC24A/change_detection
+2025-09-02 09:15:06.440994+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,019909b5-6286-7581-ae86-70059bebe4ad,This job ID will be used - prefect-unique-husky-1
+2025-09-02 09:15:06.448451+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,019909b5-6286-7581-ae86-70059bebe4ad,Finished in state Completed()
+2025-09-02 09:15:06.918139+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,019909b5-6364-72e1-8d1e-7c71fcb5b424,No completed run found for quad_id 'L15-1743E-1259N' in 2024-10.
+2025-09-02 09:15:06.927630+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,019909b5-6364-72e1-8d1e-7c71fcb5b424,Finished in state Completed()
+2025-09-02 09:15:06.933651+00:00,40,91c586e5-46af-412e-a470-3d46bb2c5e8c,,"Encountered exception during execution: FileNotFoundError('Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1259N--building.gpkg')
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 756, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Previous month segmentation data not found for {current_month_filename}"")
+FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1259N--building.gpkg"
+2025-09-02 09:15:07.042626+00:00,20,91c586e5-46af-412e-a470-3d46bb2c5e8c,,Finished in state Failed('Flow run encountered an exception: FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1259N--building.gpkg')
+2025-09-02 09:15:07.045920+00:00,40,91c586e5-46af-412e-a470-3d46bb2c5e8c,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 756, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Previous month segmentation data not found for {current_month_filename}"")
+FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1259N--building.gpkg"
+2025-09-02 09:15:07.871414+00:00,40,91c586e5-46af-412e-a470-3d46bb2c5e8c,,Process for flow run 'unique-husky' exited with status code: 1

@@ -1,0 +1,346 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-10-15 02:16:07.127442+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,,Worker 'KubernetesWorker a05e490e-9eac-4523-9166-1b04920e6d58' submitting flow run 'c7627a73-b751-4a3e-9b37-82b5a33066f5'
+2025-10-15 02:16:07.372437+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,,Creating Kubernetes job...
+2025-10-15 02:16:10.925011+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,,Completed submission of flow run 'c7627a73-b751-4a3e-9b37-82b5a33066f5'
+2025-10-15 02:16:18.110285+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,,Opening process...
+2025-10-15 02:16:20.775465+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,, > Running git_clone step...
+2025-10-15 02:16:26.833660+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,,Beginning flow run 'piquant-harrier' for flow 'run-modint-flow'
+2025-10-15 02:16:27.028088+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8bf4-73e5-9b2b-2d7558f542a0,This job ID will be used - modint-prefect-piquant-harrier-1
+2025-10-15 02:16:27.034449+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8bf4-73e5-9b2b-2d7558f542a0,Finished in state Completed()
+2025-10-15 02:16:27.529164+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9d-798c-9f42-91630da15273,Finished in state Completed()
+2025-10-15 02:16:27.588366+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9f-7f40-b0b1-8b57636fa420,{'detections': '/ext-nas/modint-prefect-workspace/geofocus_after_s3/장전항_251002_skysatcollect_pansharpened_udm2/SuperX_Ship_Detection/20251002_001811_ssc1_u0001_pansharpened_clip.geojson'}
+2025-10-15 02:16:27.701228+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8f16-7507-87ad-56ec9fc925df,Finished in state Completed()
+2025-10-15 02:16:29.155832+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,Beginning subflow run 'bronze-ara' for flow 'run-namespaced-job'
+2025-10-15 02:16:52.444347+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"10/15 02:16:52 - mmengine - [5m[4m[33mWARNING[0m - Failed to search registry with scope ""recls"" in the ""batch augment"" registry tree. As a workaround, the current ""batch augment"" registry in ""mmpretrain"" is used to build instance. This may cause unexpected failure when running the built modules. Please check whether ""recls"" is a correct scope, or whether the registry is initialized.
+"
+2025-10-15 02:16:52.447204+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"10/15 02:16:52 - mmengine - [4m[37mINFO[0m - Because batch augmentations are enabled, the data preprocessor automatically enables the `to_onehot` option to generate one-hot format labels.
+"
+2025-10-15 02:16:58.997860+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"Loads checkpoint by local backend from path: /tmp/tmpyb6y5sk2/checkpoint/model_final.pth
+"
+2025-10-15 02:16:58.999977+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"10/15 02:16:58 - mmengine - [5m[4m[33mWARNING[0m - The prefix is not set in metric class DumpGeojsonResults.
+"
+2025-10-15 02:16:59.071897+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"Downloading artifacts:   0%|          | 0/2 [00:00<?, ?it/s]Downloading artifacts:  50%|█████     | 1/2 [00:00<00:00, 28.00it/s]Downloading artifacts: 100%|██████████| 2/2 [00:01<00:00,  1.65it/s]Downloading artifacts: 100%|██████████| 2/2 [00:01<00:00,  1.65it/s]Downloading artifacts: 100%|██████████| 2/2 [00:01<00:00,  1.65it/s]
+"
+2025-10-15 02:16:59.074483+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"2025-10-15 02:16:59.049 | ERROR    | modint.runner.base_runner:inference:137 - An exception occurred:
+"
+2025-10-15 02:16:59.076528+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"Traceback (most recent call last):
+"
+2025-10-15 02:16:59.078711+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""fiona/ogrext.pyx"", line 136, in fiona.ogrext.gdal_open_vector
+"
+2025-10-15 02:16:59.083976+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""fiona/_err.pyx"", line 291, in fiona._err.exc_wrap_pointer
+"
+2025-10-15 02:16:59.085846+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"fiona._err.CPLE_OpenFailedError: /ext-nas/modint-prefect-workspace/geofocus_after_s3/장전항_251002_skysatcollect_pansharpened_udm2/SuperX_Ship_Detection/20251002_001811_ssc1_u0001_pansharpened_clip.geojson: No such file or directory
+"
+2025-10-15 02:16:59.087787+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"
+"
+2025-10-15 02:16:59.089644+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"During handling of the above exception, another exception occurred:
+"
+2025-10-15 02:16:59.092177+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"
+"
+2025-10-15 02:16:59.094049+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"Traceback (most recent call last):
+"
+2025-10-15 02:16:59.096137+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/build_functions.py"", line 122, in build_from_cfg
+"
+2025-10-15 02:16:59.098222+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    obj = obj_cls(**args)  # type: ignore
+"
+2025-10-15 02:16:59.100061+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/recls/recls/datasets/geojson_infer_dataset.py"", line 36, in __init__
+"
+2025-10-15 02:16:59.101659+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    super(GeojsonInferDataset, self).__init__(
+"
+2025-10-15 02:16:59.103441+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmpretrain/datasets/base_dataset.py"", line 101, in __init__
+"
+2025-10-15 02:16:59.105235+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    super().__init__(
+"
+2025-10-15 02:16:59.106889+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 245, in __init__
+"
+2025-10-15 02:16:59.108721+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    self.full_init()
+"
+2025-10-15 02:16:59.110149+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmpretrain/datasets/base_dataset.py"", line 178, in full_init
+"
+2025-10-15 02:16:59.111444+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    super().full_init()
+"
+2025-10-15 02:16:59.112902+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 296, in full_init
+"
+2025-10-15 02:16:59.114352+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    self.data_list = self.load_data_list()
+"
+2025-10-15 02:16:59.115572+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/recls/recls/datasets/geojson_infer_dataset.py"", line 58, in load_data_list
+"
+2025-10-15 02:16:59.117057+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    gdf = gpd.read_file(geojson_path)
+"
+2025-10-15 02:16:59.118498+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/geopandas/io/file.py"", line 281, in _read_file
+"
+2025-10-15 02:16:59.119595+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    return _read_file_fiona(
+"
+2025-10-15 02:16:59.120456+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/geopandas/io/file.py"", line 322, in _read_file_fiona
+"
+2025-10-15 02:16:59.121812+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    with reader(path_or_bytes, **kwargs) as features:
+"
+2025-10-15 02:16:59.123129+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/fiona/env.py"", line 457, in wrapper
+"
+2025-10-15 02:16:59.124183+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    return f(*args, **kwds)
+"
+2025-10-15 02:16:59.125437+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/fiona/__init__.py"", line 292, in open
+"
+2025-10-15 02:16:59.126631+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    colxn = Collection(
+"
+2025-10-15 02:16:59.128061+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/fiona/collection.py"", line 243, in __init__
+"
+2025-10-15 02:16:59.129306+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    self.session.start(self, **kwargs)
+"
+2025-10-15 02:16:59.130283+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""fiona/ogrext.pyx"", line 588, in fiona.ogrext.Session.start
+"
+2025-10-15 02:16:59.131491+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""fiona/ogrext.pyx"", line 143, in fiona.ogrext.gdal_open_vector
+"
+2025-10-15 02:16:59.132709+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"fiona.errors.DriverError: /ext-nas/modint-prefect-workspace/geofocus_after_s3/장전항_251002_skysatcollect_pansharpened_udm2/SuperX_Ship_Detection/20251002_001811_ssc1_u0001_pansharpened_clip.geojson: No such file or directory
+"
+2025-10-15 02:16:59.137403+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"
+"
+2025-10-15 02:16:59.138980+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"During handling of the above exception, another exception occurred:
+"
+2025-10-15 02:16:59.140243+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"
+"
+2025-10-15 02:16:59.141491+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"Traceback (most recent call last):
+"
+2025-10-15 02:16:59.142577+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 111, in inference
+"
+2025-10-15 02:16:59.143916+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    dataloader = self.build_dataloader(scene_path)
+"
+2025-10-15 02:16:59.145241+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/recls/recls/apis/cls_runner.py"", line 92, in build_dataloader
+"
+2025-10-15 02:16:59.146407+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    dataloader = Runner.build_dataloader(dataloader)
+"
+2025-10-15 02:16:59.147769+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/runner/runner.py"", line 1346, in build_dataloader
+"
+2025-10-15 02:16:59.149094+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    dataset = DATASETS.build(dataset_cfg)
+"
+2025-10-15 02:16:59.150225+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/registry.py"", line 548, in build
+"
+2025-10-15 02:16:59.151526+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    return self.build_func(cfg, *args, **kwargs, registry=self)
+"
+2025-10-15 02:16:59.152835+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/build_functions.py"", line 144, in build_from_cfg
+"
+2025-10-15 02:16:59.153855+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    raise type(e)(
+"
+2025-10-15 02:16:59.155178+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"fiona.errors.DriverError: class `GeojsonInferDataset` in recls/datasets/geojson_infer_dataset.py: /ext-nas/modint-prefect-workspace/geofocus_after_s3/장전항_251002_skysatcollect_pansharpened_udm2/SuperX_Ship_Detection/20251002_001811_ssc1_u0001_pansharpened_clip.geojson: No such file or directory
+"
+2025-10-15 02:16:59.156495+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"
+"
+2025-10-15 02:16:59.157524+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"[32m2025-10-15T02:16:59.049001+0000[0m [31m[1mAn exception occurred:
+"
+2025-10-15 02:16:59.158819+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"Traceback (most recent call last):
+"
+2025-10-15 02:16:59.159904+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""fiona/ogrext.pyx"", line 136, in fiona.ogrext.gdal_open_vector
+"
+2025-10-15 02:16:59.161099+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""fiona/_err.pyx"", line 291, in fiona._err.exc_wrap_pointer
+"
+2025-10-15 02:16:59.162191+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"fiona._err.CPLE_OpenFailedError: /ext-nas/modint-prefect-workspace/geofocus_after_s3/장전항_251002_skysatcollect_pansharpened_udm2/SuperX_Ship_Detection/20251002_001811_ssc1_u0001_pansharpened_clip.geojson: No such file or directory
+"
+2025-10-15 02:16:59.163480+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"
+"
+2025-10-15 02:16:59.164563+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"During handling of the above exception, another exception occurred:
+"
+2025-10-15 02:16:59.165714+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"
+"
+2025-10-15 02:16:59.166772+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"Traceback (most recent call last):
+"
+2025-10-15 02:16:59.167906+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/build_functions.py"", line 122, in build_from_cfg
+"
+2025-10-15 02:16:59.169024+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    obj = obj_cls(**args)  # type: ignore
+"
+2025-10-15 02:16:59.170113+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/recls/recls/datasets/geojson_infer_dataset.py"", line 36, in __init__
+"
+2025-10-15 02:16:59.171135+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    super(GeojsonInferDataset, self).__init__(
+"
+2025-10-15 02:16:59.172225+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmpretrain/datasets/base_dataset.py"", line 101, in __init__
+"
+2025-10-15 02:16:59.173266+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    super().__init__(
+"
+2025-10-15 02:16:59.174322+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 245, in __init__
+"
+2025-10-15 02:16:59.175333+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    self.full_init()
+"
+2025-10-15 02:16:59.176382+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmpretrain/datasets/base_dataset.py"", line 178, in full_init
+"
+2025-10-15 02:16:59.177437+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    super().full_init()
+"
+2025-10-15 02:16:59.178499+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 296, in full_init
+"
+2025-10-15 02:16:59.179504+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    self.data_list = self.load_data_list()
+"
+2025-10-15 02:16:59.180553+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/recls/recls/datasets/geojson_infer_dataset.py"", line 58, in load_data_list
+"
+2025-10-15 02:16:59.181521+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    gdf = gpd.read_file(geojson_path)
+"
+2025-10-15 02:16:59.182550+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/geopandas/io/file.py"", line 281, in _read_file
+"
+2025-10-15 02:16:59.183506+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    return _read_file_fiona(
+"
+2025-10-15 02:16:59.184522+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/geopandas/io/file.py"", line 322, in _read_file_fiona
+"
+2025-10-15 02:16:59.185172+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    with reader(path_or_bytes, **kwargs) as features:
+"
+2025-10-15 02:16:59.185780+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/fiona/env.py"", line 457, in wrapper
+"
+2025-10-15 02:16:59.186388+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    return f(*args, **kwds)
+"
+2025-10-15 02:16:59.186983+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/fiona/__init__.py"", line 292, in open
+"
+2025-10-15 02:16:59.187600+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    colxn = Collection(
+"
+2025-10-15 02:16:59.188198+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/fiona/collection.py"", line 243, in __init__
+"
+2025-10-15 02:16:59.230125+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    self.session.start(self, **kwargs)
+"
+2025-10-15 02:16:59.232189+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""fiona/ogrext.pyx"", line 588, in fiona.ogrext.Session.start
+"
+2025-10-15 02:16:59.234144+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""fiona/ogrext.pyx"", line 143, in fiona.ogrext.gdal_open_vector
+"
+2025-10-15 02:16:59.236255+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"fiona.errors.DriverError: /ext-nas/modint-prefect-workspace/geofocus_after_s3/장전항_251002_skysatcollect_pansharpened_udm2/SuperX_Ship_Detection/20251002_001811_ssc1_u0001_pansharpened_clip.geojson: No such file or directory
+"
+2025-10-15 02:16:59.238148+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"
+"
+2025-10-15 02:16:59.240005+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"During handling of the above exception, another exception occurred:
+"
+2025-10-15 02:16:59.241613+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"
+"
+2025-10-15 02:16:59.243424+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"Traceback (most recent call last):
+"
+2025-10-15 02:16:59.245217+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 111, in inference
+"
+2025-10-15 02:16:59.246866+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    dataloader = self.build_dataloader(scene_path)
+"
+2025-10-15 02:16:59.248712+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/recls/recls/apis/cls_runner.py"", line 92, in build_dataloader
+"
+2025-10-15 02:16:59.250282+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    dataloader = Runner.build_dataloader(dataloader)
+"
+2025-10-15 02:16:59.251610+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/runner/runner.py"", line 1346, in build_dataloader
+"
+2025-10-15 02:16:59.253212+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    dataset = DATASETS.build(dataset_cfg)
+"
+2025-10-15 02:16:59.254668+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/registry.py"", line 548, in build
+"
+2025-10-15 02:16:59.256020+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    return self.build_func(cfg, *args, **kwargs, registry=self)
+"
+2025-10-15 02:16:59.257622+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/build_functions.py"", line 144, in build_from_cfg
+"
+2025-10-15 02:16:59.259212+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"    raise type(e)(
+"
+2025-10-15 02:16:59.260377+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"fiona.errors.DriverError: class `GeojsonInferDataset` in recls/datasets/geojson_infer_dataset.py: /ext-nas/modint-prefect-workspace/geofocus_after_s3/장전항_251002_skysatcollect_pansharpened_udm2/SuperX_Ship_Detection/20251002_001811_ssc1_u0001_pansharpened_clip.geojson: No such file or directory
+"
+2025-10-15 02:16:59.262036+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,"[0m
+"
+2025-10-15 02:17:08.298514+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9e-7d94-8f69-7b4d33570a27,Finished in state Completed()
+2025-10-15 02:17:27.644195+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9f-7f40-b0b1-8b57636fa420,"{'msg': 'Traceback (most recent call last):\n  File ""fiona/ogrext.pyx"", line 136, in fiona.ogrext.gdal_open_vector\n  File ""fiona/_err.pyx"", line 291, in fiona._err.exc_wrap_pointer\nfiona._err.CPLE_OpenFailedError: /ext-nas/modint-prefect-workspace/geofocus_after_s3/장전항_251002_skysatcollect_pansharpened_udm2/SuperX_Ship_Detection/20251002_001811_ssc1_u0001_pansharpened_clip.geojson: No such file or directory\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/build_functions.py"", line 122, in build_from_cfg\n    obj = obj_cls(**args)  # type: ignore\n  File ""/recls/recls/datasets/geojson_infer_dataset.py"", line 36, in __init__\n    super(GeojsonInferDataset, self).__init__(\n  File ""/usr/local/lib/python3.8/site-packages/mmpretrain/datasets/base_dataset.py"", line 101, in __init__\n    super().__init__(\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 245, in __init__\n    self.full_init()\n  File ""/usr/local/lib/python3.8/site-packages/mmpretrain/datasets/base_dataset.py"", line 178, in full_init\n    super().full_init()\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 296, in full_init\n    self.data_list = self.load_data_list()\n  File ""/recls/recls/datasets/geojson_infer_dataset.py"", line 58, in load_data_list\n    gdf = gpd.read_file(geojson_path)\n  File ""/usr/local/lib/python3.8/site-packages/geopandas/io/file.py"", line 281, in _read_file\n    return _read_file_fiona(\n  File ""/usr/local/lib/python3.8/site-packages/geopandas/io/file.py"", line 322, in _read_file_fiona\n    with reader(path_or_bytes, **kwargs) as features:\n  File ""/usr/local/lib/python3.8/site-packages/fiona/env.py"", line 457, in wrapper\n    return f(*args, **kwds)\n  File ""/usr/local/lib/python3.8/site-packages/fiona/__init__.py"", line 292, in open\n    colxn = Collection(\n  File ""/usr/local/lib/python3.8/site-packages/fiona/collection.py"", line 243, in __init__\n    self.session.start(self, **kwargs)\n  File ""fiona/ogrext.pyx"", line 588, in fiona.ogrext.Session.start\n  File ""fiona/ogrext.pyx"", line 143, in fiona.ogrext.gdal_open_vector\nfiona.errors.DriverError: /ext-nas/modint-prefect-workspace/geofocus_after_s3/장전항_251002_skysatcollect_pansharpened_udm2/SuperX_Ship_Detection/20251002_001811_ssc1_u0001_pansharpened_clip.geojson: No such file or directory\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 111, in inference\n    dataloader = self.build_dataloader(scene_path)\n  File ""/recls/recls/apis/cls_runner.py"", line 92, in build_dataloader\n    dataloader = Runner.build_dataloader(dataloader)\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/runner/runner.py"", line 1346, in build_dataloader\n    dataset = DATASETS.build(dataset_cfg)\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/registry.py"", line 548, in build\n    return self.build_func(cfg, *args, **kwargs, registry=self)\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/build_functions.py"", line 144, in build_from_cfg\n    raise type(e)(\nfiona.errors.DriverError: class `GeojsonInferDataset` in recls/datasets/geojson_infer_dataset.py: /ext-nas/modint-prefect-workspace/geofocus_after_s3/장전항_251002_skysatcollect_pansharpened_udm2/SuperX_Ship_Detection/20251002_001811_ssc1_u0001_pansharpened_clip.geojson: No such file or directory\n', 'retriable': False}"
+2025-10-15 02:17:27.653306+00:00,40,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9f-7f40-b0b1-8b57636fa420,Inference was failed. See the logs for detail.
+2025-10-15 02:17:27.655117+00:00,40,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9f-7f40-b0b1-8b57636fa420,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-10-15 02:17:27.669296+00:00,40,c7627a73-b751-4a3e-9b37-82b5a33066f5,0199e5a7-8c9f-7f40-b0b1-8b57636fa420,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-10-15 02:17:27.678983+00:00,40,c7627a73-b751-4a3e-9b37-82b5a33066f5,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 530, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-10-15 02:17:27.728914+00:00,20,c7627a73-b751-4a3e-9b37-82b5a33066f5,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-10-15 02:17:27.731789+00:00,40,c7627a73-b751-4a3e-9b37-82b5a33066f5,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 530, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-10-15 02:17:28.346000+00:00,40,c7627a73-b751-4a3e-9b37-82b5a33066f5,,Process for flow run 'piquant-harrier' exited with status code: 1

@@ -1,0 +1,41 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-09-03 04:46:06.343658+00:00,20,1aacdf05-5f54-4a65-8fa1-924a736ad1ff,,Worker 'KubernetesWorker 6c1a7ef3-6580-4f6c-9303-f2c1895094ef' submitting flow run '1aacdf05-5f54-4a65-8fa1-924a736ad1ff'
+2025-09-03 04:46:06.504631+00:00,20,1aacdf05-5f54-4a65-8fa1-924a736ad1ff,,Creating Kubernetes job...
+2025-09-03 04:46:07.122394+00:00,20,1aacdf05-5f54-4a65-8fa1-924a736ad1ff,,Completed submission of flow run '1aacdf05-5f54-4a65-8fa1-924a736ad1ff'
+2025-09-03 04:46:14.218550+00:00,20,1aacdf05-5f54-4a65-8fa1-924a736ad1ff,,Opening process...
+2025-09-03 04:46:16.915502+00:00,20,1aacdf05-5f54-4a65-8fa1-924a736ad1ff,, > Running git_clone step...
+2025-09-03 04:46:22.831579+00:00,20,1aacdf05-5f54-4a65-8fa1-924a736ad1ff,,Beginning flow run '40000_global_monthly_2024_10_mosaic_SX2_Road' for flow 'run-bhc-segmentation-flow'
+2025-09-03 04:46:22.844610+00:00,40,1aacdf05-5f54-4a65-8fa1-924a736ad1ff,,"Encountered exception during execution: FileNotFoundError('Input path does not exist: /nas/Dataset/ARGOS/02SuperX2/40000_global_monthly_2024_10_mosaic')
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 659, in run_bhc_segmentation_flow
+    raise FileNotFoundError(f""Input path does not exist: {input_path}"")
+FileNotFoundError: Input path does not exist: /nas/Dataset/ARGOS/02SuperX2/40000_global_monthly_2024_10_mosaic"
+2025-09-03 04:46:22.907515+00:00,20,1aacdf05-5f54-4a65-8fa1-924a736ad1ff,,Finished in state Failed('Flow run encountered an exception: FileNotFoundError: Input path does not exist: /nas/Dataset/ARGOS/02SuperX2/40000_global_monthly_2024_10_mosaic')
+2025-09-03 04:46:22.910843+00:00,40,1aacdf05-5f54-4a65-8fa1-924a736ad1ff,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 659, in run_bhc_segmentation_flow
+    raise FileNotFoundError(f""Input path does not exist: {input_path}"")
+FileNotFoundError: Input path does not exist: /nas/Dataset/ARGOS/02SuperX2/40000_global_monthly_2024_10_mosaic"
+2025-09-03 04:46:23.660012+00:00,40,1aacdf05-5f54-4a65-8fa1-924a736ad1ff,,Process for flow run '40000_global_monthly_2024_10_mosaic_SX2_Road' exited with status code: 1

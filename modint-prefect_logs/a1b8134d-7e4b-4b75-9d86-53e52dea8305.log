@@ -1,0 +1,157 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-10-31 05:43:11.611279+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Worker 'KubernetesWorker dd8da5d6-45af-4244-a22a-2d47ea425ac5' submitting flow run 'a1b8134d-7e4b-4b75-9d86-53e52dea8305'
+2025-10-31 05:43:12.007995+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Creating Kubernetes job...
+2025-10-31 05:43:12.763048+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Completed submission of flow run 'a1b8134d-7e4b-4b75-9d86-53e52dea8305'
+2025-10-31 05:43:19.504466+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Opening process...
+2025-10-31 05:43:22.914770+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,, > Running git_clone step...
+2025-10-31 05:43:28.568838+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Beginning flow run 'obedient-hyrax' for flow 'run-bhc-segmentation-flow'
+2025-10-31 05:43:28.580525+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Using quad ID: L15-1747E-1268N
+2025-10-31 05:43:28.703287+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,019a38ca-d69e-776c-81ee-2b33d24239ee,Finished in state Completed()
+2025-10-31 05:43:28.724392+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Input path: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2025_09_mosaic_cog_L15-1747E-1268N.vrt
+2025-10-31 05:43:28.725911+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Output directory: /nas/Projects/N-BHC24A/segmentation
+2025-10-31 05:48:35.494917+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Rescheduling flow run for resubmission in response to SIGTERM
+2025-10-31 05:48:35.596336+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Rescheduled flow run for resubmission
+2025-10-31 05:59:02.809799+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Worker 'KubernetesWorker dd8da5d6-45af-4244-a22a-2d47ea425ac5' submitting flow run 'a1b8134d-7e4b-4b75-9d86-53e52dea8305'
+2025-10-31 05:59:03.060748+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Creating Kubernetes job...
+2025-10-31 05:59:03.325982+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Completed submission of flow run 'a1b8134d-7e4b-4b75-9d86-53e52dea8305'
+2025-10-31 05:59:09.719555+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Opening process...
+2025-10-31 05:59:12.384659+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,, > Running git_clone step...
+2025-10-31 05:59:17.756747+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Beginning flow run 'obedient-hyrax' for flow 'run-bhc-segmentation-flow'
+2025-10-31 05:59:17.771138+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Using quad ID: L15-1747E-1268N
+2025-10-31 05:59:17.932610+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,019a38d9-5289-79c0-9742-7b3fc8b16402,Finished in state Completed()
+2025-10-31 05:59:17.934537+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Input path: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2025_09_mosaic_cog_L15-1747E-1268N.vrt
+2025-10-31 05:59:17.935841+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Output directory: /nas/Projects/N-BHC24A/segmentation
+2025-10-31 06:04:40.570378+00:00,40,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 677, in run_bhc_segmentation_flow
+    run_modint_flow(input_path=input_path, output_dir=temp_output_dir, flow_config=flow_config)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 528, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-10-31 06:04:40.644858+00:00,20,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-10-31 06:04:40.651272+00:00,40,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 677, in run_bhc_segmentation_flow
+    run_modint_flow(input_path=input_path, output_dir=temp_output_dir, flow_config=flow_config)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 528, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-10-31 06:04:41.582433+00:00,40,a1b8134d-7e4b-4b75-9d86-53e52dea8305,,Process for flow run 'obedient-hyrax' exited with status code: 1

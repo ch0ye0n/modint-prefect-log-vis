@@ -1,0 +1,109 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-09-02 06:21:38.340652+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,Worker 'KubernetesWorker 6c1a7ef3-6580-4f6c-9303-f2c1895094ef' submitting flow run '9ee05ac0-e3f5-40a0-a7d8-777ff78ac239'
+2025-09-02 06:21:38.487105+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,Creating Kubernetes job...
+2025-09-02 06:23:23.500128+00:00,40,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,"Failed to submit flow run '9ee05ac0-e3f5-40a0-a7d8-777ff78ac239' to infrastructure.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.11/site-packages/prefect_kubernetes/worker.py"", line 871, in _create_job
+    job = await batch_client.create_namespaced_job(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/site-packages/kubernetes_asyncio/client/api_client.py"", line 192, in __call_api
+    raise e
+  File ""/usr/local/lib/python3.11/site-packages/kubernetes_asyncio/client/api_client.py"", line 185, in __call_api
+    response_data = await self.request(
+                    ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/site-packages/kubernetes_asyncio/client/rest.py"", line 249, in POST
+    return (await self.request(""POST"", url,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/site-packages/kubernetes_asyncio/client/rest.py"", line 206, in request
+    raise ApiException(http_resp=r)
+kubernetes_asyncio.client.exceptions.ApiException: (500)
+Reason: Internal Server Error
+HTTP response headers: <CIMultiDictProxy('Audit-Id': '5ee2b172-1aef-4dbb-88a3-af74f8476ee5', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6f55dbca-b508-4e70-afe9-52f67e73d324', 'X-Kubernetes-Pf-Prioritylevel-Uid': '150be131-8663-4adc-81ef-ace72a324432', 'Date': 'Tue, 02 Sep 2025 06:23:23 GMT', 'Content-Length': '651')>
+HTTP response body: {""kind"":""Status"",""apiVersion"":""v1"",""metadata"":{},""status"":""Failure"",""message"":""Internal error occurred: failed calling webhook \""mutate.kyverno.svc-fail\"": failed to call webhook: Post \""https://kyverno-operator-svc.sia-system-admission-controller.svc:443/mutate/fail?timeout=10s\"": dial tcp 10.108.145.127:443: connect: connection refused"",""reason"":""InternalError"",""details"":{""causes"":[{""message"":""failed calling webhook \""mutate.kyverno.svc-fail\"": failed to call webhook: Post \""https://kyverno-operator-svc.sia-system-admission-controller.svc:443/mutate/fail?timeout=10s\"": dial tcp 10.108.145.127:443: connect: connection refused""}]},""code"":500}
+
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.11/site-packages/prefect/workers/base.py"", line 1283, in _submit_run_and_capture_errors
+    result = await self.run(
+             ^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/site-packages/prefect_kubernetes/worker.py"", line 729, in run
+    job = await self._create_job(configuration, client)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/site-packages/tenacity/asyncio/__init__.py"", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/site-packages/tenacity/asyncio/__init__.py"", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/site-packages/tenacity/asyncio/__init__.py"", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/site-packages/tenacity/_utils.py"", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/site-packages/tenacity/__init__.py"", line 420, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/site-packages/tenacity/__init__.py"", line 187, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/concurrent/futures/_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.11/site-packages/tenacity/asyncio/__init__.py"", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.11/site-packages/prefect_kubernetes/worker.py"", line 883, in _create_job
+    raise InfrastructureError(
+prefect.exceptions.InfrastructureError: Unable to create Kubernetes job: Internal Server Error: Internal error occurred: failed calling webhook ""mutate.kyverno.svc-fail"": failed to call webhook: Post ""https://kyverno-operator-svc.sia-system-admission-controller.svc:443/mutate/fail?timeout=10s"": dial tcp 10.108.145.127:443: connect: connection refused"
+2025-09-02 06:23:23.600322+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,"Reported flow run '9ee05ac0-e3f5-40a0-a7d8-777ff78ac239' as crashed: Flow run could not be submitted to infrastructure:
+InfrastructureError('Unable to create Kubernetes job: Internal Server Error: Internal error occurred: failed calling webhook ""mutate.kyverno.svc-fail"": failed to call webhook: Post ""https://kyverno-operator-svc.sia-system-admission-controller.svc:443/mutate/fail?timeout=10s"": dial tcp 10.108.145.127:443: connect: connection refused')"
+2025-09-02 06:24:40.713610+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,Opening process...
+2025-09-02 06:24:43.399784+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,, > Running git_clone step...
+2025-09-02 06:24:49.851395+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,Beginning flow run 'pastel-crayfish' for flow 'run-bhc-change-detection-flow'
+2025-09-02 06:24:49.865222+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,Using quad ID: L15-1743E-1268N
+2025-09-02 06:24:49.866792+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,Input path: /nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif
+2025-09-02 06:24:49.868261+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,Output directory: /nas/Projects/N-BHC24A/change_detection
+2025-09-02 06:24:50.029166+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,01990919-7ee7-713b-80b3-e85a76c68b29,This job ID will be used - prefect-pastel-crayfish-1
+2025-09-02 06:24:50.035182+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,01990919-7ee7-713b-80b3-e85a76c68b29,Finished in state Completed()
+2025-09-02 06:24:50.290035+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,01990919-7f76-7618-bf1e-48e096d1489a,No completed run found for quad_id 'L15-1743E-1268N' in 2024-10.
+2025-09-02 06:24:50.331089+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,01990919-7f76-7618-bf1e-48e096d1489a,Finished in state Completed()
+2025-09-02 06:24:50.336823+00:00,40,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,"Encountered exception during execution: FileNotFoundError('Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1268N--building.gpkg')
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 756, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Previous month segmentation data not found for {current_month_filename}"")
+FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1268N--building.gpkg"
+2025-09-02 06:24:50.431751+00:00,20,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,Finished in state Failed('Flow run encountered an exception: FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1268N--building.gpkg')
+2025-09-02 06:24:50.434829+00:00,40,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 756, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Previous month segmentation data not found for {current_month_filename}"")
+FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1268N--building.gpkg"
+2025-09-02 06:24:51.167915+00:00,40,9ee05ac0-e3f5-40a0-a7d8-777ff78ac239,,Process for flow run 'pastel-crayfish' exited with status code: 1

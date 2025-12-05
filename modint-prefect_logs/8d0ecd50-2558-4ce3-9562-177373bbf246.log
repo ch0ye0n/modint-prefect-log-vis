@@ -1,0 +1,661 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-09-29 04:06:21.081575+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,,Worker 'KubernetesWorker 740cd93c-fd64-46ff-8d03-6389181a3e98' submitting flow run '8d0ecd50-2558-4ce3-9562-177373bbf246'
+2025-09-29 04:06:21.263062+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,,Creating Kubernetes job...
+2025-09-29 04:06:21.764932+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,,Completed submission of flow run '8d0ecd50-2558-4ce3-9562-177373bbf246'
+2025-09-29 04:06:28.054950+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,,Opening process...
+2025-09-29 04:06:30.735561+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,, > Running git_clone step...
+2025-09-29 04:06:36.221968+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,,Beginning flow run 'kappa3-dreon-p' for flow 'run-modint-flow-without-redis'
+2025-09-29 04:06:36.425590+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a5e1-7f23-aa17-ee5c53a56c17,This job ID will be used - modint-prefect-kappa3-dreon-p-1
+2025-09-29 04:06:36.431957+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a5e1-7f23-aa17-ee5c53a56c17,Finished in state Completed()
+2025-09-29 04:06:36.977726+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a893-7d68-8811-1e54236fed53,Finished in state Completed()
+2025-09-29 04:06:37.160908+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-7885-a00e-f04bc2c3626d,"spawn /app/modint_prefect/utils/scheduler config
+[?25l[2K[1m[32m✔[0m [1mServer Connection: [0m[1m:[0m █
+[J spawn /app/modint_prefect/utils/scheduler login
+[?25l[2K[1m[31m✗[0m [1mLogin id: [0m[1m:[0m █
+[J [Jd [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m d█
+d [J [Jl [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dl█
+l [J [Jk [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk█
+k [J [J- [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-█
+- [J [Jb [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-b█
+b [J [Jo [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bo█
+o [J [Jt [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+t [J [J [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+[1A[2K[2K[2mLogin id: [0m[2m:[0m dlk-bot
+[?25h[?25l[2K[1m[31m✗[0m [1mPassword: [0m[1m:[0m █
+[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+*[J [J [J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+[1A[2K[2K[2mPassword: [0m[2m:[0m **************
+[?25hLogin succeed: dlk-bot@si-analytics.ai
+Login successful
+"
+2025-09-29 04:06:37.167233+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-7885-a00e-f04bc2c3626d,"Running this command in scheduler... /app/modint_prefect/utils/scheduler run --name modint-prefect-kappa3-dreon-p-1 --cpus 2 --memory 64Gi --gpus 1 --node a40-102,a100-101,a6000-101,a6000-102,a6000-103,v100-101,v100-202 harbor.sia-service.kr/research/weaver:feature-1band_inf-20250609.2 -- python3 /weaver/tools/batch_inference.py /nas/k8s/dev/research/jeongwon/weaver/configs/inf_1ch.py /nas/k8s/dev/research/jeongwon/weaver/configs/RestormerGAN_aerial_1ch_iter_205000.pth --path /nas/COG/spaceeye_t/Y2025/M09/D25/spaceeye_t_ST1_202509250137380/ST1_20250925_013738_PS_SEN_LWO_0.tif --save-path /ext/modint-prefect-workspace/nkinsight-playground/ST1_20250925_013738_PS_SEN_LWO_0_sx1.tif --tmpdir /ext/modint-prefect-workspace/temp/superx --cfg-options scene_test_dataset.inference_mode.inp_channels=4"
+2025-09-29 04:06:38.084709+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-7885-a00e-f04bc2c3626d,
+2025-09-29 04:06:38.092571+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-7885-a00e-f04bc2c3626d,Finished in state Completed()
+2025-09-29 04:07:54.313036+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '47s', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:09:16.797973+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:10:50.767543+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:12:11.168403+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:13:32.069300+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:15:02.888757+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:16:28.532812+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:17:44.581514+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:19:05.860057+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:20:18.705135+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '13m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:21:30.778041+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '14m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:22:55.415563+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '15m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:24:08.233749+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '17m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:25:23.753844+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '18m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:26:38.844089+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '19m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:27:59.099860+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '20m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:29:19.584846+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '22m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:30:41.410345+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '23m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:32:00.188607+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '24m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:33:19.183674+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '26m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:34:51.138651+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '27m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:36:14.829599+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '29m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:37:33.564291+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '30m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:39:01.759340+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '31m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:40:26.511849+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '33m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:41:51.986265+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '34m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:43:08.775286+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '36m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:44:30.967030+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '37m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:45:54.844429+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '38m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:47:06.453932+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '40m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:48:31.326714+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '41m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:49:50.567002+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '42m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:51:07.878498+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '43m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:52:25.525730+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '45m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:53:39.232644+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '46m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:55:03.251702+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '47m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:56:31.740961+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '49m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:58:04.546705+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '50m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 04:59:29.542066+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '52m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:00:39.485659+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '53m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:01:51.397194+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '54m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:03:13.550342+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '56m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:04:29.490434+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '57m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:05:44.733546+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '58m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:07:00.345172+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '59m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:08:27.003412+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:09:42.151186+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:10:58.119422+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:12:23.255061+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:13:43.664496+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:14:59.154936+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:16:21.287340+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:17:39.297638+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:18:59.532288+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:20:13.186327+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:21:37.191833+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:22:52.046710+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:24:21.900274+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:25:47.888164+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:27:14.034347+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:28:28.929764+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:29:40.013231+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:31:00.799995+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:32:16.800005+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:33:37.816717+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:34:53.578907+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:36:22.062973+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:37:38.674551+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:38:52.936468+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:40:11.068901+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:41:29.212805+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:42:46.098986+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:44:08.191112+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:45:24.163627+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:46:37.265133+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:47:54.718624+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:49:19.354325+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:50:38.499195+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:52:03.752804+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:53:30.919904+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:54:44.586639+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:55:54.547662+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:57:10.870951+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:58:26.547342+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 05:59:51.321584+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:01:18.894408+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:02:45.603402+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:04:05.317809+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:05:32.477301+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:06:51.244134+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '1h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:08:08.121755+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:09:35.448434+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:10:53.318882+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:12:20.091634+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:13:34.443784+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:14:56.727177+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:16:19.492412+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:17:41.198551+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:19:06.603376+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:20:18.099223+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:21:41.831195+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:23:01.487895+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:24:13.657629+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:25:29.316057+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:26:50.224413+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:28:05.873762+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:29:26.462762+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:30:52.462163+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:32:18.009191+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:33:36.742705+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:34:59.631093+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:36:18.031468+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:37:43.312666+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:38:57.849813+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:40:19.923540+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:41:42.716040+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:43:05.059047+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:44:18.576739+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:45:36.733574+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:46:54.114723+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:48:17.541438+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:49:40.113469+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:51:02.872571+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:52:27.338086+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:53:43.597742+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:54:59.769243+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:56:15.164875+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:57:32.032978+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 06:58:49.732147+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:00:22.398822+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:01:42.271629+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:02:56.917817+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:04:28.137728+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:05:59.686547+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:07:11.794961+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:08:32.391572+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:09:54.987558+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:11:18.548949+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:12:40.463257+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:14:04.747684+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:15:18.963723+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:16:44.443891+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:17:57.850825+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:19:17.571886+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:20:36.389470+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:22:04.066549+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:23:33.281166+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:24:51.914617+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:26:12.287886+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:27:35.856769+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:28:52.987471+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:30:16.402098+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:31:33.320435+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:32:56.285766+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:34:12.951998+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:35:50.833280+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:37:14.628874+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:38:38.435465+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:39:55.473599+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:41:18.963502+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:42:38.442611+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:43:57.520331+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:45:08.496180+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:46:26.768920+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:47:50.497274+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:49:21.041402+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:50:40.759953+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:51:52.293453+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:53:09.983597+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:54:28.132673+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:55:46.439795+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:57:05.489712+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:58:29.586467+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 07:59:55.603418+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:01:26.166442+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:02:52.080749+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:04:10.087475+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:05:25.651871+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:06:41.224163+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:07:55.813393+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:09:17.538864+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:10:44.806674+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:12:02.859395+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:13:25.330684+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:14:36.790089+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:15:57.201948+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:17:17.433284+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:18:34.735960+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:20:00.163289+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:21:20.298592+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:22:33.955681+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:23:54.058834+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:25:16.567118+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:26:38.582636+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:27:54.462790+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:29:22.920552+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:30:53.848063+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:32:04.467166+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:33:16.103981+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:34:31.657301+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:36:01.853573+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:37:08.411052+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:38:40.161250+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:39:54.456184+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:41:09.689638+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:42:54.122443+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:44:11.309362+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:45:30.423674+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:46:48.095268+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:48:00.554761+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:49:19.840429+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:50:42.462387+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:52:01.708185+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:53:23.771184+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:54:49.252105+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:56:08.342895+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:57:28.106650+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 08:58:47.130216+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:00:16.838281+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:01:32.613709+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:02:58.052143+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:04:22.809104+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:05:45.647784+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:07:03.448530+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:08:25.693419+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:09:56.810653+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:11:12.990652+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:12:43.903401+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:14:07.624093+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:15:30.733958+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:16:54.965328+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:18:12.312022+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:19:42.392635+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:20:55.321415+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:22:16.166171+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:23:46.367098+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:25:10.313570+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:26:23.765599+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:27:50.751774+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:29:15.123859+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:30:32.443213+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:32:02.821287+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:33:17.788331+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:34:37.013893+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:36:00.418492+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:37:16.768143+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:38:35.773632+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:39:56.740173+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:41:15.022387+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:42:23.656612+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:43:38.762514+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:45:04.249831+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:46:25.202918+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:47:45.102479+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:49:05.813893+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:50:20.277589+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:51:43.434925+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:53:13.984856+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:54:37.975999+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:55:57.991462+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:57:12.059610+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:58:31.275560+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 09:59:48.870584+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:01:22.412030+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:02:34.828944+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:03:56.281335+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:05:22.725695+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:06:42.137640+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:07:54.329363+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:09:10.570938+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:10:26.392040+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:11:52.660492+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:13:19.361643+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:14:40.805411+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:15:52.863588+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:17:09.838751+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:18:28.903854+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:19:47.744644+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:21:05.796896+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:22:32.176131+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:23:54.481389+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:25:13.377530+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:26:40.119008+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:28:06.425622+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:29:31.282487+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:30:52.966440+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:32:15.145088+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:33:36.744411+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:35:00.403831+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:36:21.173595+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:37:41.874843+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:39:05.446970+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:40:32.129626+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:41:55.284244+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:43:19.571433+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:44:41.122349+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:45:58.999444+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:47:23.706923+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:48:48.969409+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:50:02.684800+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:51:24.270714+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:52:41.143998+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:53:57.138710+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:55:29.253964+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:56:54.276404+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:58:18.396436+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 10:59:30.329832+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:00:51.345474+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:02:08.639745+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:03:19.981389+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:04:45.456099+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:06:00.371276+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:07:24.699596+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:08:50.300069+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:10:13.174738+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:11:42.724589+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:13:01.546400+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:14:23.081883+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:15:48.764227+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:16:58.038846+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:18:17.647058+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:19:39.367264+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:21:07.411250+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:22:22.052489+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:23:38.406662+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:24:54.503458+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:26:12.747200+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:27:38.275246+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:29:03.867564+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:30:27.587184+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:31:54.480084+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:33:16.871012+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:34:32.264600+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:35:57.168992+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:37:14.462536+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:38:25.809214+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:39:44.667732+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:41:08.137424+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:42:33.965660+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:43:55.536417+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:45:17.581657+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:46:30.053538+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:47:50.521286+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:49:08.514127+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:50:29.117111+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:51:54.526638+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:53:15.647984+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:54:38.676227+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:56:10.093680+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:57:27.651541+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 11:58:55.285265+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:00:05.906862+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:01:26.865807+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:02:38.263362+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:04:04.482193+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:05:30.012467+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:07:09.046484+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '7h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:08:27.323598+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:09:52.475468+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:11:07.375452+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:12:36.551050+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:14:01.209292+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:15:27.040711+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:16:48.978837+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:18:07.917155+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:19:21.561084+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:20:40.227006+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:22:02.987421+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:23:30.769621+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:24:53.978802+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:26:11.224895+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:27:28.322579+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:28:41.215241+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:29:57.157450+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:31:19.338641+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:32:35.760858+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:33:52.438770+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:35:27.493310+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:36:52.315902+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:38:15.288239+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:39:35.755243+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:40:42.270002+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:42:01.951009+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:43:23.653697+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:44:54.606220+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:46:14.401780+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:47:44.948842+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:49:01.598890+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:50:20.021188+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:51:44.989251+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:53:02.593679+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:54:16.975087+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:55:31.442863+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:56:49.625573+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:58:10.181911+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 12:59:28.118325+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:00:47.370129+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:02:14.692683+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:03:24.838599+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:04:45.326060+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:06:00.567226+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '8h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:07:09.858671+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:08:30.775419+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:09:48.620037+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:11:13.760019+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:12:38.656869+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:14:04.822545+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:15:24.261282+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:16:42.887425+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:18:03.898096+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:19:25.045205+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:20:51.002583+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:22:15.019272+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:23:33.515791+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:24:52.933113+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:26:14.830145+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:27:42.125700+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:29:00.161051+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:30:13.215683+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:31:32.890060+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:32:43.175052+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:34:04.891805+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:35:30.267094+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:36:55.619159+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:38:17.443965+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:39:33.512189+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:40:54.342849+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:42:10.168482+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:43:39.390075+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:44:57.201754+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:46:21.823226+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:47:39.741927+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:48:54.523175+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:50:17.227871+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:51:33.768776+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:52:48.527720+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:54:16.837045+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:55:29.832789+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:56:40.819216+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:57:59.348231+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 13:59:23.431156+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:00:47.243243+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:02:09.255424+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:03:22.789601+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:04:49.336842+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:06:14.801759+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '9h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:07:47.149760+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:09:04.028848+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:10:17.923111+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:11:40.463405+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:13:05.808372+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:14:18.566058+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:15:40.041028+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:17:05.769403+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:18:21.297781+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:19:42.025325+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:21:00.673501+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:22:13.547172+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:23:24.233700+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:24:44.500901+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:26:04.238033+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:27:30.083123+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:28:45.281496+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:30:01.437124+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:31:21.953707+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:32:44.041571+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:33:58.402766+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:35:24.720453+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:36:47.169496+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:38:03.202466+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:39:38.319999+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:41:02.514392+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:42:26.041405+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:43:49.329427+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:45:02.422674+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:46:22.363020+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:47:38.421730+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:48:54.093003+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:50:11.935349+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:51:30.197369+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:52:37.703983+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:54:05.268900+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:55:19.193349+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:56:41.551671+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:58:05.222717+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 14:59:20.280457+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:00:42.065658+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:02:05.658600+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:03:24.579759+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:04:49.114802+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:06:04.060543+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '10h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:07:19.900506+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:08:49.617352+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:10:09.619463+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:11:29.986231+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:13:03.555211+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:14:24.007158+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:15:45.790642+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:17:01.619701+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:18:23.639887+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:19:46.312272+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:21:12.156366+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:22:26.336338+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '11h', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-09-29 15:23:44.789102+00:00,40,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 286, in check_scheduler_ps_logs
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-09-29 15:23:44.829892+00:00,40,8d0ecd50-2558-4ce3-9562-177373bbf246,019993a6-a693-714e-a8a2-3dac51cf9f81,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-09-29 15:23:44.835788+00:00,40,8d0ecd50-2558-4ce3-9562-177373bbf246,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 625, in run_modint_flow_without_redis
+    scheduler_ps_logs_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 286, in check_scheduler_ps_logs
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-09-29 15:23:45.113245+00:00,20,8d0ecd50-2558-4ce3-9562-177373bbf246,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-09-29 15:23:45.116101+00:00,40,8d0ecd50-2558-4ce3-9562-177373bbf246,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 625, in run_modint_flow_without_redis
+    scheduler_ps_logs_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 286, in check_scheduler_ps_logs
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-09-29 15:23:45.835236+00:00,40,8d0ecd50-2558-4ce3-9562-177373bbf246,,Process for flow run 'kappa3-dreon-p' exited with status code: 1

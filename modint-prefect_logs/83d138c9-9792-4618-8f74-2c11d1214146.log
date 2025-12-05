@@ -1,0 +1,50 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-09-12 02:15:33.833376+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,,Worker 'KubernetesWorker 60ba2673-f28e-4e96-bb27-de594dcc54dd' submitting flow run '83d138c9-9792-4618-8f74-2c11d1214146'
+2025-09-12 02:15:33.833376+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,,Worker 'KubernetesWorker 60ba2673-f28e-4e96-bb27-de594dcc54dd' submitting flow run '83d138c9-9792-4618-8f74-2c11d1214146'
+2025-09-12 02:15:34.112392+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,,Creating Kubernetes job...
+2025-09-12 02:15:34.112392+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,,Creating Kubernetes job...
+2025-09-12 02:15:35.847698+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,,Completed submission of flow run '83d138c9-9792-4618-8f74-2c11d1214146'
+2025-09-12 02:15:45.454893+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,,Opening process...
+2025-09-12 02:15:48.248219+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,, > Running git_clone step...
+2025-09-12 02:15:54.109674+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,,Beginning flow run 'amphibian-degu' for flow 'run-bhc-change-detection-flow'
+2025-09-12 02:15:54.117424+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,,Using quad ID: L15-1738E-1269N
+2025-09-12 02:15:54.119579+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,,Input path: /nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif
+2025-09-12 02:15:54.121088+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,,Output directory: /nas/Projects/N-BHC24A/change_detection
+2025-09-12 02:15:54.293586+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,01993bb5-3029-78e2-a735-a283d54069b5,This job ID will be used - prefect-amphibian-degu-1
+2025-09-12 02:15:54.297930+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,01993bb5-3029-78e2-a735-a283d54069b5,Finished in state Completed()
+2025-09-12 02:15:54.570835+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,01993bb5-30d5-7b02-a401-bbc979c4129b,No completed run found for quad_id 'L15-1738E-1269N' in 2024-10.
+2025-09-12 02:15:54.578569+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,01993bb5-30d5-7b02-a401-bbc979c4129b,Finished in state Completed()
+2025-09-12 02:15:54.582454+00:00,40,83d138c9-9792-4618-8f74-2c11d1214146,,"Encountered exception during execution: FileNotFoundError('Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1738E-1269N--building.gpkg')
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 756, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Previous month segmentation data not found for {current_month_filename}"")
+FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1738E-1269N--building.gpkg"
+2025-09-12 02:15:54.666969+00:00,20,83d138c9-9792-4618-8f74-2c11d1214146,,Finished in state Failed('Flow run encountered an exception: FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1738E-1269N--building.gpkg')
+2025-09-12 02:15:54.669018+00:00,40,83d138c9-9792-4618-8f74-2c11d1214146,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 756, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Previous month segmentation data not found for {current_month_filename}"")
+FileNotFoundError: Previous month segmentation data not found for 40000_global_monthly_2024_11_mosaic_cog--L15-1738E-1269N--building.gpkg"
+2025-09-12 02:15:55.359888+00:00,40,83d138c9-9792-4618-8f74-2c11d1214146,,Process for flow run 'amphibian-degu' exited with status code: 1

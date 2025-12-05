@@ -1,0 +1,53 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-09-05 06:53:29.155432+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Worker 'KubernetesWorker 4d157788-5802-4dcd-81ac-e20991547472' submitting flow run 'ebd09657-63b4-4770-9c2c-ab326358a0f6'
+2025-09-05 06:53:29.289485+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Creating Kubernetes job...
+2025-09-05 06:53:30.853798+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Job 'modint-prefect-job-4trhg': Starting watch for pod start...
+2025-09-05 06:53:30.876894+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Completed submission of flow run 'ebd09657-63b4-4770-9c2c-ab326358a0f6'
+2025-09-05 06:53:32.338494+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Job 'modint-prefect-job-4trhg': Pod has status 'Pending'.
+2025-09-05 06:53:35.399599+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Job 'modint-prefect-job-4trhg': Pod has status 'Running'.
+2025-09-05 06:53:38.980521+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Opening process...
+2025-09-05 06:53:41.733891+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,, > Running git_clone step...
+2025-09-05 06:53:47.485638+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Beginning flow run 'striped-centipede' for flow 'run-bhc-change-detection-flow'
+2025-09-05 06:53:47.492452+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Using quad ID: L15-1733E-1274N
+2025-09-05 06:53:47.494113+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Input path: /nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif
+2025-09-05 06:53:47.495727+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Output directory: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/change_detection
+2025-09-05 06:53:47.655736+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,019918a7-1682-74c9-a0f6-cbc9966664e0,This job ID will be used - prefect-striped-centipede-1
+2025-09-05 06:53:47.660739+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,019918a7-1682-74c9-a0f6-cbc9966664e0,Finished in state Completed()
+2025-09-05 06:53:47.887442+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,019918a7-170f-7ab8-b960-927f4fb1a4a1,Searching with specific quad_id pattern: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_10_*--L15-1733E-1274N--building.gpkg
+2025-09-05 06:53:47.903172+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,019918a7-170f-7ab8-b960-927f4fb1a4a1,Finished in state Completed()
+2025-09-05 06:53:48.049613+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,019918a7-1821-741f-bf01-e121ca1eeb7e,Finished in state Completed()
+2025-09-05 06:53:48.161207+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,019918a7-18a0-7058-a7bf-99c067cc3446,Finished in state Completed()
+2025-09-05 06:53:48.168399+00:00,40,ebd09657-63b4-4770-9c2c-ab326358a0f6,,"Encountered exception during execution: FileNotFoundError('Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1733E-1274N--building.gpkg')
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 764, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Current month segmentation result not found: {curr_mask_path}"")
+FileNotFoundError: Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1733E-1274N--building.gpkg"
+2025-09-05 06:53:48.233425+00:00,20,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Finished in state Failed('Flow run encountered an exception: FileNotFoundError: Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1733E-1274N--building.gpkg')
+2025-09-05 06:53:48.236823+00:00,40,ebd09657-63b4-4770-9c2c-ab326358a0f6,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 764, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Current month segmentation result not found: {curr_mask_path}"")
+FileNotFoundError: Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1733E-1274N--building.gpkg"
+2025-09-05 06:53:49.080544+00:00,40,ebd09657-63b4-4770-9c2c-ab326358a0f6,,Process for flow run 'striped-centipede' exited with status code: 1

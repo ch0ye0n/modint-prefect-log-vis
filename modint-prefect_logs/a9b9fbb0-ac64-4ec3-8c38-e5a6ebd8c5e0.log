@@ -1,0 +1,201 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-11-20 06:32:26.865757+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,,Worker 'KubernetesWorker 6e6a659a-1684-4497-b3c9-ece21d0a283a' submitting flow run 'a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0'
+2025-11-20 06:32:27.052672+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,,Creating Kubernetes job...
+2025-11-20 06:32:27.298911+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,,Completed submission of flow run 'a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0'
+2025-11-20 07:39:53.980560+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,,Opening process...
+2025-11-20 07:39:56.741205+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,, > Running git_clone step...
+2025-11-20 07:40:01.917670+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,,Beginning flow run 'magic-pronghorn' for flow 'run-modint-flow'
+2025-11-20 07:40:02.141265+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bc22-7e60-a2e7-faad665edcd7,This job ID will be used - modint-prefect-magic-pronghorn-1
+2025-11-20 07:40:02.147446+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bc22-7e60-a2e7-faad665edcd7,Finished in state Completed()
+2025-11-20 07:40:02.705326+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bce7-7826-944b-a9336108a8b4,Finished in state Completed()
+2025-11-20 07:40:02.713113+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bce6-7dcf-b94c-86d85516435d,Finished in state Completed()
+2025-11-20 07:40:02.903310+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bfb6-7b8d-b925-70ede3b23a12,Finished in state Completed()
+2025-11-20 07:40:02.906722+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bced-7891-b706-c7b3e04f3004,{'scene_path': '/nas/Dataset/s3/sia_aws_s3/sia-geofocus/raw/G-PRS24A/plnatscope/NK_4band/20250909_024030_28_24e5_3B_AnalyticMS_SR_8b_clip_68280_0001169.tif'}
+2025-11-20 07:40:03.069383+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bcea-7c41-a311-53c9ee70305e,"spawn /app/modint_prefect/utils/scheduler config
+[?25l[2K[1m[32m✔[0m [1mServer Connection: [0m[1m:[0m █
+[Jspawn /app/modint_prefect/utils/scheduler login
+[?25l[2K[1m[31m✗[0m [1mLogin id: [0m[1m:[0m █
+[J [Jd [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m d█
+d [J [Jl [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dl█
+l [J [Jk [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk█
+k [J [J- [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-█
+- [J [Jb [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-b█
+b [J [Jo [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bo█
+o [J [Jt [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+t [J [J [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+ [J[1A[2K[2K[2mLogin id: [0m[2m:[0m dlk-bot
+ [?25h[J[?25l[2K[1m[31m✗[0m [1mPassword: [0m[1m:[0m █
+[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+*[J [J [J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+ [J[1A[2K[2K[2mPassword: [0m[2m:[0m **************
+ [?25h[JLogin succeed: dlk-bot@si-analytics.ai
+Login successful
+"
+2025-11-20 07:40:03.076307+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bcea-7c41-a311-53c9ee70305e,"Running this command in scheduler... /app/modint_prefect/utils/scheduler run --name modint-prefect-magic-pronghorn-1 --cpus 2 --memory 64Gi --gpus 1 --node a10-101,a40-102,a100-101,a6000-101,a6000-102,a6000-103,v100-101,v100-202 harbor.sia-service.kr/research/weaver:modint-v0.1.1-20250717.28 -- python3 tools/infer.py --host dev-cluster.sia-service.kr --port 31438 --job_id modint-prefect-magic-pronghorn-1 --output_path /ext/modint-prefect-workspace/v2-bulk-run-test-prod/20250909_024030_28_24e5_3B_AnalyticMS_SR_8b_clip_68280_0001169.tif --run-id 7d3e1dc739f14fda9e795a72df14b14a"
+2025-11-20 07:40:03.135271+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bcea-7c41-a311-53c9ee70305e,
+2025-11-20 07:40:03.143072+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bcea-7c41-a311-53c9ee70305e,Finished in state Completed()
+2025-11-20 07:41:06.573813+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:42:11.806911+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:43:20.064673+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:44:28.325760+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:45:34.342491+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:46:42.954230+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:47:47.980354+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:48:57.187376+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:50:02.646386+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:51:09.031038+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:52:13.252981+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:53:20.060196+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:54:25.433672+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:55:32.556222+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:56:42.240174+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:57:47.792080+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 07:58:58.050227+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 08:00:04.939686+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 08:01:10.573989+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 08:02:16.623327+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 08:03:21.195699+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-11-20 08:04:26.235973+00:00,40,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,"Task run failed with exception: SchedulerError('2025/11/20 08:04:26 fail call stub rpc error: code = Unauthenticated desc = Invalid Harbor Token\n') - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 262, in check_scheduler_ps_logs
+    result_ps = check_ps_scheduler(job_id)
+  File ""/app/modint-prefect-main/modint_prefect/utils/scheduler.py"", line 28, in check_ps_scheduler
+    raise SchedulerError(result.stderr.decode(""utf-8""))
+modint_prefect.configs.SchedulerError: 2025/11/20 08:04:26 fail call stub rpc error: code = Unauthenticated desc = Invalid Harbor Token
+"
+2025-11-20 08:04:26.253405+00:00,40,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bceb-7889-8422-a6ecdde3e38f,Finished in state Failed('Task run encountered an exception SchedulerError: 2025/11/20 08:04:26 fail call stub rpc error: code = Unauthenticated desc = Invalid Harbor Token\n')
+2025-11-20 11:23:15.704139+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bced-7891-b706-c7b3e04f3004,None
+2025-11-20 11:23:15.711625+00:00,40,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bced-7891-b706-c7b3e04f3004,Inference was failed. See the logs for detail.
+2025-11-20 11:23:15.714135+00:00,40,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bced-7891-b706-c7b3e04f3004,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 134, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-20 11:23:15.729317+00:00,40,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,019aa034-bced-7891-b706-c7b3e04f3004,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-11-20 11:23:15.741027+00:00,40,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 518, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 134, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-20 11:23:15.836818+00:00,20,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-11-20 11:23:15.839642+00:00,40,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 518, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 134, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-20 11:23:16.522550+00:00,40,a9b9fbb0-ac64-4ec3-8c38-e5a6ebd8c5e0,,Process for flow run 'magic-pronghorn' exited with status code: 1

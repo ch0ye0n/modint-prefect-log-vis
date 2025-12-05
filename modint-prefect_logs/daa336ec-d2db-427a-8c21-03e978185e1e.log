@@ -1,0 +1,321 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-10-17 12:10:58.849117+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Worker 'KubernetesWorker a05e490e-9eac-4523-9166-1b04920e6d58' submitting flow run 'daa336ec-d2db-427a-8c21-03e978185e1e'
+2025-10-17 12:10:59.079083+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Creating Kubernetes job...
+2025-10-17 12:10:59.419459+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Completed submission of flow run 'daa336ec-d2db-427a-8c21-03e978185e1e'
+2025-10-17 12:11:06.031486+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Opening process...
+2025-10-17 12:11:08.727763+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,, > Running git_clone step...
+2025-10-17 12:11:14.406757+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Beginning flow run 'vivid-earthworm' for flow 'run-bhc-change-detection-flow'
+2025-10-17 12:11:14.417044+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Using quad ID: L15-1745E-1269N
+2025-10-17 12:11:14.418598+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Input path: /nas/COG/basemap_planet/Y2024/M12/D01/basemap_planet_global_monthly_2024_12_mosaic/40000_global_monthly_2024_12_mosaic_cog.tif
+2025-10-17 12:11:14.420104+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Output directory: /nas/Projects/N-BHC24A/change_detection
+2025-10-17 12:11:14.585764+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d093-7001-9869-58adebcc9965,This job ID will be used - prefect-vivid-earthworm-1
+2025-10-17 12:11:14.591106+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d093-7001-9869-58adebcc9965,Finished in state Completed()
+2025-10-17 12:11:14.882632+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d122-75df-ac5f-4d6dffbc8dc6,Searching with specific quad_id pattern: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_*--L15-1745E-1269N--road.gpkg
+2025-10-17 12:11:14.992852+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d122-75df-ac5f-4d6dffbc8dc6,Finished in state Completed()
+2025-10-17 12:11:15.078711+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d2b6-7f5d-9a6b-4034ee3f39b2,Finished in state Completed()
+2025-10-17 12:11:15.161040+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d30d-7f0b-a3aa-669be271482e,Finished in state Completed()
+2025-10-17 12:11:15.188906+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Previous RGB VRT path: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1745E-1269N.vrt
+2025-10-17 12:11:15.190919+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Current RGB VRT path: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_12_mosaic_cog_L15-1745E-1269N.vrt
+2025-10-17 12:11:15.192787+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Previous mask path: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1745E-1269N--road.gpkg
+2025-10-17 12:11:15.195348+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,Current mask path: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_12_mosaic_cog--L15-1745E-1269N--road.gpkg
+2025-10-17 12:11:15.338307+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d3ea-7b1f-8349-771a223f0d3f,Finished in state Completed()
+2025-10-17 12:11:16.547025+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,Beginning subflow run 'evasive-sturgeon' for flow 'run-namespaced-job'
+2025-10-17 12:11:22.059979+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] All required packages seem to be installed correctly.
+"
+2025-10-17 12:11:22.062659+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] 로그 파일이 '/app/argos_temp_work/prefect-vivid-earthworm-1/prefect-vivid-earthworm-1-logs.txt'에 생성되었습니다.
+"
+2025-10-17 12:11:22.064675+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] Log file is being written to: /app/argos_temp_work/prefect-vivid-earthworm-1/prefect-vivid-earthworm-1-logs.txt
+"
+2025-10-17 12:11:22.067082+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] Temporary work directory: /app/argos_temp_work/prefect-vivid-earthworm-1
+"
+2025-10-17 12:11:22.069386+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] Final output will be saved in: /nas/Projects/N-BHC24A/change_detection
+"
+2025-10-17 12:11:22.071489+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] --- Starting Analysis Pipeline ---
+"
+2025-10-17 12:11:22.073383+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] [JOB_ID] prefect-vivid-earthworm-1 - Change detection analysis initiated
+"
+2025-10-17 12:11:22.075520+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] [JOB_ID] prefect-vivid-earthworm-1 - Previous RGB: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1745E-1269N.vrt
+"
+2025-10-17 12:11:22.079319+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] [JOB_ID] prefect-vivid-earthworm-1 - Current RGB: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_12_mosaic_cog_L15-1745E-1269N.vrt
+"
+2025-10-17 12:11:22.081621+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] [JOB_ID] prefect-vivid-earthworm-1 - Previous Mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1745E-1269N--road.gpkg
+"
+2025-10-17 12:11:22.083228+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] [JOB_ID] prefect-vivid-earthworm-1 - Current Mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_12_mosaic_cog--L15-1745E-1269N--road.gpkg
+"
+2025-10-17 12:11:22.085101+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] [JOB_ID] prefect-vivid-earthworm-1 - Temp Work Directory: /app/argos_temp_work/prefect-vivid-earthworm-1
+"
+2025-10-17 12:11:22.086860+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] [JOB_ID] prefect-vivid-earthworm-1 - Final Output Directory: /nas/Projects/N-BHC24A/change_detection
+"
+2025-10-17 12:11:22.088349+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] [INFO] Converting prev GPKG to mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1745E-1269N--road.gpkg
+"
+2025-10-17 12:11:22.090197+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"[2025-10-17 21:11:20] --- Starting GPKG to Raster Mask Preprocessing for 40000_global_monthly_2024_11_mosaic_cog--L15-1745E-1269N--road.gpkg ---
+"
+2025-10-17 12:11:22.091963+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"failed to watch directory ""/var/log/pods/serving_prefect-vivid-earthworm-1-hvcxn_9d44b791-c648-4f14-9adc-3ca1fdaf71a1/inference"": no space left on device"
+2025-10-17 12:12:17.921121+00:00,40,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"Task run failed with exception: RuntimeError(""Job 'prefect-vivid-earthworm-1' failed due to [], check the Kubernetes pod logs for more information."") - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 334, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-vivid-earthworm-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-17 12:12:17.941932+00:00,40,daa336ec-d2db-427a-8c21-03e978185e1e,0199f214-d37d-77bc-adfe-629334d01f77,"Finished in state Failed(""Task run encountered an exception RuntimeError: Job 'prefect-vivid-earthworm-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-17 12:12:17.948554+00:00,40,daa336ec-d2db-427a-8c21-03e978185e1e,,"Encountered exception during execution: RuntimeError(""Job 'prefect-vivid-earthworm-1' failed due to [], check the Kubernetes pod logs for more information."")
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 803, in run_bhc_change_detection_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 183, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 334, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-vivid-earthworm-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-17 12:12:18.027395+00:00,20,daa336ec-d2db-427a-8c21-03e978185e1e,,"Finished in state Failed(""Flow run encountered an exception: RuntimeError: Job 'prefect-vivid-earthworm-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-17 12:12:18.030219+00:00,40,daa336ec-d2db-427a-8c21-03e978185e1e,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 803, in run_bhc_change_detection_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 183, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 334, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-vivid-earthworm-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-17 12:12:18.873029+00:00,40,daa336ec-d2db-427a-8c21-03e978185e1e,,Process for flow run 'vivid-earthworm' exited with status code: 1

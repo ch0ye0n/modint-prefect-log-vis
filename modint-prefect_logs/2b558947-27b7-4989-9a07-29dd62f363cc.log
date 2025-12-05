@@ -1,0 +1,368 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-10-15 06:07:04.481486+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,,Worker 'KubernetesWorker a05e490e-9eac-4523-9166-1b04920e6d58' submitting flow run '2b558947-27b7-4989-9a07-29dd62f363cc'
+2025-10-15 06:07:04.659195+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,,Creating Kubernetes job...
+2025-10-15 06:07:05.166711+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,,Completed submission of flow run '2b558947-27b7-4989-9a07-29dd62f363cc'
+2025-10-15 06:07:11.947332+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,,Opening process...
+2025-10-15 06:07:14.592919+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,, > Running git_clone step...
+2025-10-15 06:07:20.299679+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,,Beginning flow run 'portable-manatee' for flow 'run-modint-flow'
+2025-10-15 06:07:20.488572+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-ef11-7d37-9768-f59d893161d3,This job ID will be used - modint-prefect-portable-manatee-1
+2025-10-15 06:07:20.495060+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-ef11-7d37-9768-f59d893161d3,Finished in state Completed()
+2025-10-15 06:07:20.995519+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efcd-7604-a1fc-ae3ad4917d11,Finished in state Completed()
+2025-10-15 06:07:21.135973+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efd1-7c8b-946d-2c16100a588c,{'scene_path': '/nas/COG/planet/Y2025/M02/D22/planet_20250222_062208_ssc8d1_0010/20250222_062208_ssc8d1_0010_pansharpened_clip_cog.tif'}
+2025-10-15 06:07:21.141430+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-f202-7462-bca3-47584b1ae100,Finished in state Completed()
+2025-10-15 06:07:22.258385+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,Beginning subflow run 'witty-smilodon' for flow 'run-namespaced-job'
+2025-10-15 06:07:32.234627+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"Downloading artifacts:   0%|          | 0/10 [00:00<?, ?it/s]2025/10/15 06:07:32 INFO mlflow.store.artifact.artifact_repo: The progress bar can be disabled by setting the environment variable MLFLOW_ENABLE_ARTIFACTS_PROGRESS_BAR to false
+"
+2025-10-15 06:08:01.883594+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"Downloading artifacts:  10%|█         | 1/10 [00:00<00:00, 555.83it/s]Downloading artifacts:  20%|██        | 2/10 [00:00<00:00, 337.68it/s]Downloading artifacts:  30%|███       | 3/10 [00:00<00:00, 307.38it/s]Downloading artifacts:  40%|████      | 4/10 [00:00<00:00, 368.84it/s]Downloading artifacts:  50%|█████     | 5/10 [00:00<00:00, 58.65it/s] Downloading artifacts:  60%|██████    | 6/10 [00:00<00:00, 66.03it/s]Downloading artifacts:  70%|███████   | 7/10 [00:00<00:00, 54.14it/s]Downloading artifacts:  70%|███████   | 7/10 [00:00<00:00, 54.14it/s]Downloading artifacts:  80%|████████  | 8/10 [00:00<00:00, 54.14it/s]Downloading artifacts:  90%|█████████ | 9/10 [00:11<00:00, 54.14it/s]Downloading artifacts: 100%|██████████| 10/10 [00:11<00:00, 54.14it/s]Downloading artifacts: 100%|██████████| 10/10 [00:11<00:00,  1.12s/it]
+"
+2025-10-15 06:08:01.887008+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"Loads checkpoint by local backend from path: /tmp/tmp2dsij_rp/checkpoint/model_final.pth
+"
+2025-10-15 06:08:03.709751+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"Making patches:   0%|          | 0/1 [00:00<?, ?it/s]Making patches: 100%|██████████| 1/1 [00:00<00:00, 10106.76it/s]
+"
+2025-10-15 06:08:21.208040+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efd1-7c8b-946d-2c16100a588c,Progress: 91.66666666666666 percent
+2025-10-15 06:08:22.602666+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"/usr/local/lib/python3.8/site-packages/torch/nn/functional.py:3609: UserWarning: Default upsampling behavior when mode=linear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+"
+2025-10-15 06:08:22.605145+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"  warnings.warn(
+"
+2025-10-15 06:08:22.607326+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 45.92
+"
+2025-10-15 06:08:22.609108+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 44.4
+"
+2025-10-15 06:08:22.611076+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 42.43
+"
+2025-10-15 06:08:22.613014+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 40.39
+"
+2025-10-15 06:08:22.614812+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 38.36
+"
+2025-10-15 06:08:22.616629+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 36.39
+"
+2025-10-15 06:08:22.618065+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 34.5
+"
+2025-10-15 06:08:22.619331+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 32.69
+"
+2025-10-15 06:08:22.620547+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 30.99
+"
+2025-10-15 06:08:22.621766+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 29.4
+"
+2025-10-15 06:08:22.623259+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 27.88
+"
+2025-10-15 06:08:22.624514+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 26.44
+"
+2025-10-15 06:08:22.625538+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 25.07
+"
+2025-10-15 06:08:22.628546+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 23.77
+"
+2025-10-15 06:08:22.629564+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 22.54
+"
+2025-10-15 06:08:22.632157+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 21.38
+"
+2025-10-15 06:08:22.633769+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 20.27
+"
+2025-10-15 06:08:22.634744+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 19.21
+"
+2025-10-15 06:08:22.636371+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 18.19
+"
+2025-10-15 06:08:22.637849+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 17.22
+"
+2025-10-15 06:08:22.639075+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 16.29
+"
+2025-10-15 06:08:22.640491+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 15.39
+"
+2025-10-15 06:08:22.641958+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 14.54
+"
+2025-10-15 06:08:22.643422+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 13.72
+"
+2025-10-15 06:08:22.645224+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 12.93
+"
+2025-10-15 06:08:22.647180+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 12.16
+"
+2025-10-15 06:08:22.648107+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 11.41
+"
+2025-10-15 06:08:22.648945+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 10.69
+"
+2025-10-15 06:08:22.649768+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 9.98
+"
+2025-10-15 06:08:22.650580+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 9.3
+"
+2025-10-15 06:08:22.652018+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 8.63
+"
+2025-10-15 06:08:22.653597+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 7.97
+"
+2025-10-15 06:08:22.654914+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 7.33
+"
+2025-10-15 06:08:22.655999+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 6.7
+"
+2025-10-15 06:08:22.657329+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 6.08
+"
+2025-10-15 06:08:22.658463+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"AAAA 0.0
+"
+2025-10-15 06:08:31.861054+00:00,40,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"Task run failed with exception: RuntimeError(""Job 'modint-prefect-portable-manatee-1' failed due to [], check the Kubernetes pod logs for more information."") - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'modint-prefect-portable-manatee-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-15 06:08:31.894203+00:00,40,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efce-7439-86b9-61159929ec1b,"Finished in state Failed(""Task run encountered an exception RuntimeError: Job 'modint-prefect-portable-manatee-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-15 06:08:51.225444+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efd1-7c8b-946d-2c16100a588c,[{'detections': '/ext-nas/modint-prefect-workspace/onn/Vehicle/results/20250222_062208_ssc8d1_0010_pansharpened_clip_cog.geojson'}]
+2025-10-15 06:08:51.236979+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,0199e67a-efd1-7c8b-946d-2c16100a588c,Finished in state Completed()
+2025-10-15 06:08:51.246948+00:00,40,2b558947-27b7-4989-9a07-29dd62f363cc,,"Encountered exception during execution: RuntimeError(""Job 'modint-prefect-portable-manatee-1' failed due to [], check the Kubernetes pod logs for more information."")
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 529, in run_modint_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'modint-prefect-portable-manatee-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-15 06:08:51.339515+00:00,20,2b558947-27b7-4989-9a07-29dd62f363cc,,"Finished in state Failed(""Flow run encountered an exception: RuntimeError: Job 'modint-prefect-portable-manatee-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-15 06:08:51.342626+00:00,40,2b558947-27b7-4989-9a07-29dd62f363cc,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 529, in run_modint_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 337, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'modint-prefect-portable-manatee-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-15 06:08:52.109879+00:00,40,2b558947-27b7-4989-9a07-29dd62f363cc,,Process for flow run 'portable-manatee' exited with status code: 1

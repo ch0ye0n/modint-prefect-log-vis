@@ -1,0 +1,188 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-08-26 04:41:02.397089+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,,Beginning subflow run 'transparent-turaco' for flow 'run-modint-flow'
+2025-08-26 04:41:02.472681+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f4c1-7b3f-8a3a-05eda7b14c2f,This job ID will be used - modint-prefect-transparent-turaco-1
+2025-08-26 04:41:02.479551+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f4c1-7b3f-8a3a-05eda7b14c2f,Finished in state Completed()
+2025-08-26 04:41:02.700151+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f518-7342-b351-35e5044371c5,Finished in state Completed()
+2025-08-26 04:41:02.751955+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51f-7fb8-83c9-5c968276ea12,{'scene_path': '/ext/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1735E-1274N.vrt'}
+2025-08-26 04:41:02.840946+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f64b-782f-ad5f-f35a592b5101,Finished in state Completed()
+2025-08-26 04:41:02.989714+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f518-7b7b-9b30-f90c962e27b9,"spawn /app/modint_prefect/utils/scheduler config
+[?25l[2K[1m[32m✔[0m [1mServer Connection: [0m[1m:[0m █
+[J spawn /app/modint_prefect/utils/scheduler login
+[?25l[2K[1m[31m✗[0m [1mLogin id: [0m[1m:[0m █
+[J [Jd [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m d█
+d [J [Jl [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dl█
+l [J [Jk [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk█
+k [J [J- [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-█
+- [J [Jb [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-b█
+b [J [Jo [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bo█
+o [J [Jt [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+t [J [J [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+[1A[2K[2K[2mLogin id: [0m[2m:[0m dlk-bot
+[?25h[?25l[2K[1m[31m✗[0m [1mPassword: [0m[1m:[0m █
+[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+*[J [J [J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+[1A[2K[2K[2mPassword: [0m[2m:[0m **************
+[?25hLogin succeed: dlk-bot@si-analytics.ai
+Login successful
+"
+2025-08-26 04:41:02.995971+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f518-7b7b-9b30-f90c962e27b9,"Running this command in scheduler... /app/modint_prefect/utils/scheduler run --name modint-prefect-transparent-turaco-1 --cpus 4 --memory 64Gi --gpus 1 --node a40-102,a100-101,a6000-101,a6000-102,a6000-103,v100-101,v100-202 harbor.sia-service.kr/research/siaseg:main-20250609.45 -- python3 tools/infer.py dev-cluster.sia-service.kr 31438 modint-prefect-transparent-turaco-1 /ext/modint-prefect-workspace/temp/inference/wise-gazelle --run-id 62afe72246594231b621a83bc1074810 --save-polygon --polygon-type building --ext gpkg"
+2025-08-26 04:41:03.416479+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f518-7b7b-9b30-f90c962e27b9,
+2025-08-26 04:41:03.424615+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f518-7b7b-9b30-f90c962e27b9,Finished in state Completed()
+2025-08-26 04:42:26.100702+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:43:39.632360+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:44:58.016217+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:46:19.466368+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:47:44.533045+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:49:07.801919+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:50:21.745405+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:51:35.823068+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:52:59.707773+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:54:13.250821+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:55:35.873301+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:56:45.312424+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:58:00.222398+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 04:59:14.493060+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:00:29.738503+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:01:46.025512+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:03:08.078381+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:04:37.144962+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:05:43.998461+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:07:12.297307+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:08:15.790702+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:09:24.267319+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:10:45.180732+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:11:58.021141+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:13:09.174842+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:14:37.570651+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:15:53.531076+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:17:12.042373+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:18:39.969747+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:19:57.835065+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:21:19.731013+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:22:37.636240+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:24:00.044391+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:25:14.790115+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:26:37.471378+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:28:00.388411+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:29:25.567500+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:30:47.750792+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:32:03.467125+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:33:24.426612+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:34:40.803637+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:36:04.939119+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:37:22.626156+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:38:40.794573+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:39:52.293027+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:41:13.314371+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:42:30.984638+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:43:37.857079+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:45:04.202606+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:46:31.657249+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:47:58.156480+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:49:17.208689+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:50:39.119984+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:51:58.813443+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:53:24.380428+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:54:43.813282+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:55:57.565144+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:57:20.798049+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:58:43.016961+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 05:59:57.612397+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 06:01:21.600829+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 06:02:48.543555+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 06:04:09.057871+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 06:05:32.790820+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 06:06:59.611382+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 06:08:16.974129+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"{'user': 'dlk-bot', 'status': 'Schedule', 'reason': '', 'age': '', 'node': '', 'gpus': '1', 'ports': ''}"
+2025-08-26 06:09:18.124187+00:00,40,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,"Task run failed with exception: SchedulerError('2025/08/26 06:09:18 fail call stub rpc error: code = Unavailable desc = error reading from server: read tcp 10.244.18.158:59806->115.71.37.104:30052: read: connection reset by peer\n') - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 254, in check_scheduler_ps_logs
+    result_ps = check_ps_scheduler(job_id)
+  File ""/app/modint-prefect-main/modint_prefect/utils/scheduler.py"", line 28, in check_ps_scheduler
+    raise SchedulerError(result.stderr.decode(""utf-8""))
+modint_prefect.configs.SchedulerError: 2025/08/26 06:09:18 fail call stub rpc error: code = Unavailable desc = error reading from server: read tcp 10.244.18.158:59806->115.71.37.104:30052: read: connection reset by peer
+"
+2025-08-26 06:09:18.145842+00:00,40,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51c-7230-a431-c496574d0873,Finished in state Failed('Task run encountered an exception SchedulerError: 2025/08/26 06:09:18 fail call stub rpc error: code = Unavailable desc = error reading from server: read tcp 10.244.18.158:59806->115.71.37.104:30052: read: connection reset by peer\n')
+2025-08-26 06:58:37.062373+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51f-7fb8-83c9-5c968276ea12,"{'msg': 'Traceback (most recent call last):\n  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 228, in inference\n    image_paths = get_image_paths(input_data[\'scene_path\'])\nTypeError: \'NoneType\' object is not subscriptable\n', 'retriable': False}"
+2025-08-26 06:58:37.069077+00:00,40,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51f-7fb8-83c9-5c968276ea12,Inference was failed. See the logs for detail.
+2025-08-26 06:58:37.071649+00:00,40,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51f-7fb8-83c9-5c968276ea12,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 127, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-08-26 06:58:37.086854+00:00,40,63456c4f-eeab-4746-9c10-1170c75929eb,0198e4ad-f51f-7fb8-83c9-5c968276ea12,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-08-26 06:58:37.099478+00:00,40,63456c4f-eeab-4746-9c10-1170c75929eb,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 500, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 127, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-08-26 06:58:37.246456+00:00,20,63456c4f-eeab-4746-9c10-1170c75929eb,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')

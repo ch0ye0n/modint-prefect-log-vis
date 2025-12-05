@@ -1,0 +1,331 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-11-05 04:29:40.032255+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Worker 'KubernetesWorker 2eef4ca3-1a3c-4874-ae0a-cd98fb643060' submitting flow run '4ee67576-d756-4271-95dc-f44bba6c995c'
+2025-11-05 04:29:40.233403+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Creating Kubernetes job...
+2025-11-05 04:29:40.445725+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Completed submission of flow run '4ee67576-d756-4271-95dc-f44bba6c995c'
+2025-11-05 04:29:46.918705+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Opening process...
+2025-11-05 04:29:49.540929+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,, > Running git_clone step...
+2025-11-05 04:29:55.039634+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Beginning flow run 'eta-acrab' for flow 'run-modint-flow'
+2025-11-05 04:29:55.254569+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4a04-7ae6-8d93-c0508e5cc5ca,This job ID will be used - modint-prefect-eta-acrab-1
+2025-11-05 04:29:55.259937+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4a04-7ae6-8d93-c0508e5cc5ca,Finished in state Completed()
+2025-11-05 04:29:55.798113+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4abe-7007-a81a-90d476ded781,Finished in state Completed()
+2025-11-05 04:29:55.869976+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4ac3-7295-bc64-aef2a5960cd8,{'scene_path': '/nas/k8s/dev/research/hojin/DSAR-TD/dataset/dsar_td/eo'}
+2025-11-05 04:29:55.963348+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4d4b-7462-a883-e150940b2239,Finished in state Completed()
+2025-11-05 04:29:56.105897+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4abe-7b10-94b5-66d62fd62487,"spawn /app/modint_prefect/utils/scheduler config
+[?25l[2K[1m[32m✔[0m [1mServer Connection: [0m[1m:[0m █
+[J spawn /app/modint_prefect/utils/scheduler login
+[?25l[2K[1m[31m✗[0m [1mLogin id: [0m[1m:[0m █
+[J [Jd [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m d█
+d [J [Jl [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dl█
+l [J [Jk [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk█
+k [J [J- [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-█
+- [J [Jb [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-b█
+b [J [Jo [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bo█
+o [J [Jt [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+t [J [J [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+[1A[2K[2K[2mLogin id: [0m[2m:[0m dlk-bot
+[?25h[?25l[2K[1m[31m✗[0m [1mPassword: [0m[1m:[0m █
+[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+*[J [J [J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+[1A[2K[2K[2mPassword: [0m[2m:[0m **************
+[?25hLogin succeed: dlk-bot@si-analytics.ai
+Login successful
+"
+2025-11-05 04:29:56.111794+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4abe-7b10-94b5-66d62fd62487,"Running this command in scheduler... /app/modint_prefect/utils/scheduler run --name modint-prefect-eta-acrab-1 --cpus 2 --memory 64Gi --gpus 1 --node a10-101,a40-102,a100-101,a6000-101,a6000-102,a6000-103,v100-101,v100-202 harbor.sia-service.kr/research/siaseg:main-20250925.12 -- python3 tools/infer.py dev-cluster.sia-service.kr 31438 modint-prefect-eta-acrab-1 /nas/k8s/dev/research/hojin/DSAR-TD/dataset/dsar_td/label_siaseg_hojin_reflect_padding --artifact-path /nas/k8s/dev/research/hojin/R-MOD24C/siaseg/checkpoints/landcover/20251105/upernet_convnext --ext geojson"
+2025-11-05 04:29:56.623677+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4abe-7b10-94b5-66d62fd62487,
+2025-11-05 04:29:56.631616+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4abe-7b10-94b5-66d62fd62487,Finished in state Completed()
+2025-11-05 04:30:25.907775+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4ac3-7295-bc64-aef2a5960cd8,"{'msg': 'Traceback (most recent call last):\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 109, in __getattr__\n    value = super().__getattr__(name)\n  File ""/usr/local/lib/python3.10/dist-packages/addict/addict.py"", line 67, in __getattr__\n    return self.__getitem__(item)\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 138, in __getitem__\n    return self.build_lazy(super().__getitem__(key))\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 105, in __missing__\n    raise KeyError(name)\nKeyError: \'crop_size\'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 378, in inference\n    self.model = self.init_model(self.run_id, self.artifact_path)\n  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 302, in init_model\n    cfg = apply_dataset_settings_for_scene(cfg)\n  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 80, in apply_dataset_settings_for_scene\n    patch_size, stride = find_patchsize_stride_from_cfg(cfg)\n  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 39, in find_patchsize_stride_from_cfg\n    patch_size = cfg.model.test_cfg.crop_size\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 113, in __getattr__\n    raise AttributeError(f""\'{self.__class__.__name__}\' object has no ""\nAttributeError: \'ConfigDict\' object has no attribute \'crop_size\'\n', 'retriable': False}"
+2025-11-05 04:30:25.913749+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4ac3-7295-bc64-aef2a5960cd8,Inference was failed. See the logs for detail.
+2025-11-05 04:30:25.915997+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4ac3-7295-bc64-aef2a5960cd8,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-05 04:30:25.931052+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4ac3-7295-bc64-aef2a5960cd8,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-11-05 04:31:00.434664+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4ac2-7f8c-aaa8-99e65f61cae1,Scheduler status succeeded!
+2025-11-05 04:31:00.437161+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4ac2-7f8c-aaa8-99e65f61cae1,"{'user': 'dlk-bot', 'status': 'Succeeded', 'reason': 'Completed', 'age': '59s', 'node': 'a10-101', 'gpus': '', 'ports': ''}"
+2025-11-05 04:31:00.439134+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4ac2-7f8c-aaa8-99e65f61cae1,"['/usr/local/lib/python3.10/dist-packages/mmengine/optim/optimizer/zero_optimizer.py:11: DeprecationWarning: `TorchScript` support for functional optimizers is deprecated and will be removed in a future PyTorch release. Consider using the `torch.compile` optimizer instead.', '  from torch.distributed.optim import \\', '/SIAseg/siaseg/apis/orthogonalize/orthogonalize_polygon.py:22: FutureWarning: This function has no longer any effect, and will be removed in a future release. Starting with Shapely 2.0, equivalent speedups are always available', '  speedups.enable()', 'WARNING: can not import selective_scan_cuda.', ""No module named 'selective_scan_cuda'"", '2025-11-05 04:30:17.963 | ERROR    | siaseg.apis.seg_runner:inference:413 - An exception occurred:', 'Traceback (most recent call last):', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 109, in __getattr__', '    value = super().__getattr__(name)', '  File ""/usr/local/lib/python3.10/dist-packages/addict/addict.py"", line 67, in __getattr__', '    return self.__getitem__(item)', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 138, in __getitem__', '    return self.build_lazy(super().__getitem__(key))', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 105, in __missing__', '    raise KeyError(name)', ""KeyError: 'crop_size'"", '', 'During handling of the above exception, another exception occurred:', '', 'Traceback (most recent call last):', '  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 378, in inference', '    self.model = self.init_model(self.run_id, self.artifact_path)', '  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 302, in init_model', '    cfg = apply_dataset_settings_for_scene(cfg)', '  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 80, in apply_dataset_settings_for_scene', '    patch_size, stride = find_patchsize_stride_from_cfg(cfg)', '  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 39, in find_patchsize_stride_from_cfg', '    patch_size = cfg.model.test_cfg.crop_size', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 113, in __getattr__', '    raise AttributeError(f""\'{self.__class__.__name__}\' object has no ""', ""AttributeError: 'ConfigDict' object has no attribute 'crop_size'"", '', '\x1b[32m2025-11-05T04:30:17.963742+0000\x1b[0m \x1b[31m\x1b[1mAn exception occurred:', 'Traceback (most recent call last):', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 109, in __getattr__', '    value = super().__getattr__(name)', '  File ""/usr/local/lib/python3.10/dist-packages/addict/addict.py"", line 67, in __getattr__', '    return self.__getitem__(item)', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 138, in __getitem__', '    return self.build_lazy(super().__getitem__(key))', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 105, in __missing__', '    raise KeyError(name)', ""KeyError: 'crop_size'"", '', 'During handling of the above exception, another exception occurred:', '', 'Traceback (most recent call last):', '  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 378, in inference', '    self.model = self.init_model(self.run_id, self.artifact_path)', '  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 302, in init_model', '    cfg = apply_dataset_settings_for_scene(cfg)', '  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 80, in apply_dataset_settings_for_scene', '    patch_size, stride = find_patchsize_stride_from_cfg(cfg)', '  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 39, in find_patchsize_stride_from_cfg', '    patch_size = cfg.model.test_cfg.crop_size', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/config/config.py"", line 113, in __getattr__', '    raise AttributeError(f""\'{self.__class__.__name__}\' object has no ""', ""AttributeError: 'ConfigDict' object has no attribute 'crop_size'"", '\x1b[0m', '']"
+2025-11-05 04:31:00.450141+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5247-4ac2-7f8c-aaa8-99e65f61cae1,Finished in state Completed()
+2025-11-05 04:31:00.460071+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 528, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-05 04:31:00.574018+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-11-05 04:31:00.577004+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 528, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-05 04:31:01.297231+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,,Process for flow run 'eta-acrab' exited with status code: 1
+2025-11-05 04:40:40.867288+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Worker 'KubernetesWorker 2eef4ca3-1a3c-4874-ae0a-cd98fb643060' submitting flow run '4ee67576-d756-4271-95dc-f44bba6c995c'
+2025-11-05 04:40:41.067894+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Creating Kubernetes job...
+2025-11-05 04:40:41.269907+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Completed submission of flow run '4ee67576-d756-4271-95dc-f44bba6c995c'
+2025-11-05 04:40:47.848824+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Opening process...
+2025-11-05 04:40:50.494146+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,, > Running git_clone step...
+2025-11-05 04:40:55.901980+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Beginning flow run 'eta-acrab' for flow 'run-modint-flow'
+2025-11-05 04:40:56.044892+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5f80-71d6-8b6a-0d24842a08f5,This job ID will be used - modint-prefect-eta-acrab-2
+2025-11-05 04:40:56.050302+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5f80-71d6-8b6a-0d24842a08f5,Finished in state Completed()
+2025-11-05 04:40:56.600897+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff5-75e1-8521-9a38b7b03a16,Finished in state Completed()
+2025-11-05 04:40:56.677299+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff9-77f6-8ace-c3e4b6d48176,{'scene_path': '/nas/k8s/dev/research/hojin/DSAR-TD/dataset/dsar_td/eo'}
+2025-11-05 04:40:56.772311+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-628d-775b-aa7f-c07f4032291f,Finished in state Completed()
+2025-11-05 04:40:56.918031+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff5-7e42-b37c-e89875baf9f8,"spawn /app/modint_prefect/utils/scheduler config
+[?25l[2K[1m[32m✔[0m [1mServer Connection: [0m[1m:[0m █
+[Jspawn /app/modint_prefect/utils/scheduler login
+[?25l[2K[1m[31m✗[0m [1mLogin id: [0m[1m:[0m █
+[J [Jd [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m d█
+d [J [Jl [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dl█
+l [J [Jk [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk█
+k [J [J- [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-█
+- [J [Jb [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-b█
+b [J [Jo [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bo█
+o [J [Jt [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+t [J [J [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+ [J[1A[2K[2K[2mLogin id: [0m[2m:[0m dlk-bot
+ [J[?25h [J[?25l[2K[1m[31m✗[0m [1mPassword: [0m[1m:[0m █
+[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+*[J [J [J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+[1A[2K[2K[2mPassword: [0m[2m:[0m **************
+[?25hLogin succeed: dlk-bot@si-analytics.ai
+Login successful
+"
+2025-11-05 04:40:56.924132+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff5-7e42-b37c-e89875baf9f8,"Running this command in scheduler... /app/modint_prefect/utils/scheduler run --name modint-prefect-eta-acrab-2 --cpus 2 --memory 64Gi --gpus 1 --node a10-101,a40-102,a100-101,a6000-101,a6000-102,a6000-103,v100-101,v100-202 harbor.sia-service.kr/research/siaseg:main-20250925.12 -- python3 tools/infer.py dev-cluster.sia-service.kr 31438 modint-prefect-eta-acrab-2 /nas/k8s/dev/research/hojin/DSAR-TD/dataset/dsar_td/label_siaseg_hojin_reflect_padding --artifact-path /nas/k8s/dev/research/hojin/R-MOD24C/siaseg/checkpoints/landcover/20251105/upernet_convnext --ext geojson"
+2025-11-05 04:40:59.748726+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff5-7e42-b37c-e89875baf9f8,
+2025-11-05 04:40:59.756406+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff5-7e42-b37c-e89875baf9f8,Finished in state Completed()
+2025-11-05 04:41:56.729481+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff9-77f6-8ace-c3e4b6d48176,"{'msg': 'Traceback (most recent call last):\n  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 401, in inference\n    self.runner.test()\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/runner/runner.py"", line 1823, in test\n    metrics = self.test_loop.run()  # type: ignore\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/runner/loops.py"", line 463, in run\n    self.run_iter(idx, data_batch)\n  File ""/usr/local/lib/python3.10/dist-packages/torch/utils/_contextlib.py"", line 116, in decorate_context\n    return func(*args, **kwargs)\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/runner/loops.py"", line 487, in run_iter\n    outputs = self.runner.model.test_step(data_batch)\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/model/base_model/base_model.py"", line 145, in test_step\n    return self._run_forward(data, mode=\'predict\')  # type: ignore\n  File ""/usr/local/lib/python3.10/dist-packages/mmengine/model/base_model/base_model.py"", line 361, in _run_forward\n    results = self(**data, mode=mode)\n  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File ""/usr/local/lib/python3.10/dist-packages/mmseg/models/segmentors/base.py"", line 96, in forward\n    return self.predict(inputs, data_samples)\n  File ""/usr/local/lib/python3.10/dist-packages/mmseg/models/segmentors/encoder_decoder.py"", line 220, in predict\n    seg_logits = self.inference(inputs, batch_img_metas)\n  File ""/usr/local/lib/python3.10/dist-packages/mmseg/models/segmentors/encoder_decoder.py"", line 341, in inference\n    seg_logit = self.slide_inference(inputs, batch_img_metas)\n  File ""/SIAseg/siaseg/models/segmentor/mixup_encoder_decoder.py"", line 211, in slide_inference\n    assert (count_mat == 0).sum() == 0\nAssertionError\n', 'retriable': False}"
+2025-11-05 04:41:56.735253+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff9-77f6-8ace-c3e4b6d48176,Inference was failed. See the logs for detail.
+2025-11-05 04:41:56.737353+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff9-77f6-8ace-c3e4b6d48176,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-05 04:41:56.754309+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff9-77f6-8ace-c3e4b6d48176,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-11-05 04:42:06.913343+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff8-7d9c-bc0d-0438f7930e6d,Scheduler status succeeded!
+2025-11-05 04:42:06.915635+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff8-7d9c-bc0d-0438f7930e6d,"{'user': 'dlk-bot', 'status': 'Succeeded', 'reason': 'Completed', 'age': '1m', 'node': 'a10-101', 'gpus': '', 'ports': ''}"
+2025-11-05 04:42:06.918126+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff8-7d9c-bc0d-0438f7930e6d,"['/usr/local/lib/python3.10/dist-packages/mmengine/optim/optimizer/zero_optimizer.py:11: DeprecationWarning: `TorchScript` support for functional optimizers is deprecated and will be removed in a future PyTorch release. Consider using the `torch.compile` optimizer instead.', '  from torch.distributed.optim import \\', '/SIAseg/siaseg/apis/orthogonalize/orthogonalize_polygon.py:22: FutureWarning: This function has no longer any effect, and will be removed in a future release. Starting with Shapely 2.0, equivalent speedups are always available', '  speedups.enable()', 'WARNING: can not import selective_scan_cuda.', ""No module named 'selective_scan_cuda'"", '11/05 04:41:13 - mmengine - INFO - ', '------------------------------------------------------------', 'System environment:', '    sys.platform: linux', '    Python: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]', '    CUDA available: True', '    MUSA available: False', '    numpy_random_seed: 927166444', '    GPU 0: NVIDIA A10', '    CUDA_HOME: /usr/local/cuda', '    NVCC: Cuda compilation tools, release 12.1, V12.1.105', '    GCC: x86_64-linux-gnu-gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0', '    PyTorch: 2.5.1+cu121', '    PyTorch compiling details: PyTorch built with:', '  - GCC 9.3', '  - C++ Version: 201703', '  - Intel(R) oneAPI Math Kernel Library Version 2024.2-Product Build 20240605 for Intel(R) 64 architecture applications', '  - Intel(R) MKL-DNN v3.5.3 (Git Hash 66f0cb9eb66affd2da3bf5f8d897376f04aae6af)', '  - OpenMP 201511 (a.k.a. OpenMP 4.5)', '  - LAPACK is enabled (usually provided by MKL)', '  - NNPACK is enabled', '  - CPU capability usage: AVX512', '  - CUDA Runtime 12.1', '  - NVCC architecture flags: -gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_90,code=sm_90', '  - CuDNN 90.1  (built against CUDA 12.4)', '  - Magma 2.6.1', '  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=12.1, CUDNN_VERSION=9.1.0, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -D_GLIBCXX_USE_CXX11_ABI=0 -fabi-version=11 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -Wno-missing-braces -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.5.1, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, ', '', '    TorchVision: 0.20.1+cu121', '    OpenCV: 4.12.0', '    MMEngine: 0.10.7', '', 'Runtime environment:', '    cudnn_benchmark: True', ""    dist_cfg: {'backend': 'nccl'}"", ""    mp_cfg: {'mp_start_method': 'fork', 'opencv_num_threads': 0}"", '    seed: 927166444', '    Distributed launcher: none', '    Distributed training: False', '    GPU number: 1', '------------------------------------------------------------', '', '11/05 04:41:14 - mmengine - INFO - Config:', 'backbone = dict(', ""    arch='base',"", '    drop_path_rate=0.4,', '    gap_before_final_norm=False,', '    in_channels=3,', '    init_cfg=dict(', '        checkpoint=', ""        'https://download.openmmlab.com/mmclassification/v0/convnext/downstream/convnext-base_3rdparty_in21k_20220301-262fd037.pth',"", ""        prefix='backbone.',"", ""        type='Pretrained'),"", '    layer_scale_init_value=1.0,', '    out_indices=[', '        0,', '        1,', '        2,', '        3,', '    ],', ""    type='mmpretrain.ConvNeXt')"", ""custom_imports = dict(allow_failed_imports=False, imports='mmpretrain.models')"", 'data_preprocessor = dict(', '    bgr_to_rgb=True,', '    mean=[', '        127.5,', '        127.5,', '        127.5,', '    ],', '    size_divisor=32,', '    std=[', '        127.5,', '        127.5,', '        127.5,', '    ],', ""    type='SegDataPreProcessor')"", 'default_hooks = dict(', '    checkpoint=dict(', '        by_epoch=False,', '        greater_keys=[', ""            'mIoU',"", '        ],', '        interval=4000,', '        save_best=[', ""            'mIoU',"", '        ],', ""        type='CheckpointHook'),"", ""    logger=dict(interval=500, log_metric_by_epoch=False, type='LoggerHook'),"", ""    param_scheduler=dict(type='ParamSchedulerHook'),"", ""    sampler_seed=dict(type='DistSamplerSeedHook'),"", ""    timer=dict(type='IterTimerHook'),"", '    visualization=dict(', '        draw=True,', '        merger_cfg=dict(', ""            ext='geojson',"", '            num_classes=8,', '            output_dir=', ""            '/nas/k8s/dev/research/hojin/DSAR-TD/dataset/dsar_td/label_siaseg_hojin_reflect_padding',"", ""            polygon_type='building',"", '            save_polygon=False,', '            skip_display=False,', '            target_class=1,', '            threshold=0.3),', ""        type='siaseg.RS_SegVisualizationHook'))"", ""default_scope = 'mmseg'"", 'env_cfg = dict(', '    cudnn_benchmark=True,', ""    dist_cfg=dict(backend='nccl'),"", ""    mp_cfg=dict(mp_start_method='fork', opencv_num_threads=0))"", 'in_channels = 3', ""launcher = 'none'"", ""load_from = '/nas/k8s/dev/research/hojin/R-MOD24C/siaseg/checkpoints/landcover/20251105/upernet_convnext/checkpoint/model_final.pth'"", 'log_interval = 500', ""log_level = 'INFO'"", 'log_processor = dict(by_epoch=False)', 'max_iters = 80000', 'model = dict(', '    auxiliary_head=dict(', '        align_corners=False,', '        channels=256,', '        concat_input=False,', '        dropout_ratio=0.1,', '        in_channels=512,', '        in_index=2,', '        loss_decode=[', ""            dict(loss_weight=0.4, type='CrossEntropyLoss'),"", ""            dict(loss_weight=0.4, type='TverskyLoss'),"", ""            dict(loss_weight=0.4, reduction='none', type='LovaszLoss'),"", '        ],', ""        norm_cfg=dict(requires_grad=True, type='SyncBN'),"", '        num_classes=8,', '        num_convs=1,', ""        type='FCNHead'),"", '    backbone=dict(', ""        arch='base',"", '        drop_path_rate=0.4,', '        gap_before_final_norm=False,', '        in_channels=3,', '        init_cfg=dict(', '            checkpoint=', ""            'https://download.openmmlab.com/mmclassification/v0/convnext/downstream/convnext-base_3rdparty_in21k_20220301-262fd037.pth',"", ""            prefix='backbone.',"", ""            type='Pretrained'),"", '        layer_scale_init_value=1.0,', '        out_indices=[', '            0,', '            1,', '            2,', '            3,', '        ],', ""        type='mmpretrain.ConvNeXt'),"", '    data_preprocessor=dict(', '        bgr_to_rgb=True,', '        mean=[', '            127.5,', '            127.5,', '            127.5,', '        ],', '        size_divisor=32,', '        std=[', '            127.5,', '            127.5,', '            127.5,', '        ],', ""        type='SegDataPreProcessor'),"", '    decode_head=dict(', '        align_corners=False,', '        channels=512,', '        dropout_ratio=0.1,', '        in_channels=[', '            128,', '            256,', '            512,', '            1024,', '        ],', '        in_index=[', '            0,', '            1,', '            2,', '            3,', '        ],', '        loss_decode=[', ""            dict(loss_weight=1.0, type='CrossEntropyLoss'),"", ""            dict(loss_weight=1.0, type='TverskyLoss'),"", ""            dict(loss_weight=1.0, reduction='none', type='LovaszLoss'),"", '        ],', ""        norm_cfg=dict(requires_grad=True, type='SyncBN'),"", '        num_classes=8,', '        pool_scales=(', '            1,', '            2,', '            3,', '            6,', '        ),', ""        type='UPerHead'),"", '    test_cfg=dict(crop_size=(', '        512,', '        512,', ""    ), mode='slide', stride=("", '        256,', '        256,', '    )),', '    train_cfg=dict(),', ""    type='siaseg.MixUpEncoderDecoder')"", ""norm_cfg = dict(requires_grad=True, type='SyncBN')"", 'num_classes = 8', ""pretrained = 'https://download.openmmlab.com/mmclassification/v0/convnext/downstream/convnext-base_3rdparty_in21k_20220301-262fd037.pth'"", 'resume = False', ""root_dir = '/nas/Dataset/COD/seg_change_assets/merged_seg_dataset'"", ""show_dir = '/nas/k8s/dev/research/hojin/DSAR-TD/dataset/dsar_td/label_siaseg_hojin_reflect_padding'"", ""test_cfg = dict(type='TestLoop')"", 'test_dataloader = dict(', '    batch_size=4,', '    dataset=dict(', ""        data_prefix=dict(img_path='images/val', seg_map_path='labels/val'),"", ""        data_root='',"", ""        img_suffix='.tif',"", '        metainfo=dict(', '            classes=(', ""                'Background',"", ""                'Bareland',"", ""                'Rangeland',"", ""                'Road',"", ""                'Tree',"", ""                'Water',"", ""                'Agriculture land',"", ""                'Building',"", '            )),', '        patch_size=(', '            512,', '            512,', '        ),', '        pipeline=[', '            dict(', ""                channel_order='rgb',"", '                ignore_seg_map=True,', '                to_float32=False,', ""                type='siaseg.LoadPatchFromScene'),"", '            dict(', '                max_percentile=99.0, min_percentile=1.0,', ""                type='siaseg.Stretch'),"", '            dict(scale=(', '                512,', '                512,', ""            ), type='Resize'),"", '            dict(', '                meta_keys=[', ""                    'img_path',"", ""                    'seg_map_path',"", ""                    'ori_shape',"", ""                    'img_shape',"", ""                    'pad_shape',"", ""                    'scale_factor',"", ""                    'flip',"", ""                    'flip_direction',"", ""                    'reduce_zero_label',"", ""                    'window',"", ""                    'target_gsd',"", '                ],', ""                type='PackSegInputs'),"", '        ],', ""        seg_map_suffix='.tif',"", '        stride=256,', ""        type='siaseg.SceneDataset'),"", '    num_workers=4,', ""    sampler=dict(shuffle=False, type='DefaultSampler'))"", 'test_dataset = dict(', ""    data_prefix=dict(img_path='images/val', seg_map_path='labels/val'),"", ""    data_root='',"", ""    img_suffix='.tif',"", '    metainfo=dict(', '        classes=(', ""            'Background',"", ""            'Bareland',"", ""            'Rangeland',"", ""            'Road',"", ""            'Tree',"", ""            'Water',"", ""            'Agriculture land',"", ""            'Building',"", '        )),', '    patch_size=(', '        512,', '        512,', '    ),', '    pipeline=[', '        dict(', ""            channel_order='rgb',"", '            ignore_seg_map=True,', '            to_float32=False,', ""            type='siaseg.LoadPatchFromScene'),"", ""        dict(max_percentile=99.0, min_percentile=1.0, type='siaseg.Stretch'),"", '        dict(scale=(', '            512,', '            512,', ""        ), type='Resize'),"", '        dict(', '            meta_keys=[', ""                'img_path',"", ""                'seg_map_path',"", ""                'ori_shape',"", ""                'img_shape',"", ""                'pad_shape',"", ""                'scale_factor',"", ""                'flip',"", ""                'flip_direction',"", ""                'reduce_zero_label',"", ""                'window',"", ""                'target_gsd',"", '            ],', ""            type='PackSegInputs'),"", '    ],', ""    seg_map_suffix='.tif',"", '    stride=256,', ""    type='siaseg.SceneDataset')"", 'test_evaluator = dict(', '    format_only=True,', '    iou_metrics=[', ""        'mIoU',"", '    ],', '    output_dir=', ""    '/nas/k8s/dev/research/hojin/DSAR-TD/dataset/dsar_td/label_siaseg_hojin_reflect_padding',"", ""    type='IoUMetric')"", 'test_pipeline = [', ""    dict(type='LoadImageFromFile'),"", ""    dict(type='LoadAnnotations'),"", ""    dict(type='PackSegInputs'),"", ']', 'train_pipeline = [', ""    dict(type='LoadImageFromFile'),"", ""    dict(type='LoadAnnotations'),"", '    dict(ratio_range=(', '        0.5,', '        1.25,', '    ), scale=(', '        1024,', '        1024,', ""    ), type='RandomResize'),"", '    dict(cat_max_ratio=0.75, crop_size=(', '        512,', '        512,', ""    ), type='RandomCrop'),"", ""    dict(direction='horizontal', prob=0.5, type='RandomFlip'),"", ""    dict(direction='vertical', prob=0.5, type='RandomFlip'),"", ""    dict(type='PhotoMetricDistortion'),"", '    dict(pad_val=0, size=(', '        512,', '        512,', ""    ), type='Pad'),"", ""    dict(type='PackSegInputs'),"", ']', ""tta_model = dict(type='SegTTAModel')"", 'val_interval = 4000', 'vis_backends = [', ""    dict(type='LocalVisBackend'),"", ""    dict(type='TensorboardVisBackend'),"", ']', 'visualizer = dict(', ""    name='visualizer',"", ""    type='SegLocalVisualizer',"", '    vis_backends=[', ""        dict(type='LocalVisBackend'),"", ""        dict(type='TensorboardVisBackend'),"", '    ])', ""work_dir = '/tmp/work_dirs'"", '', '11/05 04:41:20 - mmengine - INFO - Distributed training is not used, all SyncBatchNorm (SyncBN) layers in the model will be automatically reverted to BatchNormXd layers if they are used.', '11/05 04:41:20 - mmengine - INFO - Hooks will be executed in the following order:', 'before_run:', '(VERY_HIGH   ) RuntimeInfoHook                    ', '(BELOW_NORMAL) LoggerHook                         ', ' -------------------- ', 'before_train:', '(VERY_HIGH   ) RuntimeInfoHook                    ', '(NORMAL      ) IterTimerHook                      ', '(VERY_LOW    ) CheckpointHook                     ', ' -------------------- ', 'before_train_epoch:', '(VERY_HIGH   ) RuntimeInfoHook                    ', '(NORMAL      ) IterTimerHook                      ', '(NORMAL      ) DistSamplerSeedHook                ', ' -------------------- ', 'before_train_iter:', '(VERY_HIGH   ) RuntimeInfoHook                    ', '(NORMAL      ) IterTimerHook                      ', ' -------------------- ', 'after_train_iter:', '(VERY_HIGH   ) RuntimeInfoHook                    ', '(NORMAL      ) IterTimerHook                      ', '(NORMAL      ) RS_SegVisualizationHook            ', '(BELOW_NORMAL) LoggerHook                         ', '(LOW         ) ParamSchedulerHook                 ', '(VERY_LOW    ) CheckpointHook                     ', ' -------------------- ', 'after_train_epoch:', '(NORMAL      ) IterTimerHook                      ', '(LOW         ) ParamSchedulerHook                 ', '(VERY_LOW    ) CheckpointHook                     ', ' -------------------- ', 'before_val:', '(VERY_HIGH   ) RuntimeInfoHook                    ', ' -------------------- ', 'before_val_epoch:', '(NORMAL      ) IterTimerHook                      ', ' -------------------- ', 'before_val_iter:', '(NORMAL      ) IterTimerHook                      ', ' -------------------- ', 'after_val_iter:', '(NORMAL      ) IterTimerHook                      ', '(NORMAL      ) RS_SegVisualizationHook            ', '(BELOW_NORMAL) LoggerHook                         ', ' -------------------- ', 'after_val_epoch:', '(VERY_HIGH   ) RuntimeInfoHook                    ', '(NORMAL      ) IterTimerHook                      ', '(BELOW_NORMAL) LoggerHook                         ', '(LOW         ) ParamSchedulerHook                 ', '(VERY_LOW    ) CheckpointHook                     ', ' -------------------- ', 'after_val:', '(VERY_HIGH   ) RuntimeInfoHook                    ', ' -------------------- ', 'after_train:', '(VERY_HIGH   ) RuntimeInfoHook                    ', '(VERY_LOW    ) CheckpointHook                     ', ' -------------------- ', 'before_test:', '(VERY_HIGH   ) RuntimeInfoHook                    ', ' -------------------- ', 'before_test_epoch:', '(NORMAL      ) IterTimerHook                      ', ' -------------------- ', 'before_test_iter:', '(NORMAL      ) IterTimerHook                      ', ' -------------------- ', 'after_test_iter:', '(NORMAL      ) IterTimerHook                      ', '(NORMAL      ) RS_SegVisualizationHook            ', '(BELOW_NORMAL) LoggerHook                         ', ' -------------------- ', 'after_test_epoch:', '(VERY_HIGH   ) RuntimeInfoHook                    ', '(NORMAL      ) IterTimerHook                      ', '(BELOW_NORMAL) LoggerHook                         ', ' -------------------- ', 'after_test:', '(VERY_HIGH   ) RuntimeInfoHook                    ', '(NORMAL      ) RS_SegVisualizationHook            ', ' -------------------- ', 'after_run:', '(BELOW_NORMAL) LoggerHook                         ', ' -------------------- ', 'Loads checkpoint by local backend from path: /nas/k8s/dev/research/hojin/R-MOD24C/siaseg/checkpoints/landcover/20251105/upernet_convnext/checkpoint/model_final.pth', '11/05 04:41:26 - mmengine - INFO - Load checkpoint from /nas/k8s/dev/research/hojin/R-MOD24C/siaseg/checkpoints/landcover/20251105/upernet_convnext/checkpoint/model_final.pth', '11/05 04:41:30 - mmengine - WARNING - The prefix is not set in metric class IoUMetric.', '2025-11-05 04:41:42.863 | ERROR    | siaseg.apis.seg_runner:inference:413 - An exception occurred:', 'Traceback (most recent call last):', '  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 401, in inference', '    self.runner.test()', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/runner/runner.py"", line 1823, in test', '    metrics = self.test_loop.run()  # type: ignore', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/runner/loops.py"", line 463, in run', '    self.run_iter(idx, data_batch)', '  File ""/usr/local/lib/python3.10/dist-packages/torch/utils/_contextlib.py"", line 116, in decorate_context', '    return func(*args, **kwargs)', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/runner/loops.py"", line 487, in run_iter', '    outputs = self.runner.model.test_step(data_batch)', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/model/base_model/base_model.py"", line 145, in test_step', ""    return self._run_forward(data, mode='predict')  # type: ignore"", '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/model/base_model/base_model.py"", line 361, in _run_forward', '    results = self(**data, mode=mode)', '  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1736, in _wrapped_call_impl', '    return self._call_impl(*args, **kwargs)', '  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1747, in _call_impl', '    return forward_call(*args, **kwargs)', '  File ""/usr/local/lib/python3.10/dist-packages/mmseg/models/segmentors/base.py"", line 96, in forward', '    return self.predict(inputs, data_samples)', '  File ""/usr/local/lib/python3.10/dist-packages/mmseg/models/segmentors/encoder_decoder.py"", line 220, in predict', '    seg_logits = self.inference(inputs, batch_img_metas)', '  File ""/usr/local/lib/python3.10/dist-packages/mmseg/models/segmentors/encoder_decoder.py"", line 341, in inference', '    seg_logit = self.slide_inference(inputs, batch_img_metas)', '  File ""/SIAseg/siaseg/models/segmentor/mixup_encoder_decoder.py"", line 211, in slide_inference', '    assert (count_mat == 0).sum() == 0', 'AssertionError', '', '\x1b[32m2025-11-05T04:41:42.863058+0000\x1b[0m \x1b[31m\x1b[1mAn exception occurred:', 'Traceback (most recent call last):', '  File ""/SIAseg/siaseg/apis/seg_runner.py"", line 401, in inference', '    self.runner.test()', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/runner/runner.py"", line 1823, in test', '    metrics = self.test_loop.run()  # type: ignore', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/runner/loops.py"", line 463, in run', '    self.run_iter(idx, data_batch)', '  File ""/usr/local/lib/python3.10/dist-packages/torch/utils/_contextlib.py"", line 116, in decorate_context', '    return func(*args, **kwargs)', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/runner/loops.py"", line 487, in run_iter', '    outputs = self.runner.model.test_step(data_batch)', '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/model/base_model/base_model.py"", line 145, in test_step', ""    return self._run_forward(data, mode='predict')  # type: ignore"", '  File ""/usr/local/lib/python3.10/dist-packages/mmengine/model/base_model/base_model.py"", line 361, in _run_forward', '    results = self(**data, mode=mode)', '  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1736, in _wrapped_call_impl', '    return self._call_impl(*args, **kwargs)', '  File ""/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py"", line 1747, in _call_impl', '    return forward_call(*args, **kwargs)', '  File ""/usr/local/lib/python3.10/dist-packages/mmseg/models/segmentors/base.py"", line 96, in forward', '    return self.predict(inputs, data_samples)', '  File ""/usr/local/lib/python3.10/dist-packages/mmseg/models/segmentors/encoder_decoder.py"", line 220, in predict', '    seg_logits = self.inference(inputs, batch_img_metas)', '  File ""/usr/local/lib/python3.10/dist-packages/mmseg/models/segmentors/encoder_decoder.py"", line 341, in inference', '    seg_logit = self.slide_inference(inputs, batch_img_metas)', '  File ""/SIAseg/siaseg/models/segmentor/mixup_encoder_decoder.py"", line 211, in slide_inference', '    assert (count_mat == 0).sum() == 0', 'AssertionError', '\x1b[0m', '']"
+2025-11-05 04:42:06.936426+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,019a5251-5ff8-7d9c-bc0d-0438f7930e6d,Finished in state Completed()
+2025-11-05 04:42:06.945233+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 528, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-05 04:42:07.020159+00:00,20,4ee67576-d756-4271-95dc-f44bba6c995c,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-11-05 04:42:07.022682+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 528, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-05 04:42:07.610212+00:00,40,4ee67576-d756-4271-95dc-f44bba6c995c,,Process for flow run 'eta-acrab' exited with status code: 1

@@ -1,0 +1,53 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-09-05 06:53:01.859366+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Worker 'KubernetesWorker 4d157788-5802-4dcd-81ac-e20991547472' submitting flow run 'bfefc034-c5ee-4ab5-bd2f-f0ba885aa107'
+2025-09-05 06:53:02.009922+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Creating Kubernetes job...
+2025-09-05 06:53:02.549572+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Job 'modint-prefect-job-h4npx': Starting watch for pod start...
+2025-09-05 06:53:02.568295+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Completed submission of flow run 'bfefc034-c5ee-4ab5-bd2f-f0ba885aa107'
+2025-09-05 06:53:03.250796+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Job 'modint-prefect-job-h4npx': Pod has status 'Pending'.
+2025-09-05 06:53:06.231593+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Job 'modint-prefect-job-h4npx': Pod has status 'Running'.
+2025-09-05 06:53:09.683889+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Opening process...
+2025-09-05 06:53:12.380489+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,, > Running git_clone step...
+2025-09-05 06:53:18.517489+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Beginning flow run 'stoic-potoo' for flow 'run-bhc-change-detection-flow'
+2025-09-05 06:53:18.535928+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Using quad ID: L15-1732E-1274N
+2025-09-05 06:53:18.537521+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Input path: /nas/COG/basemap_planet/Y2024/M11/D01/basemap_planet_global_monthly_2024_11_mosaic/40000_global_monthly_2024_11_mosaic_cog.tif
+2025-09-05 06:53:18.538968+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Output directory: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/change_detection
+2025-09-05 06:53:18.698918+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,019918a6-a568-75b1-9ca0-f4d347271a11,This job ID will be used - prefect-stoic-potoo-1
+2025-09-05 06:53:18.704080+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,019918a6-a568-75b1-9ca0-f4d347271a11,Finished in state Completed()
+2025-09-05 06:53:18.978014+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,019918a6-a5f3-76f1-9cf4-29921b9740ea,Searching with specific quad_id pattern: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_10_*--L15-1732E-1274N--building.gpkg
+2025-09-05 06:53:19.065959+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,019918a6-a5f3-76f1-9cf4-29921b9740ea,Finished in state Completed()
+2025-09-05 06:53:19.200635+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,019918a6-a76a-791f-9f9f-2d4d15944d51,Finished in state Completed()
+2025-09-05 06:53:19.405684+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,019918a6-a7e7-76b0-9b86-05b2d545e959,Finished in state Completed()
+2025-09-05 06:53:19.413436+00:00,40,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,"Encountered exception during execution: FileNotFoundError('Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1732E-1274N--building.gpkg')
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 764, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Current month segmentation result not found: {curr_mask_path}"")
+FileNotFoundError: Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1732E-1274N--building.gpkg"
+2025-09-05 06:53:19.472705+00:00,20,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Finished in state Failed('Flow run encountered an exception: FileNotFoundError: Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1732E-1274N--building.gpkg')
+2025-09-05 06:53:19.475515+00:00,40,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-hotfix-added-separate-worker-for-bhc/modint_prefect/prefect_flow.py"", line 764, in run_bhc_change_detection_flow
+    raise FileNotFoundError(f""Current month segmentation result not found: {curr_mask_path}"")
+FileNotFoundError: Current month segmentation result not found: /nas/k8s/dev/mlops/sylee/modint-prefect-run/retained_no_filter/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1732E-1274N--building.gpkg"
+2025-09-05 06:53:20.226242+00:00,40,bfefc034-c5ee-4ab5-bd2f-f0ba885aa107,,Process for flow run 'stoic-potoo' exited with status code: 1

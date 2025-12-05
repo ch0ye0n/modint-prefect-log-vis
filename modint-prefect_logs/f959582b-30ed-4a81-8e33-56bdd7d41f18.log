@@ -1,0 +1,166 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-11-07 08:08:58.442334+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,,Worker 'KubernetesWorker 2eef4ca3-1a3c-4874-ae0a-cd98fb643060' submitting flow run 'f959582b-30ed-4a81-8e33-56bdd7d41f18'
+2025-11-07 08:08:58.641337+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,,Creating Kubernetes job...
+2025-11-07 08:08:58.879550+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,,Completed submission of flow run 'f959582b-30ed-4a81-8e33-56bdd7d41f18'
+2025-11-07 08:09:05.642761+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,,Opening process...
+2025-11-07 08:09:08.418860+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,, > Running git_clone step...
+2025-11-07 08:09:14.017170+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,,Beginning flow run 'furry-shrimp' for flow 'run-modint-flow-without-redis'
+2025-11-07 08:09:14.194311+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-cc45-7aba-af98-4c304cd3904d,This job ID will be used - modint-prefect-furry-shrimp-1
+2025-11-07 08:09:14.197415+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-cc45-7aba-af98-4c304cd3904d,Finished in state Completed()
+2025-11-07 08:09:14.850125+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-cf1b-719e-a118-a2a48e4057f1,Finished in state Completed()
+2025-11-07 08:09:15.022021+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c8-905e-b7f15765d1c8,"spawn /app/modint_prefect/utils/scheduler config
+[?25l[2K[1m[32m✔[0m [1mServer Connection: [0m[1m:[0m █
+[J spawn /app/modint_prefect/utils/scheduler login
+[?25l[2K[1m[31m✗[0m [1mLogin id: [0m[1m:[0m █
+[J [Jd [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m d█
+d [J [Jl [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dl█
+l [J [Jk [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk█
+k [J [J- [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-█
+- [J [Jb [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-b█
+b [J [Jo [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bo█
+o [J [Jt [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+t [J [J [J[1A[2K[2K[1m[32m✔[0m [1mLogin id: [0m[1m:[0m dlk-bot█
+ [J[1A[2K[2K[2mLogin id: [0m[2m:[0m dlk-bot
+ [J[?25h [J[?25l[2K[1m[31m✗[0m [1mPassword: [0m[1m:[0m █
+[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *****█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *******█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ***********█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m ************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m *************█
+*[J [J*[J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+*[J [J [J[1A[2K[2K[1m[32m✔[0m [1mPassword: [0m[1m:[0m **************█
+ [J[1A[2K[2K[2mPassword: [0m[2m:[0m **************
+ [J[?25h [JLogin succeed: dlk-bot@si-analytics.ai
+Login successful
+"
+2025-11-07 08:09:15.028659+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c8-905e-b7f15765d1c8,"Running this command in scheduler... /app/modint_prefect/utils/scheduler run --name modint-prefect-furry-shrimp-1 --cpus 2 --memory 64Gi --gpus 1 --node a10-101,a40-102,a100-101,a6000-101,a6000-102,a6000-103,v100-101,v100-202 harbor.sia-service.kr/research/weaver:modint-v0.1.1-20250717.28 -- python3 /weaver/tools/batch_inference.py /nas/k8s/dev/research/jeongwon/weaver/configs/inf_1ch.py /nas/k8s/dev/research/jeongwon/weaver/configs/RestormerGAN_aerial_1ch_iter_205000.pth --path /nas/Projects/C-BIZ01A/Axelspace/Japan_Forestry_Samples/SR_sample_48_GRUS_Tiles_TCI/SR_sample_48_GRUS_Tiles/GRUS1B_20221125012042/GRUS1B_20221125012042_L1C_PSM_N35022500.tif --save-path /nas/Projects/C-BIZ01A/Axelspace/Japan_Forestry_Samples/SR_sample_48_GRUS_Tiles_TCI/SR_sample_48_GRUS_Tiles/GRUS1B_20221125012042/Results/GRUS1B_20221125012042_L1C_PSM_N35022500_SuperX.tif --tmpdir /ext/modint-prefect-workspace/temp/superx --cfg-options scene_test_dataset.inference_mode.inp_channels=4 --single-band"
+2025-11-07 08:09:17.242688+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c8-905e-b7f15765d1c8,
+2025-11-07 08:09:17.250987+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c8-905e-b7f15765d1c8,Finished in state Completed()
+2025-11-07 08:10:23.671828+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c2-b676-f82b9f4f37e2,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '57s', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-11-07 08:11:30.469822+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c2-b676-f82b9f4f37e2,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '2m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-11-07 08:12:40.595917+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c2-b676-f82b9f4f37e2,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '3m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-11-07 08:13:51.557933+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c2-b676-f82b9f4f37e2,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '4m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-11-07 08:14:58.910965+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c2-b676-f82b9f4f37e2,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '5m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-11-07 08:16:11.492383+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c2-b676-f82b9f4f37e2,"{'user': 'dlk-bot', 'status': 'Running', 'reason': '', 'age': '6m', 'node': 'a100-101', 'gpus': '1', 'ports': ''}"
+2025-11-07 08:17:19.825579+00:00,40,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c2-b676-f82b9f4f37e2,"{'user': 'dlk-bot', 'status': 'Failed', 'reason': 'Error', 'age': '7m', 'node': 'a100-101', 'gpus': '', 'ports': ''}"
+2025-11-07 08:17:19.828050+00:00,40,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c2-b676-f82b9f4f37e2,"['/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers', '  warnings.warn(f""Importing from {__name__} is deprecated, please import via timm.layers"", FutureWarning)', '/usr/local/lib/python3.10/dist-packages/mmedit/utils/setup_env.py:32: UserWarning: Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.', '  warnings.warn(', '/usr/local/lib/python3.10/dist-packages/mmedit/utils/setup_env.py:42: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.', '  warnings.warn(', 'load checkpoint from local path: /nas/k8s/dev/research/jeongwon/weaver/configs/RestormerGAN_aerial_1ch_iter_205000.pth', 'The model and loaded state dict do not match exactly', '', 'unexpected key in source state_dict: perceptual_loss.vgg.mean, perceptual_loss.vgg.std, perceptual_loss.vgg.vgg_layers.0.weight, perceptual_loss.vgg.vgg_layers.0.bias, perceptual_loss.vgg.vgg_layers.2.weight, perceptual_loss.vgg.vgg_layers.2.bias, perceptual_loss.vgg.vgg_layers.5.weight, perceptual_loss.vgg.vgg_layers.5.bias, perceptual_loss.vgg.vgg_layers.7.weight, perceptual_loss.vgg.vgg_layers.7.bias, perceptual_loss.vgg.vgg_layers.10.weight, perceptual_loss.vgg.vgg_layers.10.bias, perceptual_loss.vgg.vgg_layers.12.weight, perceptual_loss.vgg.vgg_layers.12.bias, perceptual_loss.vgg.vgg_layers.14.weight, perceptual_loss.vgg.vgg_layers.14.bias, perceptual_loss.vgg.vgg_layers.16.weight, perceptual_loss.vgg.vgg_layers.16.bias, perceptual_loss.vgg.vgg_layers.19.weight, perceptual_loss.vgg.vgg_layers.19.bias, perceptual_loss.vgg.vgg_layers.21.weight, perceptual_loss.vgg.vgg_layers.21.bias, perceptual_loss.vgg.vgg_layers.23.weight, perceptual_loss.vgg.vgg_layers.23.bias, perceptual_loss.vgg.vgg_layers.25.weight, perceptual_loss.vgg.vgg_layers.25.bias, perceptual_loss.vgg.vgg_layers.28.weight, perceptual_loss.vgg.vgg_layers.28.bias, perceptual_loss.vgg.vgg_layers.30.weight, perceptual_loss.vgg.vgg_layers.30.bias, perceptual_loss.vgg.vgg_layers.32.weight, perceptual_loss.vgg.vgg_layers.32.bias, perceptual_loss.vgg.vgg_layers.34.weight, perceptual_loss.vgg.vgg_layers.34.bias', '', '/nas/Projects/C-BIZ01A/Axelspace/Japan_Forestry_Samples/SR_sample_48_GRUS_Tiles_TCI/SR_sample_48_GRUS_Tiles/GRUS1B_20221125012042/GRUS1B_20221125012042_L1C_PSM_N35022500.tif', ""Warning 6: creation option 'YES' is not formatted with the key=value format"", ""Warning 6: creation option 'ALL_CPUS' is not formatted with the key=value format"", '[                                                  ] 0/25, elapsed: 0s, ETA:\r[>                                ] 1/25, 0.1 task/s, elapsed: 10s, ETA:   230s\r[>>                               ] 2/25, 0.2 task/s, elapsed: 11s, ETA:   131s\r[>>>                              ] 3/25, 0.2 task/s, elapsed: 13s, ETA:    97s\r[>>>>>                            ] 4/25, 0.3 task/s, elapsed: 15s, ETA:    79s\r[>>>>>>                           ] 5/25, 0.3 task/s, elapsed: 17s, ETA:    67s\r[>>>>>>>                          ] 6/25, 0.3 task/s, elapsed: 18s, ETA:    58s\r[>>>>>>>>>                        ] 7/25, 0.3 task/s, elapsed: 20s, ETA:    51s\r[>>>>>>>>>>                       ] 8/25, 0.4 task/s, elapsed: 22s, ETA:    46s\r[>>>>>>>>>>>                      ] 9/25, 0.4 task/s, elapsed: 23s, ETA:    41s\r[>>>>>>>>>>>>                    ] 10/25, 0.4 task/s, elapsed: 25s, ETA:    38s\r[>>>>>>>>>>>>>>                  ] 11/25, 0.4 task/s, elapsed: 27s, ETA:    34s\r[>>>>>>>>>>>>>>>                 ] 12/25, 0.4 task/s, elapsed: 28s, ETA:    31s\r[>>>>>>>>>>>>>>>>                ] 13/25, 0.4 task/s, elapsed: 30s, ETA:    28s\r[>>>>>>>>>>>>>>>>>               ] 14/25, 0.4 task/s, elapsed: 32s, ETA:    25s\r[>>>>>>>>>>>>>>>>>>>             ] 15/25, 0.4 task/s, elapsed: 33s, ETA:    22s\r[>>>>>>>>>>>>>>>>>>>>            ] 16/25, 0.5 task/s, elapsed: 35s, ETA:    20s\r[>>>>>>>>>>>>>>>>>>>>>           ] 17/25, 0.5 task/s, elapsed: 37s, ETA:    17s\r[>>>>>>>>>>>>>>>>>>>>>>>         ] 18/25, 0.5 task/s, elapsed: 39s, ETA:    15s\r[>>>>>>>>>>>>>>>>>>>>>>>>        ] 19/25, 0.5 task/s, elapsed: 40s, ETA:    13s\r[>>>>>>>>>>>>>>>>>>>>>>>>>       ] 20/25, 0.5 task/s, elapsed: 42s, ETA:    11s\r[>>>>>>>>>>>>>>>>>>>>>>>>>>      ] 21/25, 0.5 task/s, elapsed: 44s, ETA:     8s\r[>>>>>>>>>>>>>>>>>>>>>>>>>>>>    ] 22/25, 0.5 task/s, elapsed: 45s, ETA:     6s\r[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 23/25, 0.5 task/s, elapsed: 47s, ETA:     4s\r[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 24/25, 0.5 task/s, elapsed: 49s, ETA:     2s\r[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 25/25, 0.5 task/s, elapsed: 51s, ETA:     0s', 'Traceback (most recent call last):', '  File ""/usr/lib/python3.10/shutil.py"", line 816, in move', '    os.rename(src, real_dst)', ""OSError: [Errno 18] Invalid cross-device link: '/ext/modint-prefect-workspace/temp/superx/GRUS1B_20221125012042_L1C_PSM_N35022500' -> '/nas/Projects/C-BIZ01A/Axelspace/Japan_Forestry_Samples/SR_sample_48_GRUS_Tiles_TCI/SR_sample_48_GRUS_Tiles/GRUS1B_20221125012042/Results/GRUS1B_20221125012042_L1C_PSM_N35022500_SuperX.tif/GRUS1B_20221125012042_L1C_PSM_N35022500'"", '', 'During handling of the above exception, another exception occurred:', '', 'Traceback (most recent call last):', '  File ""/weaver/tools/batch_inference.py"", line 201, in <module>', '    main()', '  File ""/weaver/tools/batch_inference.py"", line 191, in main', '    shutil.move(base, args.save_path)', '  File ""/usr/lib/python3.10/shutil.py"", line 834, in move', '    rmtree(src)', '  File ""/usr/lib/python3.10/shutil.py"", line 725, in rmtree', '    _rmtree_safe_fd(fd, path, onerror)', '  File ""/usr/lib/python3.10/shutil.py"", line 658, in _rmtree_safe_fd', '    _rmtree_safe_fd(dirfd, fullname, onerror)', '  File ""/usr/lib/python3.10/shutil.py"", line 681, in _rmtree_safe_fd', '    onerror(os.unlink, fullname, sys.exc_info())', '  File ""/usr/lib/python3.10/shutil.py"", line 679, in _rmtree_safe_fd', '    os.unlink(entry.name, dir_fd=topfd)', ""OSError: [Errno 16] Device or resource busy: '.nfs0000001e9ea44c1c00003b58'"", '']"
+2025-11-07 08:17:19.833534+00:00,40,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c2-b676-f82b9f4f37e2,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 283, in check_scheduler_ps_logs
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-07 08:17:19.849497+00:00,40,f959582b-30ed-4a81-8e33-56bdd7d41f18,019a5d5c-ccd7-74c2-b676-f82b9f4f37e2,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-11-07 08:17:19.857972+00:00,40,f959582b-30ed-4a81-8e33-56bdd7d41f18,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 623, in run_modint_flow_without_redis
+    scheduler_ps_logs_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 283, in check_scheduler_ps_logs
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-07 08:17:19.931486+00:00,20,f959582b-30ed-4a81-8e33-56bdd7d41f18,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-11-07 08:17:19.934262+00:00,40,f959582b-30ed-4a81-8e33-56bdd7d41f18,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 623, in run_modint_flow_without_redis
+    scheduler_ps_logs_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 283, in check_scheduler_ps_logs
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-07 08:17:20.581065+00:00,40,f959582b-30ed-4a81-8e33-56bdd7d41f18,,Process for flow run 'furry-shrimp' exited with status code: 1

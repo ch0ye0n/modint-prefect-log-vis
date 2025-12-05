@@ -1,0 +1,321 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-10-17 13:05:51.539416+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Worker 'KubernetesWorker a05e490e-9eac-4523-9166-1b04920e6d58' submitting flow run '57291bdc-8d39-446b-8cd0-226a9f95346c'
+2025-10-17 13:05:51.669082+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Creating Kubernetes job...
+2025-10-17 13:05:52.001708+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Completed submission of flow run '57291bdc-8d39-446b-8cd0-226a9f95346c'
+2025-10-17 13:05:59.002488+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Opening process...
+2025-10-17 13:06:01.675297+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,, > Running git_clone step...
+2025-10-17 13:06:07.246720+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Beginning flow run 'jasmine-finch' for flow 'run-bhc-change-detection-flow'
+2025-10-17 13:06:07.269508+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Using quad ID: L15-1743E-1267N
+2025-10-17 13:06:07.271145+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Input path: /nas/COG/basemap_planet/Y2024/M12/D01/basemap_planet_global_monthly_2024_12_mosaic/40000_global_monthly_2024_12_mosaic_cog.tif
+2025-10-17 13:06:07.272597+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Output directory: /nas/Projects/N-BHC24A/change_detection
+2025-10-17 13:06:07.425972+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-0f62-770c-bc1e-c263d6cf0d29,This job ID will be used - prefect-jasmine-finch-1
+2025-10-17 13:06:07.431956+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-0f62-770c-bc1e-c263d6cf0d29,Finished in state Completed()
+2025-10-17 13:06:07.724852+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-0fcb-79d8-a11c-8392f1f1803e,Searching with specific quad_id pattern: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_*--L15-1743E-1267N--road.gpkg
+2025-10-17 13:06:07.846141+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-0fcb-79d8-a11c-8392f1f1803e,Finished in state Completed()
+2025-10-17 13:06:07.933383+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-116c-7146-8599-7a3c283d9b7d,Finished in state Completed()
+2025-10-17 13:06:08.009715+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-11c3-72f8-9f2f-4a6bc9e31894,Finished in state Completed()
+2025-10-17 13:06:08.018190+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Previous RGB VRT path: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1743E-1267N.vrt
+2025-10-17 13:06:08.020044+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Current RGB VRT path: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_12_mosaic_cog_L15-1743E-1267N.vrt
+2025-10-17 13:06:08.021834+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Previous mask path: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1267N--road.gpkg
+2025-10-17 13:06:08.024279+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,Current mask path: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_12_mosaic_cog--L15-1743E-1267N--road.gpkg
+2025-10-17 13:06:08.166733+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-1289-71ca-9b98-e826090e82b5,Finished in state Completed()
+2025-10-17 13:06:09.241268+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,Beginning subflow run 'masterful-ara' for flow 'run-namespaced-job'
+2025-10-17 13:06:14.752681+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:12] All required packages seem to be installed correctly.
+"
+2025-10-17 13:06:14.754922+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] 로그 파일이 '/app/argos_temp_work/prefect-jasmine-finch-1/prefect-jasmine-finch-1-logs.txt'에 생성되었습니다.
+"
+2025-10-17 13:06:14.757281+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] Log file is being written to: /app/argos_temp_work/prefect-jasmine-finch-1/prefect-jasmine-finch-1-logs.txt
+"
+2025-10-17 13:06:14.759993+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] Temporary work directory: /app/argos_temp_work/prefect-jasmine-finch-1
+"
+2025-10-17 13:06:14.761919+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] Final output will be saved in: /nas/Projects/N-BHC24A/change_detection
+"
+2025-10-17 13:06:14.764080+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] --- Starting Analysis Pipeline ---
+"
+2025-10-17 13:06:14.767682+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] [JOB_ID] prefect-jasmine-finch-1 - Change detection analysis initiated
+"
+2025-10-17 13:06:14.769220+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] [JOB_ID] prefect-jasmine-finch-1 - Previous RGB: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_11_mosaic_cog_L15-1743E-1267N.vrt
+"
+2025-10-17 13:06:14.771123+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] [JOB_ID] prefect-jasmine-finch-1 - Current RGB: /nas/Projects/N-BHC24A/modint-prefect-workspace/temp/vrt/40000_global_monthly_2024_12_mosaic_cog_L15-1743E-1267N.vrt
+"
+2025-10-17 13:06:14.772978+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] [JOB_ID] prefect-jasmine-finch-1 - Previous Mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1267N--road.gpkg
+"
+2025-10-17 13:06:14.774668+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] [JOB_ID] prefect-jasmine-finch-1 - Current Mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_12_mosaic_cog--L15-1743E-1267N--road.gpkg
+"
+2025-10-17 13:06:14.776536+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] [JOB_ID] prefect-jasmine-finch-1 - Temp Work Directory: /app/argos_temp_work/prefect-jasmine-finch-1
+"
+2025-10-17 13:06:14.778194+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] [JOB_ID] prefect-jasmine-finch-1 - Final Output Directory: /nas/Projects/N-BHC24A/change_detection
+"
+2025-10-17 13:06:14.779653+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] [INFO] Converting prev GPKG to mask: /nas/Projects/N-BHC24A/segmentation/40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1267N--road.gpkg
+"
+2025-10-17 13:06:14.781402+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"[2025-10-17 22:06:13] --- Starting GPKG to Raster Mask Preprocessing for 40000_global_monthly_2024_11_mosaic_cog--L15-1743E-1267N--road.gpkg ---
+"
+2025-10-17 13:06:14.783056+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"failed to watch directory ""/var/log/pods/serving_prefect-jasmine-finch-1-zhjwg_4076a1b0-9088-477f-a32a-41fa04a8c8d5/inference"": no space left on device"
+2025-10-17 13:23:46.734321+00:00,40,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"Task run failed with exception: RuntimeError(""Job 'prefect-jasmine-finch-1' failed due to [], check the Kubernetes pod logs for more information."") - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 334, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-jasmine-finch-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-17 13:23:46.757882+00:00,40,57291bdc-8d39-446b-8cd0-226a9f95346c,0199f247-121a-70c9-be27-cced0aac15b0,"Finished in state Failed(""Task run encountered an exception RuntimeError: Job 'prefect-jasmine-finch-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-17 13:23:46.764614+00:00,40,57291bdc-8d39-446b-8cd0-226a9f95346c,,"Encountered exception during execution: RuntimeError(""Job 'prefect-jasmine-finch-1' failed due to [], check the Kubernetes pod logs for more information."")
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 803, in run_bhc_change_detection_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 334, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-jasmine-finch-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-17 13:23:46.832004+00:00,20,57291bdc-8d39-446b-8cd0-226a9f95346c,,"Finished in state Failed(""Flow run encountered an exception: RuntimeError: Job 'prefect-jasmine-finch-1' failed due to [], check the Kubernetes pod logs for more information."")"
+2025-10-17 13:23:46.834777+00:00,40,57291bdc-8d39-446b-8cd0-226a9f95346c,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 803, in run_bhc_change_detection_flow
+    inference_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 334, in run_inference_serving
+    run_namespaced_job(job, print_func=logger.info)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flows.py"", line 1702, in __call__
+    return run_flow(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/flows.py"", line 42, in run_namespaced_job
+    task(kubernetes_job_run.wait_for_completion)(print_func)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/tasks.py"", line 1139, in __call__
+    return run_task(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1714, in run_task
+    return run_task_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1489, in run_task_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 478, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 351, in coroutine_wrapper
+    return run_coro_as_sync(ctx_call())
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 341, in ctx_call
+    result = await async_fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect_kubernetes/jobs.py"", line 472, in wait_for_completion
+    raise RuntimeError(
+RuntimeError: Job 'prefect-jasmine-finch-1' failed due to [], check the Kubernetes pod logs for more information."
+2025-10-17 13:23:47.659212+00:00,40,57291bdc-8d39-446b-8cd0-226a9f95346c,,Process for flow run 'jasmine-finch' exited with status code: 1

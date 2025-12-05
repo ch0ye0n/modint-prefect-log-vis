@@ -1,0 +1,276 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-11-13 10:02:06.141270+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,,Worker 'KubernetesWorker b5700100-6765-494e-b637-58b56901dc89' submitting flow run 'fe0c4ed7-bd97-42b3-9168-c7701dddd05a'
+2025-11-13 10:02:06.317667+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,,Creating Kubernetes job...
+2025-11-13 10:02:06.650149+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,,Completed submission of flow run 'fe0c4ed7-bd97-42b3-9168-c7701dddd05a'
+2025-11-13 10:02:13.510307+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,,Opening process...
+2025-11-13 10:02:16.205215+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,, > Running git_clone step...
+2025-11-13 10:02:21.411576+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,,Beginning flow run 'convivial-lion' for flow 'run-modint-flow'
+2025-11-13 10:02:21.583687+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8585-78bd-9bfb-c718518b4ed4,This job ID will be used - modint-prefect-convivial-lion-1
+2025-11-13 10:02:21.588782+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8585-78bd-9bfb-c718518b4ed4,Finished in state Completed()
+2025-11-13 10:02:22.088259+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8617-79a0-a94e-bbba6126eea5,Finished in state Completed()
+2025-11-13 10:02:22.144236+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-861a-7cfb-aa9b-ed508bef09d8,{'detections': '/ext-nas/modint-prefect-workspace/geofocus_after_s3/251110_대구산항_skysatcollect_pansharpened_udm2/SuperX_Ship_Detection/20251110_063112_ssc8_u0001_pansharpened_clip.geojson'}
+2025-11-13 10:02:22.220377+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-886e-784d-947c-f868a32f97e4,Finished in state Completed()
+2025-11-13 10:02:23.448774+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,Beginning subflow run 'incredible-hoatzin' for flow 'run-namespaced-job'
+2025-11-13 10:02:31.191116+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"11/13 10:02:31 - mmengine - [5m[4m[33mWARNING[0m - Failed to search registry with scope ""recls"" in the ""batch augment"" registry tree. As a workaround, the current ""batch augment"" registry in ""mmpretrain"" is used to build instance. This may cause unexpected failure when running the built modules. Please check whether ""recls"" is a correct scope, or whether the registry is initialized.
+"
+2025-11-13 10:02:31.193908+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"11/13 10:02:31 - mmengine - [4m[37mINFO[0m - Because batch augmentations are enabled, the data preprocessor automatically enables the `to_onehot` option to generate one-hot format labels.
+"
+2025-11-13 10:02:36.805913+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"Loads checkpoint by local backend from path: /tmp/tmp0901t8s1/checkpoint/model_final.pth
+"
+2025-11-13 10:02:36.808428+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"11/13 10:02:36 - mmengine - [5m[4m[33mWARNING[0m - The prefix is not set in metric class DumpGeojsonResults.
+"
+2025-11-13 10:02:37.212156+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"Downloading artifacts:   0%|          | 0/2 [00:00<?, ?it/s]Downloading artifacts:  50%|█████     | 1/2 [00:00<00:00, 33.14it/s]Downloading artifacts: 100%|██████████| 2/2 [00:01<00:00,  1.78it/s]Downloading artifacts: 100%|██████████| 2/2 [00:01<00:00,  1.78it/s]Downloading artifacts: 100%|██████████| 2/2 [00:01<00:00,  1.78it/s]
+"
+2025-11-13 10:02:37.580181+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"ERROR 4: /ext-nas/modint-prefect-workspace/geofocus_after_s3/대구산항_251110_skysatcollect_pansharpened_udm2/SuperX/20251110_063112_ssc8_u0001_pansharpened_clip.tif: No such file or directory
+"
+2025-11-13 10:02:37.600049+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"ERROR 4: /ext-nas/modint-prefect-workspace/geofocus_after_s3/대구산항_251110_skysatcollect_pansharpened_udm2/SuperX/20251110_063112_ssc8_u0001_pansharpened_clip.tif: No such file or directory
+"
+2025-11-13 10:02:37.603233+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"ERROR 4: /ext-nas/modint-prefect-workspace/geofocus_after_s3/대구산항_251110_skysatcollect_pansharpened_udm2/SuperX/20251110_063112_ssc8_u0001_pansharpened_clip.tif: No such file or directory
+"
+2025-11-13 10:02:37.614856+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"2025-11-13 10:02:37.613 | ERROR    | modint.runner.base_runner:inference:137 - An exception occurred:
+"
+2025-11-13 10:02:37.617294+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"Traceback (most recent call last):
+"
+2025-11-13 10:02:37.621624+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 119, in inference
+"
+2025-11-13 10:02:37.623559+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    for data in dataloader:
+"
+2025-11-13 10:02:37.625458+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/dataloader.py"", line 521, in __next__
+"
+2025-11-13 10:02:37.627602+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = self._next_data()
+"
+2025-11-13 10:02:37.629917+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/dataloader.py"", line 1203, in _next_data
+"
+2025-11-13 10:02:37.632565+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    return self._process_data(data)
+"
+2025-11-13 10:02:37.634372+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/dataloader.py"", line 1229, in _process_data
+"
+2025-11-13 10:02:37.636274+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data.reraise()
+"
+2025-11-13 10:02:37.638057+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/_utils.py"", line 425, in reraise
+"
+2025-11-13 10:02:37.639741+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    raise self.exc_type(msg)
+"
+2025-11-13 10:02:37.641558+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"AttributeError: Caught AttributeError in DataLoader worker process 0.
+"
+2025-11-13 10:02:37.643364+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"Original Traceback (most recent call last):
+"
+2025-11-13 10:02:37.644720+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py"", line 287, in _worker_loop
+"
+2025-11-13 10:02:37.646359+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = fetcher.fetch(index)
+"
+2025-11-13 10:02:37.647958+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py"", line 44, in fetch
+"
+2025-11-13 10:02:37.649748+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = [self.dataset[idx] for idx in possibly_batched_index]
+"
+2025-11-13 10:02:37.651389+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py"", line 44, in <listcomp>
+"
+2025-11-13 10:02:37.652984+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = [self.dataset[idx] for idx in possibly_batched_index]
+"
+2025-11-13 10:02:37.654541+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 408, in __getitem__
+"
+2025-11-13 10:02:37.655805+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = self.prepare_data(idx)
+"
+2025-11-13 10:02:37.657315+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 790, in prepare_data
+"
+2025-11-13 10:02:37.658777+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    return self.pipeline(data_info)
+"
+2025-11-13 10:02:37.660012+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 58, in __call__
+"
+2025-11-13 10:02:37.661499+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = t(data)
+"
+2025-11-13 10:02:37.662935+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/mmcv/transforms/base.py"", line 12, in __call__
+"
+2025-11-13 10:02:37.664224+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    return self.transform(results)
+"
+2025-11-13 10:02:37.665638+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/recls/recls/datasets/transforms/processing.py"", line 335, in transform
+"
+2025-11-13 10:02:37.667035+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    if crop_bbox[2] < scene.RasterXSize else scene.RasterXSize,
+"
+2025-11-13 10:02:37.668178+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"AttributeError: 'NoneType' object has no attribute 'RasterXSize'
+"
+2025-11-13 10:02:37.669472+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"
+"
+2025-11-13 10:02:37.670811+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"
+"
+2025-11-13 10:02:37.674252+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"[32m2025-11-13T10:02:37.613823+0000[0m [31m[1mAn exception occurred:
+"
+2025-11-13 10:02:37.675467+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"Traceback (most recent call last):
+"
+2025-11-13 10:02:37.677144+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 119, in inference
+"
+2025-11-13 10:02:37.678374+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    for data in dataloader:
+"
+2025-11-13 10:02:37.679550+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/dataloader.py"", line 521, in __next__
+"
+2025-11-13 10:02:37.680598+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = self._next_data()
+"
+2025-11-13 10:02:37.681853+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/dataloader.py"", line 1203, in _next_data
+"
+2025-11-13 10:02:37.683174+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    return self._process_data(data)
+"
+2025-11-13 10:02:37.684199+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/dataloader.py"", line 1229, in _process_data
+"
+2025-11-13 10:02:37.685879+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data.reraise()
+"
+2025-11-13 10:02:37.687061+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/_utils.py"", line 425, in reraise
+"
+2025-11-13 10:02:37.688227+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    raise self.exc_type(msg)
+"
+2025-11-13 10:02:37.689385+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"AttributeError: Caught AttributeError in DataLoader worker process 0.
+"
+2025-11-13 10:02:37.690474+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"Original Traceback (most recent call last):
+"
+2025-11-13 10:02:37.691597+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py"", line 287, in _worker_loop
+"
+2025-11-13 10:02:37.692713+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = fetcher.fetch(index)
+"
+2025-11-13 10:02:37.693886+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py"", line 44, in fetch
+"
+2025-11-13 10:02:37.694975+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = [self.dataset[idx] for idx in possibly_batched_index]
+"
+2025-11-13 10:02:37.696122+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py"", line 44, in <listcomp>
+"
+2025-11-13 10:02:37.697206+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = [self.dataset[idx] for idx in possibly_batched_index]
+"
+2025-11-13 10:02:37.698333+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 408, in __getitem__
+"
+2025-11-13 10:02:37.699080+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = self.prepare_data(idx)
+"
+2025-11-13 10:02:37.742273+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 790, in prepare_data
+"
+2025-11-13 10:02:37.744519+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    return self.pipeline(data_info)
+"
+2025-11-13 10:02:37.746660+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 58, in __call__
+"
+2025-11-13 10:02:37.748630+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    data = t(data)
+"
+2025-11-13 10:02:37.751201+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/usr/local/lib/python3.8/site-packages/mmcv/transforms/base.py"", line 12, in __call__
+"
+2025-11-13 10:02:37.753147+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    return self.transform(results)
+"
+2025-11-13 10:02:37.755162+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"  File ""/recls/recls/datasets/transforms/processing.py"", line 335, in transform
+"
+2025-11-13 10:02:37.757120+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"    if crop_bbox[2] < scene.RasterXSize else scene.RasterXSize,
+"
+2025-11-13 10:02:37.758904+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"AttributeError: 'NoneType' object has no attribute 'RasterXSize'
+"
+2025-11-13 10:02:37.760933+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"
+"
+2025-11-13 10:02:37.762803+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,"[0m
+"
+2025-11-13 10:02:45.862774+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-8618-7cae-a4d5-8f0a479c10ba,Finished in state Completed()
+2025-11-13 10:02:52.184132+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-861a-7cfb-aa9b-ed508bef09d8,"{'msg': 'Traceback (most recent call last):\n  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 119, in inference\n    for data in dataloader:\n  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/dataloader.py"", line 521, in __next__\n    data = self._next_data()\n  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/dataloader.py"", line 1203, in _next_data\n    return self._process_data(data)\n  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/dataloader.py"", line 1229, in _process_data\n    data.reraise()\n  File ""/usr/local/lib/python3.8/site-packages/torch/_utils.py"", line 425, in reraise\n    raise self.exc_type(msg)\nAttributeError: Caught AttributeError in DataLoader worker process 0.\nOriginal Traceback (most recent call last):\n  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py"", line 287, in _worker_loop\n    data = fetcher.fetch(index)\n  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py"", line 44, in fetch\n    data = [self.dataset[idx] for idx in possibly_batched_index]\n  File ""/usr/local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py"", line 44, in <listcomp>\n    data = [self.dataset[idx] for idx in possibly_batched_index]\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 408, in __getitem__\n    data = self.prepare_data(idx)\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 790, in prepare_data\n    return self.pipeline(data_info)\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 58, in __call__\n    data = t(data)\n  File ""/usr/local/lib/python3.8/site-packages/mmcv/transforms/base.py"", line 12, in __call__\n    return self.transform(results)\n  File ""/recls/recls/datasets/transforms/processing.py"", line 335, in transform\n    if crop_bbox[2] < scene.RasterXSize else scene.RasterXSize,\nAttributeError: \'NoneType\' object has no attribute \'RasterXSize\'\n\n', 'retriable': False}"
+2025-11-13 10:02:52.190253+00:00,40,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-861a-7cfb-aa9b-ed508bef09d8,Inference was failed. See the logs for detail.
+2025-11-13 10:02:52.192393+00:00,40,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-861a-7cfb-aa9b-ed508bef09d8,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 134, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-13 10:02:52.207421+00:00,40,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,019a7caa-861a-7cfb-aa9b-ed508bef09d8,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-11-13 10:02:52.217434+00:00,40,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 518, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 134, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-13 10:02:52.294694+00:00,20,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-11-13 10:02:52.297503+00:00,40,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 518, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 134, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-11-13 10:02:52.911621+00:00,40,fe0c4ed7-bd97-42b3-9168-c7701dddd05a,,Process for flow run 'convivial-lion' exited with status code: 1

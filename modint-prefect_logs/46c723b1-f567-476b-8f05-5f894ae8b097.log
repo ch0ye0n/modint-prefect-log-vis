@@ -1,0 +1,246 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-10-14 11:18:00.722144+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,,Worker 'KubernetesWorker a05e490e-9eac-4523-9166-1b04920e6d58' submitting flow run '46c723b1-f567-476b-8f05-5f894ae8b097'
+2025-10-14 11:18:01.096968+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,,Creating Kubernetes job...
+2025-10-14 11:18:03.252545+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,,Completed submission of flow run '46c723b1-f567-476b-8f05-5f894ae8b097'
+2025-10-14 11:18:10.117262+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,,Opening process...
+2025-10-14 11:18:12.768065+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,, > Running git_clone step...
+2025-10-14 11:18:18.602252+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,,Beginning flow run 'purple-smilodon' for flow 'run-modint-flow'
+2025-10-14 11:18:18.781228+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-4703-73e2-9e4e-86118712170c,This job ID will be used - modint-prefect-purple-smilodon-1
+2025-10-14 11:18:18.785599+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-4703-73e2-9e4e-86118712170c,Finished in state Completed()
+2025-10-14 11:18:19.279344+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-7e03-bf89-daf03968d7c7,Finished in state Completed()
+2025-10-14 11:18:19.330627+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a6-71e0-bbe6-7916f3a1e066,{'scene_path': '/ext/modint-prefect-workspace/geofocus_after_s3/통천항_251002_skysatcollect_pansharpened_udm2/SuperX/20251002_001907_ssc1_u0001_pansharpened_clip.tif'}
+2025-10-14 11:18:19.425791+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-49f2-7fec-94ee-34399ef4dedf,Finished in state Completed()
+2025-10-14 11:18:20.745654+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,Beginning subflow run 'devout-wallaby' for flow 'run-namespaced-job'
+2025-10-14 11:18:28.009579+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"Downloading artifacts:   0%|          | 0/13 [00:00<?, ?it/s]2025/10/14 11:18:28 INFO mlflow.store.artifact.artifact_repo: The progress bar can be disabled by setting the environment variable MLFLOW_ENABLE_ARTIFACTS_PROGRESS_BAR to false
+"
+2025-10-14 11:19:06.877571+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"Downloading artifacts:   8%|▊         | 1/13 [00:00<00:00, 1453.33it/s]Downloading artifacts:  15%|█▌        | 2/13 [00:00<00:00, 1985.00it/s]Downloading artifacts:  23%|██▎       | 3/13 [00:00<00:00, 2438.08it/s]Downloading artifacts:  31%|███       | 4/13 [00:00<00:00, 2785.52it/s]Downloading artifacts:  38%|███▊      | 5/13 [00:00<00:00, 3068.70it/s]Downloading artifacts:  46%|████▌     | 6/13 [00:00<00:00, 3296.98it/s]Downloading artifacts:  54%|█████▍    | 7/13 [00:00<00:00, 561.28it/s] Downloading artifacts:  62%|██████▏   | 8/13 [00:00<00:00, 148.53it/s]Downloading artifacts:  69%|██████▉   | 9/13 [00:00<00:00, 105.22it/s]Downloading artifacts:  77%|███████▋  | 10/13 [00:00<00:00, 100.45it/s]Downloading artifacts:  85%|████████▍ | 11/13 [00:00<00:00, 95.27it/s] Downloading artifacts:  85%|████████▍ | 11/13 [00:00<00:00, 95.27it/s]Downloading artifacts:  92%|█████████▏| 12/13 [00:00<00:00, 95.27it/s]Downloading artifacts: 100%|██████████| 13/13 [00:15<00:00, 95.27it/s]Downloading artifacts: 100%|██████████| 13/13 [00:15<00:00,  1.19s/it]
+"
+2025-10-14 11:19:06.881590+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"2025-10-14 11:19:06.873 | ERROR    | modint.runner.base_runner:inference:137 - An exception occurred:
+"
+2025-10-14 11:19:06.883679+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"Traceback (most recent call last):
+"
+2025-10-14 11:19:06.887374+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 111, in inference
+"
+2025-10-14 11:19:06.889281+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    dataloader = self.build_dataloader(scene_path)
+"
+2025-10-14 11:19:06.891042+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/ardet/ardet/apis/det_runner.py"", line 92, in build_dataloader
+"
+2025-10-14 11:19:06.893058+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    dataloader = Runner.build_dataloader(dataloader)
+"
+2025-10-14 11:19:06.894966+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/runner/runner.py"", line 1370, in build_dataloader
+"
+2025-10-14 11:19:06.896750+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    dataset = DATASETS.build(dataset_cfg)
+"
+2025-10-14 11:19:06.898522+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/registry.py"", line 570, in build
+"
+2025-10-14 11:19:06.900264+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    return self.build_func(cfg, *args, **kwargs, registry=self)
+"
+2025-10-14 11:19:06.901814+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/build_functions.py"", line 121, in build_from_cfg
+"
+2025-10-14 11:19:06.903600+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    obj = obj_cls(**args)  # type: ignore
+"
+2025-10-14 11:19:06.905336+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/ardet/ardet/datasets/scene_infer_dataset.py"", line 55, in __init__
+"
+2025-10-14 11:19:06.906833+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    super().__init__(
+"
+2025-10-14 11:19:06.908350+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/ardet/ardet/datasets/scene_patch_dataset.py"", line 283, in __init__
+"
+2025-10-14 11:19:06.909844+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    super().__init__(
+"
+2025-10-14 11:19:06.911097+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmdet/datasets/base_det_dataset.py"", line 40, in __init__
+"
+2025-10-14 11:19:06.912654+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    super().__init__(*args, **kwargs)
+"
+2025-10-14 11:19:06.914135+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 247, in __init__
+"
+2025-10-14 11:19:06.915416+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    self.full_init()
+"
+2025-10-14 11:19:06.916943+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmdet/datasets/base_det_dataset.py"", line 65, in full_init
+"
+2025-10-14 11:19:06.918303+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    self.data_list = self.load_data_list()
+"
+2025-10-14 11:19:06.919682+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/ardet/ardet/datasets/scene_patch_dataset.py"", line 307, in load_data_list
+"
+2025-10-14 11:19:06.921097+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    scene_data_infos = self.get_scene_data_infos()
+"
+2025-10-14 11:19:06.922451+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/ardet/ardet/datasets/scene_infer_dataset.py"", line 77, in get_scene_data_infos
+"
+2025-10-14 11:19:06.923575+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    raise RuntimeError(f'File {scene_path} does not exist.')
+"
+2025-10-14 11:19:06.924965+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"RuntimeError: File /ext/modint-prefect-workspace/geofocus_after_s3/통천항_251002_skysatcollect_pansharpened_udm2/SuperX/20251002_001907_ssc1_u0001_pansharpened_clip.tif does not exist.
+"
+2025-10-14 11:19:06.926420+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"
+"
+2025-10-14 11:19:06.927424+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"Loads checkpoint by local backend from path: /tmp/tmpft6wkrje/checkpoint/model_final.pth
+"
+2025-10-14 11:19:06.928717+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"[32m2025-10-14T11:19:06.873994+0000[0m [31m[1mAn exception occurred:
+"
+2025-10-14 11:19:06.929971+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"Traceback (most recent call last):
+"
+2025-10-14 11:19:06.930985+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 111, in inference
+"
+2025-10-14 11:19:06.932270+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    dataloader = self.build_dataloader(scene_path)
+"
+2025-10-14 11:19:06.933518+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/ardet/ardet/apis/det_runner.py"", line 92, in build_dataloader
+"
+2025-10-14 11:19:06.934545+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    dataloader = Runner.build_dataloader(dataloader)
+"
+2025-10-14 11:19:06.935817+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/runner/runner.py"", line 1370, in build_dataloader
+"
+2025-10-14 11:19:06.937068+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    dataset = DATASETS.build(dataset_cfg)
+"
+2025-10-14 11:19:06.938034+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/registry.py"", line 570, in build
+"
+2025-10-14 11:19:06.939257+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    return self.build_func(cfg, *args, **kwargs, registry=self)
+"
+2025-10-14 11:19:06.940483+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/build_functions.py"", line 121, in build_from_cfg
+"
+2025-10-14 11:19:06.941422+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    obj = obj_cls(**args)  # type: ignore
+"
+2025-10-14 11:19:06.942159+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/ardet/ardet/datasets/scene_infer_dataset.py"", line 55, in __init__
+"
+2025-10-14 11:19:06.942872+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    super().__init__(
+"
+2025-10-14 11:19:06.943568+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/ardet/ardet/datasets/scene_patch_dataset.py"", line 283, in __init__
+"
+2025-10-14 11:19:06.944292+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    super().__init__(
+"
+2025-10-14 11:19:06.945376+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmdet/datasets/base_det_dataset.py"", line 40, in __init__
+"
+2025-10-14 11:19:06.946583+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    super().__init__(*args, **kwargs)
+"
+2025-10-14 11:19:06.947438+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 247, in __init__
+"
+2025-10-14 11:19:06.948104+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    self.full_init()
+"
+2025-10-14 11:19:06.948705+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/usr/local/lib/python3.8/site-packages/mmdet/datasets/base_det_dataset.py"", line 65, in full_init
+"
+2025-10-14 11:19:06.949331+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    self.data_list = self.load_data_list()
+"
+2025-10-14 11:19:06.950394+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/ardet/ardet/datasets/scene_patch_dataset.py"", line 307, in load_data_list
+"
+2025-10-14 11:19:06.951024+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    scene_data_infos = self.get_scene_data_infos()
+"
+2025-10-14 11:19:06.951614+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"  File ""/ardet/ardet/datasets/scene_infer_dataset.py"", line 77, in get_scene_data_infos
+"
+2025-10-14 11:19:06.952227+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"    raise RuntimeError(f'File {scene_path} does not exist.')
+"
+2025-10-14 11:19:06.952821+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"RuntimeError: File /ext/modint-prefect-workspace/geofocus_after_s3/통천항_251002_skysatcollect_pansharpened_udm2/SuperX/20251002_001907_ssc1_u0001_pansharpened_clip.tif does not exist.
+"
+2025-10-14 11:19:06.953493+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,"[0m
+"
+2025-10-14 11:19:14.129346+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a4-75a4-b612-d9c16e25d8c8,Finished in state Completed()
+2025-10-14 11:19:19.398741+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a6-71e0-bbe6-7916f3a1e066,"{'msg': 'Traceback (most recent call last):\n  File ""/usr/local/lib/python3.8/site-packages/modint/runner/base_runner.py"", line 111, in inference\n    dataloader = self.build_dataloader(scene_path)\n  File ""/ardet/ardet/apis/det_runner.py"", line 92, in build_dataloader\n    dataloader = Runner.build_dataloader(dataloader)\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/runner/runner.py"", line 1370, in build_dataloader\n    dataset = DATASETS.build(dataset_cfg)\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/registry.py"", line 570, in build\n    return self.build_func(cfg, *args, **kwargs, registry=self)\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/registry/build_functions.py"", line 121, in build_from_cfg\n    obj = obj_cls(**args)  # type: ignore\n  File ""/ardet/ardet/datasets/scene_infer_dataset.py"", line 55, in __init__\n    super().__init__(\n  File ""/ardet/ardet/datasets/scene_patch_dataset.py"", line 283, in __init__\n    super().__init__(\n  File ""/usr/local/lib/python3.8/site-packages/mmdet/datasets/base_det_dataset.py"", line 40, in __init__\n    super().__init__(*args, **kwargs)\n  File ""/usr/local/lib/python3.8/site-packages/mmengine/dataset/base_dataset.py"", line 247, in __init__\n    self.full_init()\n  File ""/usr/local/lib/python3.8/site-packages/mmdet/datasets/base_det_dataset.py"", line 65, in full_init\n    self.data_list = self.load_data_list()\n  File ""/ardet/ardet/datasets/scene_patch_dataset.py"", line 307, in load_data_list\n    scene_data_infos = self.get_scene_data_infos()\n  File ""/ardet/ardet/datasets/scene_infer_dataset.py"", line 77, in get_scene_data_infos\n    raise RuntimeError(f\'File {scene_path} does not exist.\')\nRuntimeError: File /ext/modint-prefect-workspace/geofocus_after_s3/통천항_251002_skysatcollect_pansharpened_udm2/SuperX/20251002_001907_ssc1_u0001_pansharpened_clip.tif does not exist.\n', 'retriable': False}"
+2025-10-14 11:19:19.405882+00:00,40,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a6-71e0-bbe6-7916f3a1e066,Inference was failed. See the logs for detail.
+2025-10-14 11:19:19.407857+00:00,40,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a6-71e0-bbe6-7916f3a1e066,"Task run failed with exception: InferenceFailError() - No retries configured for this task.
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-10-14 11:19:19.421957+00:00,40,46c723b1-f567-476b-8f05-5f894ae8b097,0199e271-47a6-71e0-bbe6-7916f3a1e066,Finished in state Failed('Task run encountered an exception InferenceFailError: ')
+2025-10-14 11:19:19.431046+00:00,40,46c723b1-f567-476b-8f05-5f894ae8b097,,"Encountered exception during execution: InferenceFailError()
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 530, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-10-14 11:19:19.497557+00:00,20,46c723b1-f567-476b-8f05-5f894ae8b097,,Finished in state Failed('Flow run encountered an exception: InferenceFailError: ')
+2025-10-14 11:19:19.500195+00:00,40,46c723b1-f567-476b-8f05-5f894ae8b097,,"Engine execution exited with unexpected exception
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1554, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1399, in run_flow_sync
+    return engine.state if return_type == ""state"" else engine.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 361, in result
+    raise self._raised
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 782, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 1397, in run_flow_sync
+    engine.call_flow_fn()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/flow_engine.py"", line 802, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 530, in run_modint_flow
+    inference_result = check_inference_status_future.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/futures.py"", line 222, in result
+    _result = self._final_state.result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/compatibility/async_dispatch.py"", line 94, in wrapper
+    return fn(*args, **kwargs)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/client/schemas/objects.py"", line 366, in result
+    return run_coro_as_sync(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 207, in run_coro_as_sync
+    return call.result()
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 365, in result
+    return self.future.result(timeout=timeout)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 192, in result
+    return self.__get_result()
+  File ""/usr/local/lib/python3.10/concurrent/futures/_base.py"", line 403, in __get_result
+    raise self._exception
+  File ""/usr/local/lib/python3.10/site-packages/prefect/_internal/concurrency/calls.py"", line 441, in _run_async
+    result = await coro
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/asyncutils.py"", line 188, in coroutine_wrapper
+    return await task
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 85, in get_state_result
+    return await _get_state_result(
+  File ""/usr/local/lib/python3.10/site-packages/prefect/states.py"", line 157, in _get_state_result
+    raise await get_state_exception(state)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 857, in run_context
+    yield self
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 1487, in run_task_sync
+    engine.call_task_fn(txn)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/task_engine.py"", line 874, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+  File ""/usr/local/lib/python3.10/site-packages/prefect/utilities/callables.py"", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+  File ""/app/modint-prefect-main/modint_prefect/prefect_flow.py"", line 135, in run_check_inference_status_redis
+    raise InferenceFailError
+modint_prefect.configs.InferenceFailError"
+2025-10-14 11:19:20.224691+00:00,40,46c723b1-f567-476b-8f05-5f894ae8b097,,Process for flow run 'purple-smilodon' exited with status code: 1
